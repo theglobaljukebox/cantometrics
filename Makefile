@@ -14,7 +14,7 @@ download: env
 
 process:
 
-tests:
+tests: env
 	./env/bin/python3 -m pytest
 
 clean:
