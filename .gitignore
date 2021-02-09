@@ -1,0 +1,20 @@
+# virtual environment
+env/
+
+# History files
+.Rhistory
+.Rapp.history
+.DS_Store
+.history
+
+# RStudio files
+.Rproj.user/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# secrets
+credentials.json
+token.pickle
