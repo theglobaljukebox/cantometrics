@@ -5,11 +5,13 @@ data  		= pd.read_csv('raw/data.csv')
 songs 		= pd.read_csv('raw/songs.csv') 
 societies 	= pd.read_csv('raw/societies.csv')
 
+## Testing foriegn keys
 def test_fkdatasongs():
 	data_id 	= data['canto_coding_id'].to_numpy().astype(str)
 	songs_id 	= songs['C-id'].to_numpy().astype(str)
 
-	[print("WARNING: Data ID " + str(x) + " is not a recognised song id") for x in data_id if x not in songs_id]
+	[print("WARNING: Data id " + str(x) + " is not a recognised song id") for x in data_id if x not in songs_id]
+	[print("WARNING: Song id " + str(x) + " is not used within the data file") for x in songs_id if x not in data_id]
 
 	assert all([x in songs_id for x in data_id])
 
@@ -17,6 +19,16 @@ def test_fkdataculture():
 	data_id 		= data['C_cid'].to_numpy().astype(str)
 	societies_id 	= societies['All_cid'].to_numpy().astype(str)
 
-	[print("WARNING: Data ID " + str(x) + " is not a recognised society id") for x in data_id if x not in societies_id]
+	[print("WARNING: Data id " + str(x) + " is not a recognised society id") for x in data_id if x not in societies_id]
+	[print("WARNING: Society id " + str(x) + " is not used within the data file") for x in societies_id if x not in data_id]
 
 	assert all([x in societies_id for x in data_id])
+
+def test_fksongculture():
+	songs_id 	= songs['C_cid'].to_numpy().astype(str)
+	societies_id 	= societies['All_cid'].to_numpy().astype(str)
+
+	[print("WARNING: Song id " + str(x) + " is not a recognised society id") for x in songs_id if x not in societies_id]
+	[print("WARNING: Society id " + str(x) + " is not used within the song file") for x in societies_id if x not in songs_id]	
+
+	assert all([x in societies_id for x in songs_id])
