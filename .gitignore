@@ -19,3 +19,6 @@ __pycache__/
 credentials.json
 token.pickle
 database_notes
+
+# logs
+cldf.log

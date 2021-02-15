@@ -25,11 +25,13 @@ process: env
 	./env/bin/python3 to_long.py
 	cp raw/societies.csv cldf/
 	cp raw/songs.csv cldf/
+	./env/bin/python3 rename_columns.py
 
 
-tests: env
-	./env/bin/python3 -m pytest
+test: env
+	./env/bin/cldf validate ./cldf/StructureDataset-metadata.json >> cldf.log  
+	#./env/bin/python3 -m pytest
 
-clean:
-	rm -rf raw/
+# clean:
+# 	rm -rf raw/
 

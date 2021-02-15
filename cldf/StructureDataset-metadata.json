@@ -5,39 +5,14 @@
             "@language": "en"
         }
     ],
-    "dc:bibliographicCitation": "Cite me like this!",
+    "dc:bibliographicCitation": "INSERT CITATION",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
-    "dc:creator": "Simon Greenhill",
-    "dc:description": "Some description",
+    "dc:creator": "Sam Passmore",
+    "dc:description": "INSERT DESCRIPTION",
     "dc:license": "http://creativecommons.org/licenses/by/4.0/",
     "dc:source": "",
-    "dc:title": "The Dataset",
-    "dcat:accessURL": "https://github.com/cldf-datasets/hueblerstability",
-    "prov:wasDerivedFrom": [
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://github.com/cldf-datasets/hueblerstability",
-            "dc:created": "89b9a5d"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Glottolog",
-            "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.3-treedb-fixes-295-g07a99daf85"
-        }
-    ],
-    "prov:wasGeneratedBy": [
-        {
-            "dc:title": "python",
-            "dc:description": "3.7.3"
-        },
-        {
-            "dc:title": "python-packages",
-            "dc:relation": "requirements.txt"
-        }
-    ],
-    "rdf:ID": "huebler",
+    "dc:title": "The Global Jukebox",
+    "dcat:accessURL": "https://github.com/comp-music-lab/theglobaljukebox-data",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
@@ -49,102 +24,62 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": {
-                            "base": "string",
-                            "format": "[a-zA-Z0-9_\\-]+"
-                        },
+                        "datatype": "integer",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                         "required": true,
-                        "name": "ID"
+                        "name": "song_id"
                     },
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
-                        "required": true,
-                        "name": "Language_ID"
+                        "required": false,
+                        "name": "Culture"
                     },
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
                         "required": true,
-                        "name": "Parameter_ID"
+                        "name": "society_id"
                     },
                     {
                         "datatype": "string",
-                        "null": [
-                            "?",
-                            ""
-                        ],
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#value",
+                        "required": true,
+                        "name": "var_id"
+                    },
+                    {
+                        "datatype": "integer",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#codeReference",
                         "required": false,
-                        "name": "Value"
+                        "name": "code"
                     },
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#codeReference",
-                        "required": false,
-                        "name": "Code_ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
-                        "required": false,
-                        "name": "Comment"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
-                        "required": false,
-                        "separator": ";",
-                        "name": "Source"
-                    },
-                    {
-                        "datatype": "string",
-                        "required": false,
-                        "name": "PoS"
-                    },
-                    {
-                        "datatype": "string",
-                        "required": false,
-                        "name": "Function"
-                    },
-                    {
-                        "datatype": "string",
-                        "required": false,
-                        "name": "Level"
+                        "required": true,
+                        "name": "ID"
                     }
                 ],
                 "foreignKeys": [
                     {
                         "columnReference": [
-                            "Language_ID"
+                            "song_id"
                         ],
                         "reference": {
-                            "resource": "languages.csv",
+                            "resource": "songs.csv",
                             "columnReference": [
-                                "ID"
+                                "song_id"
                             ]
                         }
                     },
                     {
                         "columnReference": [
-                            "Parameter_ID"
+                            "society_id"
                         ],
                         "reference": {
-                            "resource": "parameters.csv",
+                            "resource": "societies.csv",
                             "columnReference": [
-                                "ID"
-                            ]
-                        }
-                    },
-                    {
-                        "columnReference": [
-                            "Code_ID"
-                        ],
-                        "reference": {
-                            "resource": "codes.csv",
-                            "columnReference": [
-                                "ID"
+                                "society_id"
                             ]
                         }
                     }
@@ -153,7 +88,7 @@
                     "ID"
                 ]
             },
-            "url": "values.csv"
+            "url": "data.csv"
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
@@ -161,255 +96,90 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": {
-                            "base": "string",
-                            "format": "[a-zA-Z0-9_\\-]+"
-                        },
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "datatype": "integer",
+                        "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
                         "required": true,
-                        "name": "ID"
+                        "name": "society_id"
                     },
                     {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
+                        "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
                         "required": false,
-                        "name": "Name"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#macroarea",
-                        "required": false,
-                        "name": "Macroarea"
-                    },
-                    {
-                        "datatype": {
-                            "base": "decimal",
-                            "minimum": -90,
-                            "maximum": 90
-                        },
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#latitude",
-                        "required": false,
-                        "name": "Latitude"
-                    },
-                    {
-                        "datatype": {
-                            "base": "decimal",
-                            "minimum": -180,
-                            "maximum": 180
-                        },
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#longitude",
-                        "required": false,
-                        "name": "Longitude"
-                    },
-                    {
-                        "datatype": {
-                            "base": "string",
-                            "format": "[a-z0-9]{4}[1-9][0-9]{3}"
-                        },
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
-                        "required": false,
-                        "valueUrl": "http://glottolog.org/resource/languoid/id/{glottocode}",
-                        "name": "Glottocode"
-                    },
-                    {
-                        "datatype": {
-                            "base": "string",
-                            "format": "[a-z]{3}"
-                        },
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#iso639P3code",
-                        "required": false,
-                        "name": "ISO639P3code"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Family"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Branch"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Subbranch"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Subsubbranch"
-                    }
-                ],
-                "primaryKey": [
-                    "ID"
-                ]
-            },
-            "url": "languages.csv"
-        },
-        {
-            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 224,
-            "tableSchema": {
-                "columns": [
-                    {
-                        "datatype": {
-                            "base": "string",
-                            "format": "[a-zA-Z0-9_\\-]+"
-                        },
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
-                        "required": true,
-                        "name": "ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
-                        "required": false,
-                        "name": "Description"
-                    }
-                ],
-                "primaryKey": [
-                    "ID"
-                ]
-            },
-            "url": "parameters.csv"
-        },
-        {
-            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CodeTable",
-            "dc:extent": 672,
-            "tableSchema": {
-                "columns": [
-                    {
-                        "datatype": {
-                            "base": "string",
-                            "format": "[a-zA-Z0-9_\\-?]+"
-                        },
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
-                        "required": true,
-                        "name": "ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
-                        "required": true,
-                        "name": "Parameter_ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
-                        "required": false,
-                        "name": "Name"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
-                        "required": false,
-                        "name": "Description"
+                        "name": "Cu_lat"
                     }
                 ],
                 "foreignKeys": [
                     {
                         "columnReference": [
-                            "Parameter_ID"
+                            "society_id"
                         ],
                         "reference": {
-                            "resource": "parameters.csv",
+                            "resource": "data.csv",
                             "columnReference": [
-                                "ID"
+                                "society_id"
                             ]
                         }
                     }
                 ],
                 "primaryKey": [
-                    "ID"
+                    "society_id"
                 ]
             },
-            "url": "codes.csv"
+            "url": "societies.csv"
         },
         {
-            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 2889,
+            "dc:conformsTo": "",
+            "dc:extent": 60,
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": {
-                            "base": "string",
-                            "format": "[a-zA-Z0-9_\\-]+"
-                        },
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "datatype": "integer",
+                        "rdfs:subPropertyOf": "http://purl.org/dc/terms/identifier",
                         "required": true,
-                        "name": "ID"
+                        "name": "song_id"
                     },
                     {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
-                        "required": true,
-                        "name": "Language_ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#primaryText",
-                        "required": true,
-                        "name": "Primary_Text"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#analyzedWord",
+                        "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
+                        "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
                         "required": false,
-                        "separator": "\\t",
-                        "name": "Analyzed_Word"
+                        "name": "Local_lat"
                     },
                     {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#gloss",
+                        "datatype": {"base": "decimal", "minimum": -180, "maximum": 180},
+                        "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
                         "required": false,
-                        "separator": "\\t",
-                        "name": "Gloss"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#translatedText",
-                        "required": false,
-                        "name": "Translated_Text"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#metaLanguageReference",
-                        "required": false,
-                        "name": "Meta_Language_ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
-                        "required": false,
-                        "name": "Comment"
+                        "name": "Local_long"
                     }
                 ],
                 "foreignKeys": [
                     {
                         "columnReference": [
-                            "Language_ID"
+                            "song_id"
                         ],
                         "reference": {
-                            "resource": "languages.csv",
+                            "resource": "data.csv",
                             "columnReference": [
-                                "ID"
+                                "song_id"
                             ]
                         }
                     },
-                    {
+                                        {
                         "columnReference": [
-                            "Meta_Language_ID"
+                            "society_id"
                         ],
                         "reference": {
-                            "resource": "languages.csv",
+                            "resource": "societies.csv",
                             "columnReference": [
-                                "ID"
+                                "song_id"
                             ]
                         }
                     }
                 ],
                 "primaryKey": [
-                    "ID"
+                    "song_id"
                 ]
             },
-            "url": "examples.csv"
+            "url": "songs.csv"
         }
     ]
 }
