@@ -1,5 +1,6 @@
 # folders
 env/
+no_git/
 
 # History files
 .Rhistory
@@ -9,6 +10,7 @@ env/
 
 # RStudio files
 .Rproj.user/
+*.Rproj
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

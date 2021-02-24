@@ -14,7 +14,7 @@ help:
 	@printf "To validate the dataset, run: make validate (currently not working)\n\n"
 
 download: env
-	@echo Collecting data from google drive is only available to authenticated users. 
+	@printf "Collecting data from google drive is only available to authenticated users."
 	mkdir -p raw/
 	./env/bin/python3 download_googledrive.py
 
@@ -25,11 +25,11 @@ process: env
 	./env/bin/python3 to_long.py
 	cp raw/societies.csv cldf/
 	cp raw/songs.csv cldf/
-	./env/bin/python3 rename_columns.py
+	./env/bin/python3 rename_andsubset.py
 
 
 test: env
-	./env/bin/cldf validate ./cldf/StructureDataset-metadata.json >> cldf.log  
+	./env/bin/cldf validate ./cldf/StructureDataset-metadata.json 2>&1 | tee cldf.log
 	#./env/bin/python3 -m pytest
 
 # clean:
