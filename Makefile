@@ -11,7 +11,7 @@ update: env
 help:
 	@printf "\nIf you are an authenticated user and you want to update the data from Google Drive, run: make download\n\n"
 	@printf "To build the dataset into CLDF format, run: make process (currently not working)\n\n"
-	@printf "To validate the dataset, run: make validate (currently not working)\n\n"
+	@printf "To validate the dataset, run: make test (currently not working)\n\n"
 
 download: env
 	@printf "Collecting data from google drive is only available to authenticated users."

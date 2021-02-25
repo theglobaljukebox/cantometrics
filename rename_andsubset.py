@@ -25,6 +25,9 @@ societies.rename(columns={
 # Only need metadata on societies that exist in Cantometrics data
 societies = societies[pd.notna(societies["C_cid"])]
 
+# Only need metadata on songs that have been coded
+songs = songs[~songs["song_id"].str.contains("NC")]
+
 data.to_csv('cldf/data.csv', index=False)
 songs.to_csv('cldf/songs.csv', index=False)
 societies.to_csv('cldf/societies.csv', index=False)
