@@ -39,14 +39,18 @@ def read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE):
     return values, header_values
 
 def main():
+    variable_metadata = pd.read_csv("etc/variables.csv")
+
     # Data sheet
     print("Downloading data into data.csv")
     SPREADSHEET_ID = '1AjynK9mMQTw58B_B8b_ZIip3fyUm-aoV7Pp21HziBb0'
     RANGE_NAME = 'canto_codings!A2:AT'
     HEADER_RANGE = 'canto_codings!A1:AT1'
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
-    df = pd.DataFrame(data, columns = header[0])
-    df.to_csv('raw/data.csv', index=False)
+    data_df = pd.DataFrame(data, columns = header[0])
+    keep_columns = variable_metadata.loc[(variable_metadata["table"] == "data") & (variable_metadata["visibility"] == "public")]
+    data_df = data_df.filter(items = keep_columns["name"])
+    data_df.to_csv('raw/data.csv', index=False)
     print("successful")
 
     # Song metadata sheet
@@ -55,18 +59,22 @@ def main():
     RANGE_NAME = "'All Cantometrics Songs'!A2:AG6044"
     HEADER_RANGE = "'All Cantometrics Songs'!A1:AG1"
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
-    df = pd.DataFrame(data, columns = header[0])
-    df.to_csv('raw/songs.csv', index=False)
+    songs_df = pd.DataFrame(data, columns = header[0])
+    keep_columns = variable_metadata.loc[(variable_metadata["table"] == "songs") & (variable_metadata["visibility"] == "public")]
+    songs_df = songs_df.filter(items = keep_columns["name"])
+    songs_df.to_csv('raw/songs.csv', index=False)
     print("successful")
 
     # Culture metadata sheet
-    print("Downloading culture metadata into societies.csv")
+    print("Downloading culture metadata into cultures.csv")
     SPREADSHEET_ID = '1tb3Nip43e4LaJbglaXzcCTP2CiMyrgwIsU2egk3tfNM'
     RANGE_NAME = "'All Cultures'!A2:BA1247"
     HEADER_RANGE = "'All Cultures'!A1:BA1"
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
-    df = pd.DataFrame(data, columns = header[0])
-    df.to_csv('raw/societies.csv', index=False)
+    culture_df = pd.DataFrame(data, columns = header[0])
+    keep_columns = variable_metadata.loc[(variable_metadata["table"] == "culture") & (variable_metadata["visibility"] == "public")]
+    culture_df = culture_df.filter(items = keep_columns["name"])
+    culture_df.to_csv('raw/cultures.csv', index=False)
     print("successful")
 
 main()
