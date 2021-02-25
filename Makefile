@@ -23,7 +23,7 @@ process: env
 	@printf "TODO: create alternative file with new codings"
 	@printf "convert data to long format to make compatible with CLDF framework"
 	./env/bin/python3 to_long.py
-	cp raw/societies.csv cldf/
+	cp raw/cultures.csv cldf/
 	cp raw/songs.csv cldf/
 	./env/bin/python3 rename_andsubset.py
 
@@ -32,6 +32,6 @@ test: env
 	./env/bin/cldf validate ./cldf/StructureDataset-metadata.json 2>&1 | tee cldf.log
 	#./env/bin/python3 -m pytest
 
-# clean:
-# 	rm -rf raw/
+clean:
+	rm -rf raw/
 

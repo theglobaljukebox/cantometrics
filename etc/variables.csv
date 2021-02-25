@@ -1,0 +1,133 @@
+﻿name,proposed_rename,description,table,visibility
+Cu_lat,,,culture,public
+Cu_long,,,culture,public
+Area_lat,,,culture,public
+Area_long,,,culture,public
+Region,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",culture,public
+Division,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",culture,public
+Subregion,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",culture,public
+Area/Kingdom,Area,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",culture,public
+Culture,culture_name,Prefered name of a culture,culture,public
+Alt_culture_names,alternative_names,Alternative name for a culture,culture,public
+People,,"People:  Ethnographic Atlas, GlobalJB",culture,internal
+People2,,Larger cultural grouping encompassing People1. Not finalized or completed yet.,culture,internal
+People3,,,culture,internal
+Arensberg-Lomax_clusters,arsenberglomax_clusters,"Categories relating to a clustering analyses performed in Lomax, A. (1989). Cantometrics. In International encyclopedia of communications (1st ed., pp. 230–233). New York, NY: Oxford University Press.",culture,public
+Focal_years,,Year or decade to which song and culture data pertain. ,culture,public
+C_sample_size,cantometrics_samplesize,The number of songs in Cantometrics for a culture,culture,public
+M_sample_size,minutage_samplesize,,culture,internal
+P_sample_size,parlametrics_samplesize,,culture,internal
+Ph_sample_size,phonotactics_samplesize,,culture,internal
+Koppen_climate_terrain,,Climate category based on Koppen-Geiger World Maps http://koeppen-geiger.vu-wien.ac.at/. Multiple categories are comma separated. ,culture,public
+Koppen_code,,Climate category code based on Koppen-Geiger World Maps http://koeppen-geiger.vu-wien.ac.at/. Multiple categories are comma separated. ,culture,public
+Arensberg/Lomax_taxon,arsenberglomax_taxon,"Taxon allocations from Lomax, A., & Arensberg, C. M. (1977). A Worldwide Evolutionary Classification of Cultures by Subsistence Systems. Current Anthropology, 18(4), 659–708.",culture,public
+Taxon_id,,"Refined Arensberg-Lomax Culture ID, from Lomax & Arensberg (1977). ",culture,public
+Language,,Primary language spoken by a culture,culture,public
+Lang_Near_Subfamily,,,culture,internal
+Lang_Larger_Subfamily,,,culture,internal
+Lang_Family,language_family,The language family linked to a culture,culture,public
+Lang_Family_Tree,language_hierarchy,The hierarchy of language families linked to a culture,culture,public
+ISO_code,,ISO 639 is a standardized nomenclature used to classify languages,culture,public
+Glottocode,,Identification code based on Glottolog.org,culture,public
+Country,,"Name of the country a culture resides in. If a culture persists across borders, countries are seperated by semi-colons. ",culture,public
+Country_id,,,culture,internal
+All_cid,culture_id,Unique identifier for each culture,culture,public
+C_cid,,Unique identifier for each culture in Cantometrics,culture,internal
+M_cid,,Unique identifier for each culture in Minutage,culture,internal
+Ch_cid,,Unique identifier for each culture in Choreometrics,culture,internal
+P_cid,,Unique identifier for each culture in Parlametrics,culture,internal
+Ph_cid,,Unique identifier for each culture in Phonotactics,culture,internal
+I+cid,,Unique identifier for each culture in Instrument & Ensembles,culture,internal
+Soc_cid,,Unique identifier for each culture in XXXX,culture,internal
+D-Place_Id,dplace_id,Unique identifier for pairing data to D-PLACE (d-place.org),culture,public
+EA_cu_name,,,culture,internal
+EA_cu# UPDATE,,,culture,internal
+Murdock_cu#,,,culture,internal
+EA_Prov_name,,,culture,internal
+EA_Prov_#,,,culture,internal
+EA_Prov_notes,,,culture,internal
+EA_#,,,culture,internal
+Culture_Wiki,,,culture,internal
+People/Culture,culture_notes,Notes about a culture,culture,public
+Notes_1,,,culture,internal
+Notes_2,,,culture,internal
+Culture Sources,,,culture,internal
+canto_coding_id,song_id,Unique identifer for each song,data,public
+Culture,,Prefered nName of Culture,data,remove
+C_cid,culture_id,Unique identifier for each culture,data,public
+cv_1,line_1,"This line describes the social organization of the singing group. Here you will find variations of “call and response.” Two basic elements of group organization are considered: 1) Prominence of solo or leader’s part; 2) Type of group organization. The scale is one of increasingly integrated social relations, from solo to interlock.",data,public
+cv_2,line_2,"The term “orchestra” refers to the performers of any non-vocal sounds heard on the record, whether they be body-produced (clapping, stamping) or object-produced by anything from two sticks to a symphony orchestra.",data,public
+cv_3,line_3,"Line 3 and Line 1 (Social Organization of the Vocal Group) correspond, but the social relationships between the orchestra’s parts are more difficult to identify—for example, it is often hard to distinguish between types of overlap. In many cases, two or more coding situations may be equally important, requiring multiple coding. The scale is one of increasing integration, from solo to interlock.",data,public
+cv_4,line_4,The musical coordination amongst the singers in a group considers both melodic and rhythmic elements.,data,public
+cv_5,line_5,"Both diffuse and cohesive sounds are pleasing within a given aesthetic. Much tonal blend depends upon wide, clear voicing and the relative absence of vocal noise and ornamentation. In contrast, with tonal independence, no individual yields to another, producing a noisy effect. Intermediate blend is often a reedy unison in which individual voices are heard.",data,public
+cv_6,line_6,"The degree of rhythmic coordination between members of the singing group depends on the degree to which its members coordinate their attacks and releases. Rhythmic blend is considered maximal when attacks and releases are precisely coordinated. If movement from note to note is staggered, then rhythmic blend is considered minimal. Both effects are aesthetically grounded, powerful, and pleasing.",data,public
+cv_7,line_7,"Overall musical coordination amongst members of the orchestra, taking both melodic and rhythmic elements into account. Here, polyrhythm is treated as a type of polyphony, as each part is independent.",data,public
+cv_8,line_8,"The concept of tonal blend applies to orchestras differently than to voices. An orchestra composed of several different kinds of instruments can rarely achieve the same degree of tonal unity as a chorus of voices. Consequently, the measure of blend for orchestras is not uniformity of timbre, but rather the overall sonority of the ensemble.",data,public
+cv_9,line_9,"Rates the degree of rhythmic coordination between members of the orchestra. If all attacks and releases are precisely coordinated, rhythmic blend is considered maximal. If, on the other hand, movements from note to note are invariably asynchronous, rhythmic blend is considered minimal.",data,public
+cv_10,line_10,"Listening to the text as it is performed, consider the degree of repetition in the text without considering the meaning of the words. Knowledge of the language of the text has no bearing on this rating. Instead, make a judgment about the proportion of the text in the whole song that seems to be repeated, or which consists of words that have no lexical meaning.",data,public
+cv_11,line_11,"In most musical styles, the performer or performers employ a single, overall rhythmic “ground plan,” which serves as a point of reference for the infinite variety of rhythmic detail possible within the scheme. Although many such overall formats are possible, they have been divided here into five general categories. The categories for this measure apply to the overall rhythm of the voices. In order to code the instrumental part, refer to Line 13.",data,public
+cv_12,line_12,"Singing groups establish their rhythmic activity in a number of ways. In some cases, all singers or parts in a chorus may stick to the main rhythm. In others, there may be one or more contrasting rhythmic parts. This line provides seven descriptive categories for the various types of rhythmic relationships that link a group together within one of the overall metrical patterns already coded in Line 11.",data,public
+cv_13,line_13,"In most musical styles, the performer or performers employ a single, overall rhythmic plan that serves as a point of reference for the great variety of rhythmic detail possible within the scheme. Although a large number of such overall schemes are possible, here they are divided them into six general categories. The categories for this measure apply to the overall rhythm of the instrumental part.",data,public
+cv_14,line_14,The various types of relationships between the instruments are rated here.,data,public
+cv_15,line_15,"The characteristic contours of the vocal line are described in very general terms. While most of the other lines are scalar to some degree, this line did not lend itself to such treatment. Hence, the sequence of the four categories of melodic shape is arbitrary.",data,public
+cv_16,line_16,"Line 16 is an attempt to deal succinctly with the full range of melodic forms. At one end of the scale is simple litany, defined here as a short tune composed of one or two phrases repeated over and over again; in the middle there are strophic forms; and at the other end is the most complex type, through-composed, in which many varied phrases are strung together in a fashion that to some listeners may seem to be almost formless. Degrees of melodic variation within these forms are dealt with here as well.",data,public
+cv_17,line_17,"A simple five-point scale is used to describe phrase length. Coding was done without a stopwatch for half the song sample, and then a test with a stopwatch was made. It was found that the length of phrase rated by ear closely approximated the stopwatch measurements.",data,public
+cv_18,line_18,"Determine the number of melodic phrases that occur in a song before a full repeat of the entire phrase sequence, as well as the presence or absence of phrase symmetry.",data,public
+cv_19,line_19,"The relation of the final note to the total range of the song. The ear training one develops through listening to the musical examples facilitates a simple, non-technical approach to the concepts outlined here. The rating scale used is a relatively simple one.",data,public
+cv_20,line_20,"This is a method of judging the total melodic range of a song, which is the distance between its highest and lowest notes. Careful listening makes it possible to take a non-technical approach to this measure.",data,public
+cv_21,line_21,"An interval is the distance in pitch between two notes. Here interval size is estimated by using a subjective five-point scale, in order to determine the relative frequency of one or more size-categories of interval in a performance.",data,public
+cv_22,line_22,"This measure considers the use of simultaneously produced intervals other than unison or the octave. Two-part intervals of this kind are considered polyphony, as well as harmonies of greater complexity. Simultaneously produced intervals may also occur in heterophony. (See also Line 4.)",data,public
+cv_23,line_23,"Embellishment is one of several devices used by the singer as a kind of qualification, or ornament, of the “basic” melodic line. An embellished melodic line contains two entirely distinct kinds of note value, the embellished part being much more rapid and ephemeral than the melodic part.",data,public
+cv_24,line_24,"As employed in Cantometrics, tempo is based on a relative and approximate determination of the speed or speeds of a performance.",data,public
+cv_25,line_25,"Volume measures the relative degree of loudness in a performance. As with tempo, a subjective scale cued by the human ear proved most useful for determining volume. A decibel count of volume in any given recording is affected by so many factors that it would be meaningless unless every stage of both the recording and playback were subject to the most rigorous control.",data,public
+cv_26,line_26,A judgment about how strictly tempo is maintained during a vocal performance.,data,public
+cv_27,line_27,"A judgment about how strictly tempo is maintained during a performance, applied to the orchestra or accompanying instruments.",data,public
+cv_28,line_28,"Glissando is the effect created when the voice slides smoothly from one tone to another, passing through all the intermediate pitch levels.",data,public
+cv_29,line_29,"The same syllable of text sung to two or more notes of melody—or, conversely, the passage of several notes over one syllable.",data,public
+cv_30,line_30,"Tremolo is a quavering or shaking in the voice, heard as an undulation between two closely adjacent pitches or tone colors. It is usually discernible only on notes held for an appreciable length of time.",data,public
+cv_31,line_31,"Glottal articulation is the product of noticeably forceful activity in the pharyngeal, or glottal, area in the back of the throat. Some singers actually manipulate their laryngeal prominence (Adam’s apple) with their fingers to produce this effect.",data,public
+cv_32,line_32,"Vocal pitch refers to the tonal height, or frequency, of the voice. It is commonly used to describe the key most natural for the voice of the singer.",data,public
+cv_33,line_33,"This measure concerns the contrast between voices that sound mellow, relaxed, and resonant (wide), and voices that are tense, pinched, and restricted in resonance (narrow).",data,public
+cv_34,line_34,"A nasalized tone is a strong marker of some singing styles even in the absence of nasal syllables, probably because singing is normally louder and more forceful than speaking. When a wide sample of recorded song is examined, the absence of nasalization in some styles is also striking. For this reason, nasalization is coded, in spite of the vagueness of the term.",data,public
+cv_35,line_35,"Rasp is frequently associated with very marked, forced vocalizing. It cuts through musical performances in which everyone is singing loudly with a loud accompaniment. In some parts of the world, performers sing in a grating tone, at the same time forcefully emphasizing consonants. The result is clear articulation, but with a noisier tonal image.",data,public
+cv_36,line_36,"Accent is heard as the dynamic attack on sung tones. It describes the prominence given to a note or chord, usually by increasing the volume or lengthening the duration, or by a brief preceding silence.",data,public
+cv_37,line_37,"Employing a scale of five degrees, this measure evaluates how precisely consonants are articulated in sung texts. It must be borne in mind that, in general, enunciation in singing is bound to be less clear than in speaking.",data,public
+orv_1,,,data,internal
+orv_2,,,data,internal
+ensemble_value_id,,,data,internal
+ensemble_value_label,,,data,internal
+instrument_value_id,,,data,internal
+instrument_value_label,,,data,internal
+C-id,song_id,,songs,public
+Local_lat,,,songs,public
+Local_long,,,songs,public
+Homeland_lat,,,songs,public
+Homeland_long,,,songs,public
+Region,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",songs,remove
+Division,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",songs,remove
+Subregion,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",songs,remove
+Area/Kingdom,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",songs,remove
+Culture,,,songs,remove
+Culture_loc,culture_location,,songs,remove
+C_cid,culture_id,,songs,public
+Audio_notes,,Notes on the audio file,songs,public
+Duration,,Length of Audio file,songs,public
+Audio_file,,Name of the audio file,songs,public
+Archival_source#,archivalsource_id,Identification number of the archival source of the audio file,songs,public
+Song,,Name of the song,songs,public
+Genre,,Genre of the song,songs,public
+Song_notes,,"Notes about the song recording. Details vary in length, but can range from the purpose of the song, to descriptions of instruments and how they are played, to what the song is about",songs,public
+Performers,,Written description of the performers in the song,songs,public
+Instruments,,Written description of the instruments used in the song,songs,public
+Gender of Vocalists,,Gender of the Vocalists.,songs,public
+Lyrics,,Lyrics of the song (sometimes with translation),songs,public
+Living_metadata,,,songs,internal
+Recorded_by,,Name of who recorded the song,songs,public
+Year,,Year song was recorded,songs,public
+Publisher,,Who published the song,songs,public
+Publcation_collection,publication_collection,Name of the collection,songs,public
+Repository,,Name of the repository,songs,public
+Classification_notes,,,songs,internal
+Metadata_notes,,,songs,internal
+Sources,,,songs,internal
+Source Tag,,,songs,internal
