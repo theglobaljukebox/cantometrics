@@ -39,7 +39,7 @@
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
                         "required": true,
-                        "name": "society_id"
+                        "name": "culture_id"
                     },
                     {
                         "datatype": "string",
@@ -74,12 +74,12 @@
                     },
                     {
                         "columnReference": [
-                            "society_id"
+                            "culture_id"
                         ],
                         "reference": {
-                            "resource": "societies.csv",
+                            "resource": "cultures.csv",
                             "columnReference": [
-                                "society_id"
+                                "culture_id"
                             ]
                         }
                     }
@@ -99,7 +99,7 @@
                         "datatype": "string",
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
                         "required": true,
-                        "name": "society_id"
+                        "name": "culture_id"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
@@ -111,21 +111,21 @@
                 "foreignKeys": [
                     {
                         "columnReference": [
-                            "society_id"
+                            "culture_id"
                         ],
                         "reference": {
                             "resource": "data.csv",
                             "columnReference": [
-                                "society_id"
+                                "culture_id"
                             ]
                         }
                     }
                 ],
                 "primaryKey": [
-                    "society_id"
+                    "culture_id"
                 ]
             },
-            "url": "societies.csv"
+            "url": "cultures.csv"
         },
         {
             "dc:conformsTo": "",
@@ -165,10 +165,10 @@
                     },
                                         {
                         "columnReference": [
-                            "society_id"
+                            "culture_id"
                         ],
                         "reference": {
-                            "resource": "societies.csv",
+                            "resource": "cultures.csv",
                             "columnReference": [
                                 "song_id"
                             ]
