@@ -33,31 +33,25 @@
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
-                        "required": false,
-                        "name": "Culture"
+                        "required": true,
+                        "name": "society_id"
                     },
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
                         "required": true,
-                        "name": "culture_id"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#value",
-                        "required": true,
                         "name": "var_id"
                     },
                     {
                         "datatype": "integer",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#codeReference",
-                        "required": false,
+                        "required": true,
                         "name": "code"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#codeReference",
                         "required": true,
+                        "rdfs:subPropertyOf": "http://purl.org/dc/terms/identifier",
+                        "rdfs:seeAlso": "http://dublincore.org/documents/dcmi-terms/#terms-identifier",
                         "name": "ID"
                     }
                 ],
@@ -75,12 +69,12 @@
                     },
                     {
                         "columnReference": [
-                            "culture_id"
+                            "society_id"
                         ],
                         "reference": {
-                            "resource": "cultures.csv",
+                            "resource": "societies.csv",
                             "columnReference": [
-                                "culture_id"
+                                "society_id"
                             ]
                         }
                     }
@@ -91,7 +85,7 @@
             }
         },
         {
-            "url": "cultures.csv",
+            "url": "societies.csv",
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
             "dc:extent": 60,
             "tableSchema": {
@@ -99,7 +93,7 @@
                     {
                         "datatype": "string",
                         "required": true,
-                        "name": "culture_id"
+                        "name": "society_id"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
@@ -120,6 +114,71 @@
                         "name": "Region"
                     },
                     {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Division"
+                    },
+                                        {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Subregion"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Area/Kingdom"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Culture"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Alt_culture_names"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Arensberg-Lomax_clusters"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Focal_years"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "C_sample_size"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Koppen_climate_terrain"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Koppen_code"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Arensberg/Lomax_taxon"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Taxon_id"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Language"
+                    },
+                    {
                       "name": "Glottocode",
                       "datatype": {"base": "string", "format": "[a-z0-9]{4}[1-9][0-9]{3}"},
                       "valueUrl":"http://glottolog.org/resource/languoid/id/{glottocode}",
@@ -130,18 +189,18 @@
                 "foreignKeys": [
                     {
                         "columnReference": [
-                            "culture_id"
+                            "society_id"
                         ],
                         "reference": {
                             "resource": "data.csv",
                             "columnReference": [
-                                "culture_id"
+                                "society_id"
                             ]
                         }
                     }
                 ],
                 "primaryKey": [
-                    "culture_id"
+                    "society_id"
                 ]
             }
         },
@@ -184,10 +243,10 @@
                     },
                                         {
                         "columnReference": [
-                            "culture_id"
+                            "society_id"
                         ],
                         "reference": {
-                            "resource": "cultures.csv",
+                            "resource": "societies.csv",
                             "columnReference": [
                                 "song_id"
                             ]
