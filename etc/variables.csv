@@ -1,37 +1,37 @@
 ﻿name,proposed_rename,description,table,visibility
-Cu_lat,,,culture,public
-Cu_long,,,culture,public
-Area_lat,,,culture,public
-Area_long,,,culture,public
-Region,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",culture,public
-Division,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",culture,public
-Subregion,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",culture,public
-Area/Kingdom,Area,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",culture,public
-Culture,culture_name,Prefered name of a culture,culture,public
-Alt_culture_names,alternative_names,Alternative name for a culture,culture,public
+Cu_lat,,,societies,public
+Cu_long,,,societies,public
+Area_lat,,,culture,internal
+Area_long,,,culture,internal
+Region,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public
+Division,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public
+Subregion,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public
+Area/Kingdom,Area,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public
+Culture,culture_name,Prefered name of a culture,societies,public
+Alt_culture_names,alternative_names,Alternative name for a culture,societies,public
 People,,"People:  Ethnographic Atlas, GlobalJB",culture,internal
 People2,,Larger cultural grouping encompassing People1. Not finalized or completed yet.,culture,internal
 People3,,,culture,internal
-Arensberg-Lomax_clusters,arsenberglomax_clusters,"Categories relating to a clustering analyses performed in Lomax, A. (1989). Cantometrics. In International encyclopedia of communications (1st ed., pp. 230–233). New York, NY: Oxford University Press.",culture,public
-Focal_years,,Year or decade to which song and culture data pertain. ,culture,public
-C_sample_size,cantometrics_samplesize,The number of songs in Cantometrics for a culture,culture,public
+Arensberg-Lomax_clusters,arsenberglomax_clusters,"Categories relating to a clustering analyses performed in Lomax, A. (1989). Cantometrics. In International encyclopedia of communications (1st ed., pp. 230–233). New York, NY: Oxford University Press.",societies,public
+Focal_years,,Year or decade to which song and culture data pertain. ,societies,public
+C_sample_size,cantometrics_samplesize,The number of songs in Cantometrics for a culture,societies,public
 M_sample_size,minutage_samplesize,,culture,internal
 P_sample_size,parlametrics_samplesize,,culture,internal
 Ph_sample_size,phonotactics_samplesize,,culture,internal
-Koppen_climate_terrain,,Climate category based on Koppen-Geiger World Maps http://koeppen-geiger.vu-wien.ac.at/. Multiple categories are comma separated. ,culture,public
-Koppen_code,,Climate category code based on Koppen-Geiger World Maps http://koeppen-geiger.vu-wien.ac.at/. Multiple categories are comma separated. ,culture,public
-Arensberg/Lomax_taxon,arsenberglomax_taxon,"Taxon allocations from Lomax, A., & Arensberg, C. M. (1977). A Worldwide Evolutionary Classification of Cultures by Subsistence Systems. Current Anthropology, 18(4), 659–708.",culture,public
-Taxon_id,,"Refined Arensberg-Lomax Culture ID, from Lomax & Arensberg (1977). ",culture,public
-Language,,Primary language spoken by a culture,culture,public
+Koppen_climate_terrain,,Climate category based on Koppen-Geiger World Maps http://koeppen-geiger.vu-wien.ac.at/. Multiple categories are comma separated. ,societies,public
+Koppen_code,,Climate category code based on Koppen-Geiger World Maps http://koeppen-geiger.vu-wien.ac.at/. Multiple categories are comma separated. ,societies,public
+Arensberg/Lomax_taxon,arsenberglomax_taxon,"Taxon allocations from Lomax, A., & Arensberg, C. M. (1977). A Worldwide Evolutionary Classification of Cultures by Subsistence Systems. Current Anthropology, 18(4), 659–708.",societies,public
+Taxon_id,,"Refined Arensberg-Lomax Culture ID, from Lomax & Arensberg (1977). ",societies,public
+Language,,Primary language spoken by a culture,societies,public
 Lang_Near_Subfamily,,,culture,internal
 Lang_Larger_Subfamily,,,culture,internal
-Lang_Family,language_family,The language family linked to a culture,culture,public
-Lang_Family_Tree,language_hierarchy,The hierarchy of language families linked to a culture,culture,public
-ISO_code,,ISO 639 is a standardized nomenclature used to classify languages,culture,public
-Glottocode,,Identification code based on Glottolog.org,culture,public
-Country,,"Name of the country a culture resides in. If a culture persists across borders, countries are seperated by semi-colons. ",culture,public
+Lang_Family,language_family,The language family linked to a culture,societies,public
+Lang_Family_Tree,language_hierarchy,The hierarchy of language families linked to a culture,societies,public
+ISO_code,,ISO 639 is a standardized nomenclature used to classify languages,societies,public
+Glottocode,,Identification code based on Glottolog.org,societies,public
+Country,,"Name of the country a culture resides in. If a culture persists across borders, countries are seperated by semi-colons. ",societies,public
 Country_id,,,culture,internal
-All_cid,culture_id,Unique identifier for each culture,culture,public
+All_cid,culture_id,Unique identifier for each culture,societies,public
 C_cid,,Unique identifier for each culture in Cantometrics,culture,internal
 M_cid,,Unique identifier for each culture in Minutage,culture,internal
 Ch_cid,,Unique identifier for each culture in Choreometrics,culture,internal
@@ -39,7 +39,7 @@ P_cid,,Unique identifier for each culture in Parlametrics,culture,internal
 Ph_cid,,Unique identifier for each culture in Phonotactics,culture,internal
 I+cid,,Unique identifier for each culture in Instrument & Ensembles,culture,internal
 Soc_cid,,Unique identifier for each culture in XXXX,culture,internal
-D-Place_Id,dplace_id,Unique identifier for pairing data to D-PLACE (d-place.org),culture,public
+D-Place_Id,dplace_id,Unique identifier for pairing data to D-PLACE (d-place.org),societies,public
 EA_cu_name,,,culture,internal
 EA_cu# UPDATE,,,culture,internal
 Murdock_cu#,,,culture,internal
@@ -48,7 +48,7 @@ EA_Prov_#,,,culture,internal
 EA_Prov_notes,,,culture,internal
 EA_#,,,culture,internal
 Culture_Wiki,,,culture,internal
-People/Culture,culture_notes,Notes about a culture,culture,public
+People/Culture,culture_notes,Notes about a culture,societies,public
 Notes_1,,,culture,internal
 Notes_2,,,culture,internal
 Culture Sources,,,culture,internal

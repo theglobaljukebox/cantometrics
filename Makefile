@@ -25,7 +25,7 @@ process: env
 	@printf "TODO: create alternative file with new codings"
 	@printf "convert data to long format to make compatible with CLDF framework"
 	./env/bin/python3 to_long.py
-	cp raw/cultures.csv cldf/
+	cp raw/societies.csv cldf/
 	cp raw/songs.csv cldf/
 	./env/bin/python3 rename_andsubset.py
 
