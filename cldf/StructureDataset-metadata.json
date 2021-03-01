@@ -179,11 +179,46 @@
                         "name": "Language"
                     },
                     {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Lang_Near_Subfamily"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Lang_Larger_Subfamily"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Lang_Family"
+                    },
+                    {
+                        "datatype": {"base": "string", "format": "[a-z]{3}"},
+                        "required": false,
+                        "name": "ISO_code"
+                    },
+                    {
                       "name": "Glottocode",
                       "datatype": {"base": "string", "format": "[a-z0-9]{4}[1-9][0-9]{3}"},
                       "valueUrl":"http://glottolog.org/resource/languoid/id/{glottocode}",
                       "rdfs:seeAlso":"http://glottolog.org",
                       "rdfs:subPropertyOf": "http://purl.org/dc/terms/identifier"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Country"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "D-Place_Id"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "People/Culture"
                     }
                 ],
                 "foreignKeys": [
@@ -227,6 +262,103 @@
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
                         "required": false,
                         "name": "Local_long"
+                    },
+                    {
+                        "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
+                        "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+                        "required": false,
+                        "name": "Homeland_lat"
+                    },
+                    {
+                        "datatype": {"base": "decimal", "minimum": -180, "maximum": 180},
+                        "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+                        "required": false,
+                        "name": "Homeland_long"
+                    }, 
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "society_id"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Audio_notes"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Duration"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Audio_file"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Archival_source#"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Song"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Genre"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Song_notes"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Performers"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Instruments"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Gender of Vocalists"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Lyrics"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Recorded_by"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Year"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Publisher"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Publcation_collection"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Repository"
                     }
                 ],
                 "foreignKeys": [
@@ -248,7 +380,7 @@
                         "reference": {
                             "resource": "societies.csv",
                             "columnReference": [
-                                "song_id"
+                                "society_id"
                             ]
                         }
                     }
