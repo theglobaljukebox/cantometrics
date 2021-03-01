@@ -3,6 +3,6 @@ import pandas as pd
 
 def main():
     # Data sheet
-    print("Reading from /raw")
+    print("Reading from the /raw directory")
 
 main()
