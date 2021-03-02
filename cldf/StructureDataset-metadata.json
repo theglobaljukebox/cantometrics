@@ -21,38 +21,38 @@
         {
             "url": "data.csv",
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 13440,
+            "dc:extent": 218263,
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "integer",
+                        "name": "song_id",
+                        "datatype": {"base": "integer", "format": "[0-9]{1,5}"},
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
-                        "required": true,
-                        "name": "song_id"
+                        "required": true
                     },
                     {
-                        "datatype": "string",
+                        "name": "society_id",
+                        "datatype": {"base": "integer", "format": "[0-9]{5}"},
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
-                        "required": true,
-                        "name": "society_id"
+                        "required": true
                     },
                     {
-                        "datatype": "string",
+                        "name": "var_id",
+                        "datatype": {"base": "string", "format": "cv_[0-9]{1,2}"},
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
-                        "required": true,
-                        "name": "var_id"
+                        "required": true
                     },
                     {
-                        "datatype": "integer",
-                        "required": true,
-                        "name": "code"
+                        "name": "code",
+                        "datatype": {"base": "integer", "format": "[1-9][0-9]?$|^14336"},
+                        "required": false
                     },
                     {
+                        "name": "ID",
                         "datatype": "string",
                         "required": true,
                         "rdfs:subPropertyOf": "http://purl.org/dc/terms/identifier",
-                        "rdfs:seeAlso": "http://dublincore.org/documents/dcmi-terms/#terms-identifier",
-                        "name": "ID"
+                        "rdfs:seeAlso": "http://dublincore.org/documents/dcmi-terms/#terms-identifier"
                     }
                 ],
                 "foreignKeys": [
@@ -87,7 +87,7 @@
         {
             "url": "societies.csv",
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 60,
+            "dc:extent": 1001,
             "tableSchema": {
                 "columns": [
                     {
@@ -242,7 +242,7 @@
         {
             "url": "songs.csv",
             "dc:conformsTo": "",
-            "dc:extent": 60,
+            "dc:extent": 5883,
             "tableSchema": {
                 "columns": [
                     {
