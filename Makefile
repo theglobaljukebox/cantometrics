@@ -32,7 +32,7 @@ process: env
 
 test: env
 	./env/bin/cldf validate ./cldf/StructureDataset-metadata.json 2>&1 | tee cldf.log
-	#./env/bin/python3 -m pytest
+	./env/bin/python3 -m pytest
 
 clean:
 	rm -rf raw/
