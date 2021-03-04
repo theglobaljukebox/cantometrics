@@ -45,7 +45,7 @@
                     {
                         "name": "code",
                         "datatype": {"base": "integer", "format": "[1-9][0-9]?$|^14336"},
-                        "required": false
+                        "required": true
                     },
                     {
                         "name": "ID",
@@ -91,9 +91,10 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "string",
-                        "required": true,
-                        "name": "society_id"
+                        "name": "society_id",
+                        "datatype": {"base": "integer", "format": "[0-9]{5}"},
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "required": true
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
@@ -276,9 +277,10 @@
                         "name": "Homeland_long"
                     }, 
                     {
-                        "datatype": "string",
-                        "required": true,
-                        "name": "society_id"
+                        "name": "society_id",
+                        "datatype": {"base": "integer", "format": "[0-9]{5}"},
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "required": true
                     },
                     {
                         "datatype": "string",
