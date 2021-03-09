@@ -14,7 +14,7 @@ def df():
 def is_coding_allowed(integer, n=13):
     for i in range(n,0,-1):
         if integer == 0:
-            return True
+            return False
         if integer >= 2**i:
             integer -= 2**i
     return True if integer == 0 else False
