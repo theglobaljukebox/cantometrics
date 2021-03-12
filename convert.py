@@ -5,11 +5,7 @@ from collections import Counter
 import numpy as np
 import json
 import math
-
-'''
-TODO:
-- [ ]  load metadata
-'''
+import json
 
 DATA_PATH = './raw/data.csv'
 metadata = pd.read_csv('./conversion/metadata.csv')
@@ -49,7 +45,7 @@ def continuous(key, line_num):
     return mapping_data[line_num-1][str(key)]
 
 def get_metadata(l, oc):
-    filtered_data = metadata[metadata['line_num']==str(l)]
+    filtered_data = metadata[metadata['line_num']==l]
     original_codes = list(filtered_data['original_code'])
     descriptions = list(filtered_data['code_description'])
     shortnames = list(filtered_data['shortname'])
@@ -176,11 +172,13 @@ def main():
         exit()
 
     data = pd.read_csv(DATA_PATH)
-    for i in range(1):
+    for i in range(37):
+        print("Converting line ",(i+1))
         line_key = "line_"+str(i+1)
         lines[line_key] = encode_data(i+1, data)
-    print(lines)
-    # print("Converting coding to a continuous range")
-    # print(continuous(1,1))
-
+    with open('./conversion/conversion_guide.json', 'w') as f:
+        json.dump(lines, f)
 main()
+
+
+
