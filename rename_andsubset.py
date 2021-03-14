@@ -22,8 +22,15 @@ societies.rename(columns={
 	'All_cid':'society_id'}, 
 	inplace = True)
 
-# Only need metadata on societies that exist in Cantometrics data
-societies = societies[pd.notna(societies["C_cid"])]
+# Only need metadata on cultures that exist in Cantometrics data
+## While I wait to have some values fixed in the cultures metadata, I need this workaround
+societies["society_id"] 	= societies["society_id"].astype(str)
+data["society_id"] 		= data["society_id"].astype(str)
+keep = data["society_id"].unique()
+societies = societies[societies.society_id.isin(keep)]
+
+# Only need metadata on songs that have been coded
+songs = songs[~songs["song_id"].str.contains("NC")]
 
 data.to_csv('cldf/data.csv', index=False)
 songs.to_csv('cldf/songs.csv', index=False)

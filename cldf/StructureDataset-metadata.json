@@ -19,45 +19,40 @@
     },
     "tables": [
         {
+            "url": "data.csv",
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 13440,
+            "dc:extent": 218263,
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "integer",
+                        "name": "song_id",
+                        "datatype": {"base": "integer", "format": "[0-9]{1,5}"},
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
-                        "required": true,
-                        "name": "song_id"
+                        "required": true
                     },
                     {
-                        "datatype": "string",
+                        "name": "society_id",
+                        "datatype": {"base": "integer", "format": "[0-9]{5}"},
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
-                        "required": false,
-                        "name": "Culture"
+                        "required": true
                     },
                     {
-                        "datatype": "string",
+                        "name": "var_id",
+                        "datatype": {"base": "string", "format": "cv_[0-9]{1,2}"},
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
-                        "required": true,
-                        "name": "society_id"
+                        "required": true
                     },
                     {
+                        "name": "code",
+                        "datatype": {"base": "integer", "format": "[1-9][0-9]?$|^14336"},
+                        "required": true
+                    },
+                    {
+                        "name": "ID",
                         "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#value",
                         "required": true,
-                        "name": "var_id"
-                    },
-                    {
-                        "datatype": "integer",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#codeReference",
-                        "required": false,
-                        "name": "code"
-                    },
-                    {
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#codeReference",
-                        "required": true,
-                        "name": "ID"
+                        "rdfs:subPropertyOf": "http://purl.org/dc/terms/identifier",
+                        "rdfs:seeAlso": "http://dublincore.org/documents/dcmi-terms/#terms-identifier"
                     }
                 ],
                 "foreignKeys": [
@@ -87,25 +82,144 @@
                 "primaryKey": [
                     "ID"
                 ]
-            },
-            "url": "data.csv"
+            }
         },
         {
+            "url": "societies.csv",
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 60,
+            "dc:extent": 1001,
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "string",
-                        "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
-                        "required": true,
-                        "name": "society_id"
+                        "name": "society_id",
+                        "datatype": {"base": "integer", "format": "[0-9]{5}"},
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "required": true
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
                         "required": false,
                         "name": "Cu_lat"
+                    },
+                    {
+                        "datatype": {"base": "decimal", "minimum": -180, "maximum": 180},
+                        "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+                        "required": false,
+                        "name": "Cu_long"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/meta/glossary#macroarea",
+                        "required": false,
+                        "name": "Region"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Division"
+                    },
+                                        {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Subregion"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Area/Kingdom"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Culture"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Alt_culture_names"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Arensberg-Lomax_clusters"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Focal_years"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "C_sample_size"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Koppen_climate_terrain"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Koppen_code"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Arensberg/Lomax_taxon"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Taxon_id"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Language"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Lang_Near_Subfamily"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Lang_Larger_Subfamily"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Lang_Family"
+                    },
+                    {
+                        "datatype": {"base": "string", "format": "[a-z]{3}"},
+                        "required": false,
+                        "name": "ISO_code"
+                    },
+                    {
+                      "name": "Glottocode",
+                      "datatype": {"base": "string", "format": "[a-z0-9]{4}[1-9][0-9]{3}"},
+                      "valueUrl":"http://glottolog.org/resource/languoid/id/{glottocode}",
+                      "rdfs:seeAlso":"http://glottolog.org",
+                      "rdfs:subPropertyOf": "http://purl.org/dc/terms/identifier"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Country"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "D-Place_Id"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "People/Culture"
                     }
                 ],
                 "foreignKeys": [
@@ -124,12 +238,12 @@
                 "primaryKey": [
                     "society_id"
                 ]
-            },
-            "url": "societies.csv"
+            }
         },
         {
+            "url": "songs.csv",
             "dc:conformsTo": "",
-            "dc:extent": 60,
+            "dc:extent": 5883,
             "tableSchema": {
                 "columns": [
                     {
@@ -149,6 +263,104 @@
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
                         "required": false,
                         "name": "Local_long"
+                    },
+                    {
+                        "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
+                        "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+                        "required": false,
+                        "name": "Homeland_lat"
+                    },
+                    {
+                        "datatype": {"base": "decimal", "minimum": -180, "maximum": 180},
+                        "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+                        "required": false,
+                        "name": "Homeland_long"
+                    }, 
+                    {
+                        "name": "society_id",
+                        "datatype": {"base": "integer", "format": "[0-9]{5}"},
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "required": true
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Audio_notes"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Duration"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Audio_file"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Archival_source#"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Song"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Genre"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Song_notes"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Performers"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Instruments"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Gender of Vocalists"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Lyrics"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Recorded_by"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Year"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Publisher"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Publcation_collection"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Repository"
                     }
                 ],
                 "foreignKeys": [
@@ -170,7 +382,7 @@
                         "reference": {
                             "resource": "societies.csv",
                             "columnReference": [
-                                "song_id"
+                                "society_id"
                             ]
                         }
                     }
@@ -178,8 +390,7 @@
                 "primaryKey": [
                     "song_id"
                 ]
-            },
-            "url": "songs.csv"
+            }
         }
     ]
 }
