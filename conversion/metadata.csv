@@ -1,0 +1,219 @@
+line_num,original_code,code_description,shortname
+1,1,No singers,NoSinger
+1,2,"One solo singer, whether or not accompanied by instruments.",SoloSinger
+1,3,"One singer with an audience whose dancing, shouting, etc. can be heard. In practice we omitted this point and coded all solos .",SoloSingerAudience
+1,4,"Two or more singers alternate in singing a melody, or split the melody between them in some way. Only one singer is heard at a time.",SoloSingerConsecutive
+1,5,"A single predominant voice—a leader— stands out above the general effect of social unison. The leader’s voice is usually louder and more forceful than the others. Sometimes the leader imitates phrases or other parts of the melody. Sometimes the leader seems to spur the group on. In general, a predominant part is louder, more elaborate, more active, or longer than the others.",UnisonPredominantLeader
+1,6,"No predominant lead voice is steadily heard over the social unison. Sometimes a leader can be heard briefly above the group at beginnings of sections, but as soon as the group joins in, the leader’s voice is submerged.",SocialUnisonPredominantGroup
+1,7,"A diffuse, individualized group performance is rhythmically and/or melodically diffuse, such that in extreme cases the singers do not seem to be aware of one another at all.",DiffuseGroup
+1,8,"Situations in which there is alternation between a solo voice and a chorus with a perceptible, if sometimes very slight, pause between the two parts.",LeaderGroup
+1,9,"Two groups of two or more singers interact as described for 7, above. The same rules for double coding apply.",GroupGroup
+1,10,"A more integrated alternation of leader and chorus, whose parts overlap so that one begins before the other ends. In extreme cases the chorus may also be heard backing the leader during his or her own part. However, the leader is still predominant; his or her part is longer than that of the group and often more elaborate. The group’s activity supports and contrasts with the leader’s part.",LeaderGroupOverlap
+1,11,"This is the same as 10, except that the group predominates rather than the leader. Although it may sometimes support the leader, the group is very active, and sings more than half of the time.",GroupLeaderOverlapAlternation
+1,12,"Two or more groups overlap as in 10. In those rare cases where the groups are radically different in size (for example, two singers versus 20), 12 is still coded, even though the smaller group may give the impression of leading the larger.",GroupGroupOverlapAlternation
+1,13,"A group in which several voices overlap in a rhythmically coordinated relationship. Often there is no clear leading part; all seem about equally important. Although some singers may be duplicating another part at the octave or in unison, the general impression is of a group of individuals, each with his or her own part, interacting in such a way as to create a homogeneous texture.",Interlock
+2,1,No accompaniment.,NonOccurence
+2,2,A small orchestra (1-3 players) accompanying the vocal part and subordinate to it. One or more of the instruments may perform the melody.,SmallOrchestra
+2,3,A large orchestra (4+ players) in the same relationship as 2.,LargeOrchestra
+2,5,A large or small orchestra predominant over the sung part. The orchestra’s part takes up more time and/or is considerably louder than the sung part.,OrchestraOverSong
+2,6,The orchestra (large or small) plays interludes between passages. It is never heard simultaneously with the vocal part.,OrchestraBetweenInterludes
+2,8,"A small orchestra (1-3 players) that seems unrelated or only casually related to the vocal part. The effect resembles that described under 7 (ind. group) on Line 1, and is the result, usually, of some absence of rhythmic coordination between instruments and voices.",SmallOrchestraUnrelatedVocal
+2,9,A large orchestra (4+ players) that seems unrelated or only casually related to the vocal part. ,LargeOrchestraUnrelatedVocal
+2,12,"A small orchestra (1-3 players) in complementary relationship to singer(s). The instruments are basically coordinated with and subordinate to the vocal part, but provide more than a mere background for the voices, as in 2 (small orch) and 3 (large orch). ",SmallOrchestraRelatedVocal
+2,13,A large orchestra (4+ players) in complementary relationship to singer(s). ,LargeOrchestraRelatedVocal
+3,1,Non-occurrence. No instruments.,NonOccurence
+3,2,One solo instrument. An accompaniment or a solo on one instrument.,SoloInstrument
+3,4,Series of solos. One instrumental solo after another.,SoloSeries
+3,5,"Social unison with leader predominant. Other instruments are subordinate to the leader, playing the same tune in the same way or in simple accompanying parts.",UnisonPredominantLeader
+3,6,"Social unison with no predominant instrument. Unison performances in which no single instrument takes the lead, and performances in which there is a simple accompanying relationship between the leading instrument and the other instrument(s).",SocialUnisonNoPredominantInstrument
+3,7,"Diffuse/individualized relationship, leader predominant. Similar to 7 (ind./var. group) in Line 1, but applied to the relationships among the instruments of the orchestra. Single lead instrument is predominant.",DiffuseLeaderPredominant
+3,8,"Diffuse/individualized relationship, group predominant. Similar to 7 (ind./var. group) in Line 1, but applied to the relationships among the instruments of the orchestra. Either the leader is subordinate to the group or leadership shifts from one instrument to another.",DiffuseGroupPredominant
+3,9,Simple alternation: leader-group. A simple antiphonal relationship between a single lead instrument and an orchestra (see 8 Line 1 alt. ldr-grp).,LeaderGroupAlternation
+3,10, Simple alternation: group-group. An orchestra divided into two or more parts with an antiphonal relationship between them.,GroupGroupAlternation
+3,11,"Overlapping alternation: leader-group. Alternation between a single instrument and a group, but with overlap (see 10, Line 1 overlap: ldr-grp).",LeaderGroupOverlapAlternation
+3,12,Overlapping alternation: group-leader. Alternation between a single instrument and a group with no one instrument in the foreground more often than the others.,GroupLeaderOverlapAlternation
+3,13,"Overlapping alternation: group-group. The orchestra is divided into two or more groups, each of which acts as a unit, with significant overlap between them, or in an interlocking relationship, as described in Line 1 (13).",GroupGroupOverlapAlternation
+4,1,"Two or more singers who are totally unrelated musically. Each singer has their own part and goes their own way, although they sing simultaneously.",Unrelated
+4,4,Monophony. Only one voice is heard at a time.,Monophony
+4,7,"Unison. Two or more voices singing at the same melody in unison or octaves, and conforming to the same rhythmic pattern.",Unison
+4,10,"Heterophony. Each voice sings the same melody in a slightly different manner. The variation is usually rhythmic, with some voices trailing behind, others pushing forward, or with some voices more rhythmically active than others.",Heterophony
+4,13,"Polyphony. The use of simultaneously produced intervals other than unison or the octave. (Line 22 gives six categories of polyphony.) Two-part intervals of this kind are considered polyphony, as well as harmonies of greater complexity. ",Polyphony
+5,1,Solo,Solo
+5,4,"Minimal Blend (Very individualized). Singers do not attempt to match one another in tone. Individual voices stand out, and the effect can be strident or tumultuous, often producing a rich and interesting texture.",MinimalBlend
+5,7,"Medium Blend (Rather individualized). Some tonal matching occurs, but individual voices may still be heard.",MediumBlend
+5,10,"Significant Blend (Unified blend). The group sounds resonant as a whole, with some stridence.",SignificantBlend
+5,13," Maximal blend. The singers match one another’s tone in such a way as to present the effect of a single tone quality. Any stridency is the result of harmonic dissonance rather than blend. The total effect is highly resonant, clear, and unified.",MaximalBlend
+6,1,Solo,Solo
+6,4,"Minimal rhythmic coordination. An individualized, rhythmically asynchronous performance.",MinimalCoordination
+6,7,"Moderate rhythmic coordination. Some degree of rhythmic coordination, still considerably individualized.",ModerateCoordination
+6,10,Unified rhythmic coordination. Attacks and releases are generally coordinated but not precisely so.,UnifiedCoordination
+6,13,Maximal rhythmic coordination. Precise coordination at every rhythmic level.,MaximalCoordination
+7,1,Non-occurrence. No instruments or Two or more instruments perceived to be totally asynchronous.,NonOccurence
+7,4,"Monophony. One instrument playing one note at a time, or in octaves.",Monophony
+7,7,"Unison. A group of instruments playing the same melody in unison or in octaves, an instrumental solo with simple percussion accompaniment—drum, rattle, sticks, clapping, etc., or any untuned percussion ensemble unless playing in polyrhythm, in which case, code 13 (Polyrhythm) (see Point 5).
+",Unison
+7,10,"Heterophony. Each instrument plays the same melody in a slightly different manner. The variation is usually rhythmic, with some instruments trailing behind, others pushing forward; or with some instruments more rhythmically active than others.",Heterophony
+7,13,"Polyphony or polyrhythm. The use of simultaneously produced intervals other than unison or the octave. Two-part intervals of this kind are considered polyphony, as well as harmonies of greater complexity. ",PolyphonyPolyrhythm
+8,1,"Non-occurrence. No group. Only one instrument in the ensemble, or no instruments at all.",NonOccurence
+8,4,Minimal blend. Little or no overall sonority. Instruments contrast in tone quality and do not reinforce one another at all.,MinimalBlend
+8,7,Medium blend.,MediumBlend
+8,10,Significant Blend.,SignificantBlend
+8,13,Maximal blend. Total effect is highly sonorous.,MaximalBlend
+9,1,"Non-occurrence. No instruments, or no ensemble—one instrument only.",NonOccurence
+9,4,Minimal rhythmic coordination. The members of a group share a rhythmic pattern that is so individualized that the effect is extremely asynchronous.,MinimalCoordination
+9,7,"Moderate rhythmic coordination. A group that plays together on the beat, or follows the same rhythmic pattern or patterns, in a cohesive fashion.",ModerateCoordination
+9,10,Unified rhythmic coordination. There is clear-cut coordination of attack and release on the beat.,UnifiedCoordination
+9,13,Maximal or highly unified rhythmic coordination. The orchestra is tightly linked together rhythmically.,MaximalCoordination
+10,1,"Little or no repetition—wordy. A continuous stream of dissimilar sung syllables, words, and phrases, with little or no repetition or use of non-lexical utterances. In such songs—epics, ballads, songs of prayer and supplication, and much of Western and Eurasian song—text is of paramount importance.",LittleRepetition
+10,4,Some repetition. Some repetition and/or the use of non-lexical utterances—about one fourth repeated text.,SomeRepetition
+10,7,Half repetition. A substantial amount of repetition and/or non-lexical utterances that more or less equals the flow of unrepeated words.,HalfRepetition
+10,10,Quite repetitious. Considerably more than half (about two-thirds) of the sung performance is accounted for by repetition and/or non-lexical utterances.,QuiteRepetitious
+10,13, Extreme repetition. The text seems to be almost entirely composed of repetition of some kind and/or non-lexical utterances.,ExtremeRepetition
+11,1,Non-occurrence. No singers.,NonOccurence
+11,3,One-beat rhythm. A series of equally accented single notes of about the same length.,OneBeat
+11,6,"Simple meter. One simple meter—duple, triple, “simple,” or compound—runs through the whole song.",SimpleMeter
+11,9,"Complex meter. Here, as with 6 (simple meter), one meter prevails throughout the song. In 9, however, the measure cannot be evenly divided by two or three to form subunits of two or three beats each. ",ComplexMeter
+11,11,Irregular meter. No single meter prevails throughout. ,IrregularMeter
+11,13,"Parlando rubato. Free rhythm, in which no regularly recurring beat can be distinguished, is often close to speech in general effect. Accents and rhythmic patterns are grouped in meaningful ways, but without reference to a regular division of time into steady beats.",ParlandoRubato
+12,1,"Non-patterned. No rhythmic coherence of any sort. Each individual is independent and does not relate rhythmically to the others. Also, a solo singer.",NonPatterened
+12,3,"Rhythmic unison. All voices move together with little or no rhythmic independence. A group may sing in parts and still be in rhythmic unison. All parts follow basically the same rhythm, so that they move together note for note.",RhythmicUnison
+12,5,"Rhythmic heterophony. The singers tend to follow the same rhythmic pattern but one or more singers consistently deviates from the others in some way. Some may be out of phase with and trail the others; some may embellish the melody in an individual manner, or use more or less rubato than the others. They may follow the rhythm in a general way, trailing and catching up between the notes.",RhythmicHeterophony
+12,7,"Accompanying rhythm. The singing group is divided into two or more parts, one of which accompanies the other. The accompanying part has independent rhythmic patterns but these are subordinate to the main part.",AccompanyingRhythm
+12,9,"Simple polyrhythm. All of the parts basically conform to a single pulse. However, there are moments when one of the parts will temporarily deviate from the basic pulse to create a new pulse in conflict with it. ",SimplePolyrhythm
+12,11,"Complex polyrhythm. Two or more conflicting pulses are heard simultaneously and more or less continuously throughout the song. (For a fuller explanation of 9 and 11, see explanatory note below.)",ComplexPolyrhythm
+12,13,"Rhythmic counterpoint. Two or more rhythmic patterns, equal to and distinct from one another, occur simultaneously within the same rhythmic framework, but without conflict of pulse. ",RhythmicCounterpoint
+13,1,Non-occurrence. No instruments,NonOccurence
+13,3,One-beat rhythm. A series of equally accented single notes of about the same length.,OneBeat
+13,6,"Simple meter. One simple meter (duple, triple, simple, or compound) runs through the whole piece.",SimpleMeter
+13,9,"Complex meter. Here, as with 6, one meter prevails throughout the piece, however the measure cannot be evenly divided by two or three to form subunits of two or three beats each.",ComplexMeter
+13,11,"Irregular meter. No one meter prevails throughout. A piece that is basically in 3/4, but has one or more measures in 2/4, is coded 11, as well as a piece in which the meter shifts continually from measure to measure—for example, 3/4, 2/4, 3/4, 3/4, 5/4, 3/2, etc.",IrregularMeter
+13,13,Parlando rubato. Free rhythm in which no regularly recurring beat can be distinguished.,ParlandoRubato
+14,1,No orchestra or non-patterned.,NoOrchestra
+14,3,Rhythmic unison. All instruments move together with little or no rhythmic independence. A group may play in parts and still be in rhythmic unison.,RhythmicUnison
+14,5,"Rhythmic heterophony. The instruments tend to follow the same rhythmic pattern, but one or more instruments consistently deviates from the others in some way. Some may be out of phase with and trail the others. Some may embellish the melody in an individual manner, or use more or less rubato (divergence from the strict beat) than others.",RhythmicHeterophony
+14,7,"Accompanying rhythm. The instrumental group is divided into two or more parts, one of which accompanies the other. The accompanying part has independent rhythmic patterns, but these are subordinate to the main part. They may be (1) less active rhythmically, (2) less active melodically, (3) softer, or (4) they may occur intermittently. If the accompanying part is equal in importance and rhythmic activity to the main part, so that the accompaniment becomes, in effect, another melody, consider coding 13 (Rc).",AccompanyingRhythm
+14,9,"Simple polyrhythm. All of the parts basically conform to a single pulse. However, there are moments when one of the parts will temporarily deviate from the basic pulse to create a new pulse in conflict with it. The conflict may last a moment or it may resolve itself only after several “measures,” as in much classical Indian music. In any case, this rhythmic conflict must be only temporary.",SimplePolyrhythm
+14,11,Complex polyrhythm. Two or more conflicting pulses are heard simultaneously and more or less continually throughout the song.,ComplexPolyrhythm
+14,13,"Rhythmic counterpoint. Two or more rhythmic patterns, equal to and distinct from one another, occur simultaneously within the same rhythmic framework but without conflict of pulse. A fugue is an example of this quality, which is also vigorous in folk and indigenous music. The principal feature to watch for is the presence of two or more independent parts active throughout the piece.",RhythmicCounterpoint
+15,1,"Arched. An arched phrase begins at a certain point, rises in pitch, and then descends. Code at this point only if arched phrases occur prominently, not if the melody as a whole is arched.",Arched
+15,5,"Terraced. The entire melody is characterized by a long descent in pitch, interrupted by periods of leveling off and, in some cases, by incidental rises. The melody begins at a relatively high pitch, moves downward through a phrase or two, and then levels off. The next portion begins at the same pitch level or slightly above it, descending to an even lower point, where it once again levels off. This cascading descent proceeds throughout the song, so that the melody ends on or near its lowest point. A sketch of this kind of melody would resemble a terraced field or a tiled roof.",Terraced
+15,9,Undulating. Most phrases have a wave-like shape. They move up and down through a number of peaks and valleys of varying heights. Also coded here are those rare cases in which the shape of the phrase is predominantly ascending.,Undulating
+15,13,Descending. Most phrases descend gradually or abruptly.,Descending
+16,1,"Through-composed. A song that has no recognizable litany or strophic pattern, but instead is made up of a series of phrase groups in which consistently repeated sections seldom if ever occur. Not every section of the piece need consist of completely new material; certain melodic motifs may recur throughout, but not in a regularly occurring order. 1 is common in much Asian music as well as in Western art music.",ThroughComposed
+16,2,Complex strophe with moderate to great variation.,ComplexStropheModerateVariation
+16,3,"Complex strophe with little or no variation. 3 is similar to, but more complex than, 6. More is contained within the form than the regular repetition of three to eight phrases.",ComplexStropheLittleVariation
+16,4,Simple strophe with much variation.,SimpleStropheMuchVariation
+16,5,Simple strophe with a moderate amount of variation.,SimpleStropheModerateVariation
+16,6,"Simple strophe with little or no variation. A series of three to eight (but not more than eight) phrases which are repeated, phrase by phrase, over and over, with no insertions of new material and no omissions or changes of order.",SimpleStropheLittleVariation
+16,7,Complex litany with a high degree of variation in each section.,ComplexLitanyHighVariation
+16,8,Complex litany with a moderate degree of variation in each section.,ComplexLitanyModerateVariation
+16,9,"Complex litany is similar to 12 (simple litany), but involves certain complications. Refer to guide",ComplexLitanyComplexVariation
+16,10,Simple litany with a high degree of variation in each repeat.,SimpleLitanyHighVariation
+16,11,Simple litany with a moderate amount of variation in each repeat.,SimpleLitanyModerateVariation
+16,12,Simple litany. One or two phrases repeated over and over again in the same order with little or no variation: A A A A or AB AB AB AB. Code here even when such a form is preceded by one or two phrases of introduction.,SimpleLitany
+16,13,"Canonic or round form. Found only in certain types of polyphonic singing. The music is divided into two or more parts, each of which is rhythmically distinct. Each part is limited to one or two phrases repeated over and over. Simple rounds or canons are included here, and also the hocketing “bell chime” singing common among African Khoisan-speaking Bushmen and hunter-gatherers of Central and Eastern Africa.",CanonicForm
+17,1,Very long phrases. Phrases that seem to run to the limit or beyond the limit of a singer’s breath capacity (16+ seconds).,VeryLongPhrases
+17,4,Long phrases. An intermediate point between medium phrase lengths and very long phrases (10-15 seconds).,LongPhrases
+17,7,Medium phrases. Normal for the familiar English ballad type (5-9 seconds).,MediumPhrases
+17,10,Short phrases. (3-4 seconds).,ShortPhrases
+17,13, Very short phrases. (1-2 seconds).,VeryShortPhrases
+18,1,There are more than eight phrases before a full repeat.,MoreThanEightPhrases
+18,3,There are five or seven phrases before a full repeat.,FiveSevenPhrases
+18,5,"There are four or eight phrases, asymmetrically arranged.",FourEightPhrasesAsymmetrical
+18,6,Four or eight phrases symmetrically arranged. All phrases are approximately the same length.,FourEightPhrasesSymmerical
+18,8,"Three or six phrases, asymmetrically arranged.",ThreeSixPhrasesAsymmetrical
+18,9,"Three or six phrases, symmetrically arranged.",ThreeSixPhrasesSymmetrical
+18,11,Two phrases asymmetrically arranged.,TwoPhrasesAsymmetrical
+18,13," One or two phrases, symmetrically arranged.",OneTwoPhrasesSymmetrical
+19,1,The final tone is the lowest note of the song.,LowestNote
+19,4,The final tone falls within the lower half of the total range.,LowerHalf
+19,9,The final tone is located at or near the midpoint of the total range.,Midpoint
+19,11,The final tone falls within the upper half of the total range.,UpperHalf
+19,13,The final tone is the highest note of the song.,HighestNote
+20,1,A monotone to a major second.,MonotoneMajorSecond
+20,4,A minor third to a perfect fifth.,MinorThirdPerfectFifth
+20,7,A minor sixth to an octave.,MinorSixthOctave
+20,10,A minor ninth to a major fourteenth.,MinorNinthMajorFourteenth
+20,13,Two octaves or more.,TwoOctavesOrMore
+21,1,Monotone. No intervals occur. The song remains on approximately one pitch. A polyphonic song would be coded “monotone” if each part stays at the same pitch level.,Monotone
+21,4,Narrow intervals. Intervals of a half step or less are prominent (though not necessarily predominant) in the song.,NarrowIntervals
+21,7,Diatonic intervals. Diatonic melodies where whole step predominates.,DiatonicIntervals
+21,10,Large intervals. Intervals of a third occur more frequently than other intervals.,LargeIntervals
+21,13,Very large intervals. Intervals of a fourth and a fifth or larger predominate.,VeryLargeIntervals
+22,1,No polyphony.,NoPolyphony
+22,3,"Drone polyphony. One or more tones are held or repeated while the melody follows its own course. The drone part or parts need not necessarily remain on the same level throughout the song. The pitch of the drone can be shifted, while another part moves freely around it. Do not code drone polyphony when the drone effect is only a transitory one.",DronePolyphony
+22,6,"Isolated chords. Chords occurring in a texture that is basically unison—chords that appear in a song otherwise sung in unison. Two different chords rarely succeed one another. In some cases, there may be only one chord in each section. If this chord tends to recur at the same point in each repetition, the song is coded 6. If not, the song is not considered polyphonic.",IsolateChords
+22,8,"Parallel chords. Two or more parts moving parallel to one another at pitch intervals other than the octave or unison. Parallel means that the parts move in the same direction. The distance between the parts does not have to be maintained at exactly the same interval throughout, as long as the general movement is parallel.",ParallelChords
+22,10,"Harmony. Contrary motion occurs. Some parts move downward while others move upward. This may also happen within the general context of parallel movement. As long as there is some significant amount of contrary motion, 10 can be coded.",Harmony
+22,13,"Counterpoint. Two or more parts that are rhythmically and melodically independent. In all other cases except drone polyphony, the parts move together rhythmically. In counterpoint, as distinct from the drone, the parts are active melodically. 13 is coded when at least two parts are rhythmically active and contrastive.",Counterpoint
+23,1,Extreme embellishment.,ExtremeEmbeillishment
+23,4,Much embellishment.,MuchEmbeillishment
+23,7,Medium or considerable embellishment.,MediumEmbellishment
+23,10,Slight embellishment.,SlightEmbellishment
+23,13,Little or no embellishment.,LittleOrNoEmbellishment
+24,1,Very slow.,VerySlow
+24,3,Quite slow.,QuiteSlow
+24,5,Slow,Slow
+24,9,Moderate tempo.,ModerateTempo
+24,11,Fast.,Fast
+24,13,Very fast.,VeryFast
+25,1,Very soft.,VerySoft
+25,4,Soft,Soft
+25,7,Mid-volume.,MidVolume
+25,10,Loud,Loud
+25,13,Very loud.,VeryLoud
+26,1,"Extreme rubato. If there is no beat, and the piece has already been coded 13 (Free rhythm) on Line 11 (Overall vocal rhythm), 1 is automatically coded.",ExtremeRubato
+26,5,Much rubato.,MuchRubato
+26,9,"Some rubato. A small amount of freedom—for example, if pauses of irregular length occur between sections or stanzas of the melody.",SomeRubato
+26,13,No rubato. Strict conformity to the beat.,NoRubato
+27,1,Extreme rubato.,ExtremeRubato
+27,5,Much rubato.,MuchRubato
+27,9,Some rubato.,SomeRubato
+27,13,No rubato.,NoRubato
+28,1,Maximal glissando. Glissando is extremely prominent.,MaximalGlissando
+28,5,Prominent glissando.,ProminentGlissando
+28,9,Some glissando.,SomeGlissando
+28,13,Little or no glissando.,LittleOrNoGlissando
+29,1,Much melisma. Most of the pitch changes are unarticulated.,MuchMelisma
+29,7,Some melisma. Some of the pitch changes are unarticulated.,SomeMelisma
+29,13,Little or no melisma. Syllabic: All of the pitch changes are articulated in separate syllables.,LittleOrNoMelisma
+30,1,Much tremolo. Tremolo is heavy throughout the song.,MuchTremolo
+30,4,Moderate tremolo.,ModerateTremolo.
+30,7,"Some tremolo. Tremolo is present and noticeable, but relatively slight.",SomeTremolo
+30,10,Slight tremolo.,SlightTremolo
+30,13,Little or no tremolo,LittleTremolo
+31,1,Much glottal. Strongly characterized by glottal activity.,MuchGlottal
+31,7,Some glottal. Glottal activity present and noticeable.,SomeGlottal
+31,13,Little or no glottal. Little or no glottal activity.,LittleOrNoGlottal
+32,1,Very high. Usually falsetto in men.,VeryHigh
+32,4,High. Usually head register.,HighestNote
+32,7,Mid-voice.,MidVoice
+32,10,Low. Usually sung “in the chest.”,Low
+32,13,Very low. The singer is probably producing their lowest tone.,VeryLow
+33,1,"Very narrow. The narrowest, squeezed, thin, and tense voices. The vocal cavities are narrowed and constricted by raising the glottis, raising the tongue and pulling it back, and tensing the muscles in the throat.",VeryNarrow
+33,3,"Narrow. A markedly squeezed, narrow, and tense voice.",Narrow
+33,6,"Speaking. Medium width, neither narrow and tense nor wide and relaxed, this voice often has a speech-like quality.",Speaking
+33,8,"Wide. A relaxed, open-throated voice, usually evincing a considerable amount of resonance. This latter quality can be obscured by nasalization, which can be produced simultaneously.",Wide
+33,10,"Very wide. A wide-open, resonant, often ringing or liquid voice",VeryWide
+33,13,"Yodel. A distinctively liquid, wide-open, extremely relaxed way of singing. It is often, but not necessarily, characterized by quick, wide, and seemingly effortless leaps in pitch that pass from chesty tone to falsetto, or head tone, and back again.",Yodel
+34,1,Extreme nasalization. Strongly nasalized throughout the performance.,ExtremeNasalization
+34,4,"Marked nasalization. Marked nasalization, with definite but not extreme nasality running throughout the performance.",MarkedNasalization
+34,7,"Intermittent nasalization. Nasality that occurs irregularly but clearly in the voice, as is frequently the case with singers of sub-Saharan African origin. This is the midpoint in the line and may be coded for songs that seem to be neither marked nor slight in their degree of nasality.",IntermittentNasalization
+34,10,"Slight nasalization. Occasional touches of nasalization that do not occur in relationship to nasal consonants. This situation is encountered, for example, in the singing of many groups of Central Europe.
+",SlightNasalization
+34,13,"Little or no nasalization. Where nasalization occurs only in connection with nasal consonants, or where nasal consonants tend to be eliminated and little or no nasalization is heard.",LittleOrNoNasalization
+35,1,"Extreme rasp. A markedly strident, hoarse, or grating singing voice.",ExtremeRasp
+35,4,"Great rasp. Pronounced rasp, but less strident than above.",GreatRasp
+35,7,"Intermittent rasp. Intermittent, or moderate and steady rasp.",IntermittentRasp
+35,10,Slight rasp. Perceptible touches of rasp.,SlightRasp
+35,13,None. Voices lack rasp.,None
+36,1,"Very forceful accent, with powerful stresses falling on many notes.",VeryForcefulAccent
+36,4,"Forceful accent, with strong accents falling on the main pulses of the meter.",ForcefulAccent
+36,7,"Moderate accent, a moderate stress falling along the main beat pattern of the meter, clearly outlining but not exaggerating it.",ModerateAccent
+36,10,"Relaxed accent, a relaxed handling of the accent pattern.",RelaxedAccent
+36,13,"Very relaxed, absence of clear stresses, such that a flowing, sometimes understated, melodic line is produced.",VeryRelaxed
+37,1,Very precise enunciation. Highly articulated consonants and syllables. This is generally typical of the storytelling singers of Eurasian polities.,VeryPreciseEnunciation
+37,4,Precise enunciation. Clearly articulated consonants in sung texts. Here one listens to the whole consonantal range and makes certain that all consonants are easily discernible.,PreciseEnunciation
+37,7,Moderate enunciation. A moderate degree of enunciation.,ModerateEnunciation
+37,10,Softened enunciation. Consonants are hard to distinguish and syllables are run together to some degree.,SoftenedEnunciation
+37,13,"Very softened enunciation. Situations in which consonants are absent or nearly absent from the text, and/or in which syllables are run together.",VerySoftenedEnunciation
