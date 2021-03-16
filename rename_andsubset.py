@@ -6,21 +6,21 @@ societies 	= pd.read_csv('cldf/societies.csv')
 
 
 # data file links to songs and soceity metadata
-data.rename(columns={
-	'canto_coding_id':'song_id',
-	'C_cid':'society_id'}, 
-	inplace = True)
+# data.rename(columns={
+# 	'canto_coding_id':'song_id',
+# 	'C_cid':'society_id'}, 
+# 	inplace = True)
 
-# songs metadata links to data file and soceity metadata
-songs.rename(columns={
-	'C-id':'song_id',
-	'C_cid':'society_id'}, 
-	inplace = True)
+# # songs metadata links to data file and soceity metadata
+# songs.rename(columns={
+# 	'C-id':'song_id',
+# 	'C_cid':'society_id'}, 
+# 	inplace = True)
 
-# soceity metadata links to data
-societies.rename(columns={
-	'All_cid':'society_id'}, 
-	inplace = True)
+# # soceity metadata links to data
+# societies.rename(columns={
+# 	'All_cid':'society_id'}, 
+# 	inplace = True)
 
 # Only need metadata on cultures that exist in Cantometrics data
 ## While I wait to have some values fixed in the cultures metadata, I need this workaround
