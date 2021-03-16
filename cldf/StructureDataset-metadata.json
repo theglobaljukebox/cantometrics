@@ -38,14 +38,14 @@
                     },
                     {
                         "name": "var_id",
-                        "datatype": {"base": "string", "format": "cv_[0-9]{1,2}"},
+                        "datatype": {"base": "string", "format": "line_[0-9]{1,2}"},
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
                         "required": true
                     },
                     {
                         "name": "code",
                         "datatype": {"base": "integer", "format": "[1-9][0-9]?$|^14336"},
-                        "required": true
+                        "required": false
                     },
                     {
                         "name": "ID",
@@ -100,13 +100,13 @@
                         "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
                         "required": false,
-                        "name": "Cu_lat"
+                        "name": "society_latitude"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": -180, "maximum": 180},
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
                         "required": false,
-                        "name": "Cu_long"
+                        "name": "society_longitude"
                     },
                     {
                         "datatype": "string",
@@ -127,22 +127,22 @@
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "Area/Kingdom"
+                        "name": "Area"
                     },
                     {
                         "datatype": "string",
                         "required": true,
-                        "name": "Culture"
+                        "name": "society"
                     },
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "Alt_culture_names"
+                        "name": "alternative_names"
                     },
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "Arensberg-Lomax_clusters"
+                        "name": "arsenberglomax_clusters"
                     },
                     {
                         "datatype": "string",
@@ -152,7 +152,7 @@
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "C_sample_size"
+                        "name": "cantometrics_samplesize"
                     },
                     {
                         "datatype": "string",
@@ -167,7 +167,7 @@
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "Arensberg/Lomax_taxon"
+                        "name": "arsenberglomax_taxon"
                     },
                     {
                         "datatype": "string",
@@ -182,22 +182,22 @@
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "Lang_Near_Subfamily"
+                        "name": "Language_nearsubfamily"
                     },
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "Lang_Larger_Subfamily"
+                        "name": "Language_largersubfamily"
                     },
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "Lang_Family"
+                        "name": "Language_family"
                     },
                     {
                         "datatype": {"base": "string", "format": "[a-z]{3}"},
                         "required": false,
-                        "name": "ISO_code"
+                        "name": "ISO6393"
                     },
                     {
                       "name": "Glottocode",
@@ -214,12 +214,12 @@
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "D-Place_Id"
+                        "name": "dplace_id"
                     },
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "People/Culture"
+                        "name": "society_summary"
                     }
                 ],
                 "foreignKeys": [
@@ -247,34 +247,34 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "integer",
-                        "rdfs:subPropertyOf": "http://purl.org/dc/terms/identifier",
-                        "required": true,
-                        "name": "song_id"
+                        "name": "song_id",
+                        "datatype": {"base": "integer", "format": "[0-9]{1,5}"},
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
                         "required": false,
-                        "name": "Local_lat"
+                        "name": "Local_latitude"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": -180, "maximum": 180},
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
                         "required": false,
-                        "name": "Local_long"
+                        "name": "Local_longitude"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
                         "required": false,
-                        "name": "Homeland_lat"
+                        "name": "Homeland_latitude"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": -180, "maximum": 180},
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
                         "required": false,
-                        "name": "Homeland_long"
+                        "name": "Homeland_longitude"
                     }, 
                     {
                         "name": "society_id",
