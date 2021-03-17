@@ -2,6 +2,8 @@ import pytest
 import pandas as pd
 import datatest as dt 
 
+from recode import conversion
+
 
 @pytest.fixture(scope='module')
 @dt.working_directory(__file__)
@@ -26,6 +28,22 @@ def test_column(df):
             assert all([is_coding_allowed(x) == True for x in df[col]])
 
 
+def test_conversion():
+    print(conversion(2**1, [1,4,7,10,13]))
+    # single codings
+    single_1 = (conversion(2**1, [1,4,7,10,13])) == (1,)
+    single_2 = (conversion(2, [1,4,7,10,13])) == (1,)
+    single_3 = (conversion(2**10, [1,4,7,10,13])) == (10,)
+
+    # two codings
+    double_1 = (conversion(20,[4, 2, 1])) == (4, 2)# 4 , 2
+    double_2 = (conversion(1028,[4, 2, 10])) == (2, 10) # 10, 2
+
+    # # # three codings
+    triple_1 = (conversion(8336,[13, 7, 4, 2, 6])) == (13, 7, 4) # 13, 7 , 4
+    triple_2 = (conversion(8464,[13, 8, 4, 2, 6])) == (13, 8, 4) # 13, 8, 4
+
+    assert all([single_1, single_2, single_3, double_1, double_2, triple_1, triple_2])
 
 # def test_runtime(df):
 #     dt.validate(df['canto_coding_id'], int)
