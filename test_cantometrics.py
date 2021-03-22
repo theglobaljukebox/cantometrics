@@ -29,7 +29,7 @@ def test_column(df):
 
 
 def test_conversion():
-    print(conversion(2**1, [1,4,7,10,13]))
+    # print(conversion(2**1, [1,4,7,10,13]))
     # single codings
     single_1 = (conversion(2**1, [1,4,7,10,13])) == (1,)
     single_2 = (conversion(2, [1,4,7,10,13])) == (1,)

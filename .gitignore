@@ -1,6 +1,7 @@
 # folders
 env/
 no_git/
+logs/
 
 # History files
 .Rhistory

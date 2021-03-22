@@ -39,15 +39,15 @@ def read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE):
     return values, header_values
 
 def main():
-    variable_metadata = pd.read_csv("etc/variables.csv")
+    variable_metadata = pd.read_csv("etc/meta_variables.csv")
 
     # Data sheet
     print("Downloading data into data.csv")
     SPREADSHEET_ID = '1AjynK9mMQTw58B_B8b_ZIip3fyUm-aoV7Pp21HziBb0'
     # RANGE_NAME = 'canto_codings!A2:AT'
     # HEADER_RANGE = 'canto_codings!A1:AT1'
-    RANGE_NAME = 'canto_codings!A3:AT5901'
-    HEADER_RANGE = 'canto_codings!A2:AT2'
+    RANGE_NAME = 'canto_codings!A2:AT5900'
+    HEADER_RANGE = 'canto_codings!A1:AT1'
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
     data_df = pd.DataFrame(data, columns = header[0])
     keep_columns = variable_metadata.loc[(variable_metadata["table"] == "data") & (variable_metadata["visibility"] == "public")]
@@ -60,8 +60,8 @@ def main():
     SPREADSHEET_ID = '1dsaXyleZH5DRSJtnig31W_nusedNfU4QU1KkY_ABhww'
     # RANGE_NAME = "'All Cantometrics Songs'!A2:AG6044"
     # HEADER_RANGE = "'All Cantometrics Songs'!A1:AG1"
-    RANGE_NAME = "'All Cantometrics Songs'!A3:AG6045"
-    HEADER_RANGE = "'All Cantometrics Songs'!A2:AG2"
+    RANGE_NAME = "'All Cantometrics Songs'!A2:AG6044"
+    HEADER_RANGE = "'All Cantometrics Songs'!A1:AG1"
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
     songs_df = pd.DataFrame(data, columns = header[0])
     # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "songs") & (variable_metadata["visibility"] == "public")]
@@ -74,8 +74,8 @@ def main():
     SPREADSHEET_ID = '1tb3Nip43e4LaJbglaXzcCTP2CiMyrgwIsU2egk3tfNM'
     # RANGE_NAME = "'All Cultures'!A2:BA1247"
     # HEADER_RANGE = "'All Cultures'!A1:BA1"
-    RANGE_NAME = "'All Cultures'!A3:BA1248"
-    HEADER_RANGE = "'All Cultures'!A2:BA2"
+    RANGE_NAME = "'All Cultures'!A2:BA1247"
+    HEADER_RANGE = "'All Cultures'!A1:BA1"
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
     society_df = pd.DataFrame(data, columns = header[0])
     keep_columns = variable_metadata.loc[(variable_metadata["table"] == "societies") & (variable_metadata["visibility"] == "public")]
