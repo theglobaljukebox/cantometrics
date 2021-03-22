@@ -25,3 +25,4 @@ database_notes
 
 # logs
 cldf.log
+*.lprof

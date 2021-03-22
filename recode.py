@@ -61,7 +61,7 @@ def main():
 	# for logging
 	line_lag = "line_0"
 	
-	data = data.loc[data['var_id'] == "line_7"]
+	#data = data.loc[data['var_id'] == "line_7"]
 	for index, row in data.iterrows():
 	# for index, row in data.head(5).iterrows():
 		if(pd.isnull(row["code"])):
@@ -94,7 +94,6 @@ def main():
 		new_data = new_data.append(split_df)
 
 	# recreate IDs
-	new_data["ID"] = str(new_data["song_id"]) +"_"+ str(new_data["society_id"]) +"_"+ new_data["var_id"] +"_"+ str(new_data["code"])
 	new_data.to_csv("cldf/decoded_data.csv", index=False)
 
 
