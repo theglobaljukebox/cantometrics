@@ -1,6 +1,7 @@
 # folders
 env/
 no_git/
+logs/
 
 # History files
 .Rhistory
@@ -24,3 +25,4 @@ database_notes
 
 # logs
 cldf.log
+*.lprof

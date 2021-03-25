@@ -46,13 +46,6 @@
                         "name": "code",
                         "datatype": {"base": "integer", "format": "[1-9][0-9]?$|^14336"},
                         "required": false
-                    },
-                    {
-                        "name": "ID",
-                        "datatype": "string",
-                        "required": true,
-                        "rdfs:subPropertyOf": "http://purl.org/dc/terms/identifier",
-                        "rdfs:seeAlso": "http://dublincore.org/documents/dcmi-terms/#terms-identifier"
                     }
                 ],
                 "foreignKeys": [
@@ -78,9 +71,6 @@
                             ]
                         }
                     }
-                ],
-                "primaryKey": [
-                    "ID"
                 ]
             }
         },
@@ -100,13 +90,13 @@
                         "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
                         "required": false,
-                        "name": "society_latitude"
+                        "name": "Society_latitude"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": -180, "maximum": 180},
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
                         "required": false,
-                        "name": "society_longitude"
+                        "name": "Society_longitude"
                     },
                     {
                         "datatype": "string",
@@ -142,7 +132,7 @@
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "arsenberglomax_clusters"
+                        "name": "Arensberglomax_clusters"
                     },
                     {
                         "datatype": "string",
@@ -167,7 +157,7 @@
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "arsenberglomax_taxon"
+                        "name": "Arensberglomax_taxon"
                     },
                     {
                         "datatype": "string",
@@ -219,7 +209,7 @@
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "society_summary"
+                        "name": "Society_summary"
                     }
                 ],
                 "foreignKeys": [
@@ -300,7 +290,7 @@
                     {
                         "datatype": "string",
                         "required": true,
-                        "name": "Archival_source#"
+                        "name": "archivalsource_id"
                     },
                     {
                         "datatype": "string",
@@ -330,7 +320,7 @@
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "Gender of Vocalists"
+                        "name": "Vocalist_gender"
                     },
                     {
                         "datatype": "string",
