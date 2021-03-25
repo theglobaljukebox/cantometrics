@@ -16,9 +16,7 @@ def conversion(value, value_set):
 			# codes are the sum of each value as an exponent of 2. 
 			# Here we take the set of possible codes, and check combinations to match the original code.
 			# when the original code is matched, we return the combination of codes which create the combination. 
-			possible_value = np.power(2, p).sum()	
-			# print(value, possible_value, p, possible_value==value)	
-			# pdb.set_t#race()
+			possible_value = np.power(2, p).sum()		
 			if(possible_value == value):
 				running = False
 				single_codes = p
@@ -30,7 +28,6 @@ def conversion(value, value_set):
 				running = False
 				warnings.warn("WARNING: An impossible value has been found")
 				break
-				# sys.exit("An impossible value has been found")
 	return single_codes
 
 
@@ -47,6 +44,7 @@ def conversion(value, value_set):
 # triple_1 = (conversion(8336,[13, 7, 4, 2, 6])) == (13, 7, 4) # 13, 7 , 4
 # triple_2 = (conversion(8464,[13, 8, 4, 2, 6])) == (13, 8, 4) # 13, 8, 4
 
+
 # Iterate through the long data file and re-create it with multiple single codings. 
 def main():
 	
@@ -61,7 +59,6 @@ def main():
 	# for logging
 	line_lag = "line_0"
 	
-	#data = data.loc[data['var_id'] == "line_7"]
 	for index, row in data.iterrows():
 	# for index, row in data.head(5).iterrows():
 		if(pd.isnull(row["code"])):
@@ -93,7 +90,7 @@ def main():
 		split_df['code'] = new_codes
 		new_data = new_data.append(split_df)
 
-	# recreate IDs
+	# save file
 	new_data.to_csv("cldf/decoded_data.csv", index=False)
 
 
