@@ -23,9 +23,9 @@ download: env
 process: env
 	mkdir -p cldf/
 	mkdir -p logs/
-	@printf "TODO: create alternative file with new codings"
-	@printf "convert data to long format to make compatible with CLDF framework"
+	@printf "Convert data to long format"
 	./env/bin/python3 to_long.py
+	@printf "Backtransform codes to single level codes"
 	./env/bin/python3 recode.py 2>&1 | tee logs/recode.log
 	cp raw/societies.csv cldf/
 	cp raw/songs.csv cldf/
@@ -33,7 +33,7 @@ process: env
 
 
 test: env
-	./env/bin/cldf validate ./cldf/StructureDataset-metadata.json 2>&1 | tee cldf.log
+	./env/bin/cldf validate ./cldf/StructureDataset-metadata.json 2>&1 | tee logs/cldf.log
 	./env/bin/python3 -m pytest
 
 clean:

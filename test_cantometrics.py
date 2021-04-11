@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 import datatest as dt 
 
-from recode import conversion
+from helper import conversion
 
 
 @pytest.fixture(scope='module')
@@ -23,21 +23,24 @@ def is_coding_allowed(integer, n=13):
 
 def test_column(df):
     for col in df.columns:
-        if 'cv_' in col:
+        if 'line_' in col:
             print(col)
             assert all([is_coding_allowed(x) == True for x in df[col]])
 
 
 def test_conversion():
     # single codings
+    print("singles")
     single_1 = (conversion(2**1, [1,4,7,10,13])) == (1,)
     single_2 = (conversion(2, [1,4,7,10,13])) == (1,)
     single_3 = (conversion(2**10, [1,4,7,10,13])) == (10,)
 
+    print("twos")
     # two codings
     double_1 = (conversion(20,[4, 2, 1])) == (4, 2)# 4 , 2
     double_2 = (conversion(1028,[4, 2, 10])) == (2, 10) # 10, 2
 
+    print('threes')
     # # # three codings
     triple_1 = (conversion(8336,[13, 7, 4, 2, 6])) == (13, 7, 4) # 13, 7 , 4
     triple_2 = (conversion(8464,[13, 8, 4, 2, 6])) == (13, 8, 4) # 13, 8, 4
