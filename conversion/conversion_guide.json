@@ -987,7 +987,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.11,
       "var_id": "2_1",
       "code_description": "No accompaniment.",
       "shortname": "NonOccurence"
@@ -1002,7 +1002,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.12,
+      "display_code": 0.17,
       "var_id": "2_2_1",
       "code_description": "Small orchestra and non occurence",
       "shortname": "SmallOrchestraAndNonOccurence"
@@ -1017,7 +1017,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.15,
+      "display_code": 0.22,
       "var_id": "2_2",
       "code_description": "A small orchestra (1-3 players) accompanying the vocal part and subordinate to it. One or more of the instruments may perform the melody.",
       "shortname": "SmallOrchestra"
@@ -1032,7 +1032,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.15,
+      "display_code": 0.22,
       "var_id": "2_3_1",
       "code_description": "Large orchestra and non occurence",
       "shortname": "LargeOrchestraAndNonOccurence"
@@ -1047,7 +1047,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.33,
       "var_id": "2_3",
       "code_description": "A large orchestra (4+ players) in the same relationship as 2.",
       "shortname": "LargeOrchestra"
@@ -1062,7 +1062,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.44,
       "var_id": "2_6_2",
       "code_description": "Orchestra between interludes and small orchestra",
       "shortname": "OrchestraBetweenInterludesAndSmallOrchestra"
@@ -1077,7 +1077,7 @@
       "code_1": 5,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.35,
+      "display_code": 0.5,
       "var_id": "2_6_3",
       "code_description": "Orchestra between interludes and large orchestra",
       "shortname": "OrchestraBetweenInterludesAndLargeOrchestra"
@@ -1092,7 +1092,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.56,
       "var_id": "2_5",
       "code_description": "A large or small orchestra predominant over the sung part. The orchestra\u2019s part takes up more time and/or is considerably louder than the sung part.",
       "shortname": "OrchestraOverSong"
@@ -1107,7 +1107,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 0.61,
       "var_id": "2_6_5",
       "code_description": "Orchestra between interludes and orchestra over song",
       "shortname": "OrchestraBetweenInterludesAndOrchestraOverSong"
@@ -1122,7 +1122,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 0.67,
       "var_id": "2_6",
       "code_description": "The orchestra (large or small) plays interludes between passages. It is never heard simultaneously with the vocal part.",
       "shortname": "OrchestraBetweenInterludes"
@@ -1137,7 +1137,7 @@
       "code_1": 8,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 0.78,
       "var_id": "2_12_2",
       "code_description": "Small orchestra related vocal and small orchestra",
       "shortname": "SmallOrchestraRelatedVocalAndSmallOrchestra"
@@ -1152,7 +1152,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.62,
+      "display_code": 0.89,
       "var_id": "2_8",
       "code_description": "A small orchestra (1-3 players) that seems unrelated or only casually related to the vocal part. The effect resembles that described under 7 (ind. group) on Line 1, and is the result, usually, of some absence of rhythmic coordination between instruments and voices.",
       "shortname": "SmallOrchestraUnrelatedVocal"
@@ -1167,7 +1167,7 @@
       "code_1": 7,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.0,
       "var_id": "2_9",
       "code_description": "A large orchestra (4+ players) that seems unrelated or only casually related to the vocal part. ",
       "shortname": "LargeOrchestraUnrelatedVocal"
@@ -1182,7 +1182,7 @@
       "code_1": 9,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.73,
+      "display_code": 1.06,
       "var_id": "2_13_6",
       "code_description": "Large orchestra related vocal and orchestra between interludes",
       "shortname": "LargeOrchestraRelatedVocalAndOrchestraBetweenInterludes"
@@ -1197,7 +1197,7 @@
       "code_1": 8,
       "code_2": 6,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.11,
       "var_id": "2_12_8",
       "code_description": "Small orchestra related vocal and small orchestra unrelated vocal",
       "shortname": "SmallOrchestraRelatedVocalAndSmallOrchestraUnrelatedVocal"
@@ -1212,7 +1212,7 @@
       "code_1": 9,
       "code_2": 6,
       "code_3": null,
-      "display_code": 0.81,
+      "display_code": 1.17,
       "var_id": "2_13_8",
       "code_description": "Large orchestra related vocal and small orchestra unrelated vocal",
       "shortname": "LargeOrchestraRelatedVocalAndSmallOrchestraUnrelatedVocal"
@@ -1227,7 +1227,7 @@
       "code_1": 9,
       "code_2": 7,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.22,
       "var_id": "2_13_9",
       "code_description": "Large orchestra related vocal and large orchestra unrelated vocal",
       "shortname": "LargeOrchestraRelatedVocalAndLargeOrchestraUnrelatedVocal"
@@ -1242,7 +1242,7 @@
       "code_1": 8,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.92,
+      "display_code": 1.33,
       "var_id": "2_12",
       "code_description": "A small orchestra (1-3 players) in complementary relationship to singer(s). The instruments are basically coordinated with and subordinate to the vocal part, but provide more than a mere background for the voices, as in 2 (small orch) and 3 (large orch). ",
       "shortname": "SmallOrchestraRelatedVocal"
@@ -1257,7 +1257,7 @@
       "code_1": 9,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 1.44,
       "var_id": "2_13",
       "code_description": "A large orchestra (4+ players) in complementary relationship to singer(s). ",
       "shortname": "LargeOrchestraRelatedVocal"
@@ -1319,7 +1319,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.15,
+      "display_code": 0.17,
       "var_id": "3_2",
       "code_description": "One solo instrument. An accompaniment or a solo on one instrument.",
       "shortname": "SoloInstrument"
@@ -1334,7 +1334,7 @@
       "code_1": 4,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.27,
+      "display_code": 0.29,
       "var_id": "3_5_2",
       "code_description": "Unison predominant leader and solo instrument",
       "shortname": "UnisonPredominantLeaderAndSoloInstrument"
@@ -1349,7 +1349,7 @@
       "code_1": 5,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.27,
+      "display_code": 0.29,
       "var_id": "3_6_1",
       "code_description": "Social unison no predominant instrument and non occurence",
       "shortname": "SocialUnisonNoPredominantInstrumentAndNonOccurence"
@@ -1364,7 +1364,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.33,
       "var_id": "3_4",
       "code_description": "Series of solos. One instrumental solo after another.",
       "shortname": "SoloSeries"
@@ -1379,7 +1379,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.33,
       "var_id": "3_6_2",
       "code_description": "Social unison no predominant instrument and solo instrument",
       "shortname": "SocialUnisonNoPredominantInstrumentAndSoloInstrument"
@@ -1394,7 +1394,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.35,
+      "display_code": 0.38,
       "var_id": "3_5_4",
       "code_description": "Unison predominant leader and solo series",
       "shortname": "UnisonPredominantLeaderAndSoloSeries"
@@ -1409,7 +1409,7 @@
       "code_1": 6,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.35,
+      "display_code": 0.38,
       "var_id": "3_7_2",
       "code_description": "Diffuse leader predominant and solo instrument",
       "shortname": "DiffuseLeaderPredominantAndSoloInstrument"
@@ -1424,7 +1424,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.42,
       "var_id": "3_5",
       "code_description": "Social unison with leader predominant. Other instruments are subordinate to the leader, playing the same tune in the same way or in simple accompanying parts.",
       "shortname": "UnisonPredominantLeader"
@@ -1439,7 +1439,7 @@
       "code_1": 5,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.42,
       "var_id": "3_6_4",
       "code_description": "Social unison no predominant instrument and solo series",
       "shortname": "SocialUnisonNoPredominantInstrumentAndSoloSeries"
@@ -1454,7 +1454,7 @@
       "code_1": 6,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 0.46,
       "var_id": "3_7_4",
       "code_description": "Diffuse leader predominant and solo series",
       "shortname": "DiffuseLeaderPredominantAndSoloSeries"
@@ -1469,7 +1469,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 0.5,
       "var_id": "3_6",
       "code_description": "Social unison with no predominant instrument. Unison performances in which no single instrument takes the lead, and performances in which there is a simple accompanying relationship between the leading instrument and the other instrument(s).",
       "shortname": "SocialUnisonNoPredominantInstrument"
@@ -1484,7 +1484,7 @@
       "code_1": 6,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 0.5,
       "var_id": "3_7_5",
       "code_description": "Diffuse leader predominant and unison predominant leader",
       "shortname": "DiffuseLeaderPredominantAndUnisonPredominantLeader"
@@ -1499,7 +1499,7 @@
       "code_1": 6,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.5,
+      "display_code": 0.54,
       "var_id": "3_7_6",
       "code_description": "Diffuse leader predominant and social unison no predominant instrument",
       "shortname": "DiffuseLeaderPredominantAndSocialUnisonNoPredominantInstrument"
@@ -1514,7 +1514,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 0.58,
       "var_id": "3_7",
       "code_description": "Diffuse/individualized relationship, leader predominant. Similar to 7 (ind./var. group) in Line 1, but applied to the relationships among the instruments of the orchestra. Single lead instrument is predominant.",
       "shortname": "DiffuseLeaderPredominant"
@@ -1529,7 +1529,7 @@
       "code_1": 7,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.62,
+      "display_code": 0.67,
       "var_id": "3_8",
       "code_description": "Diffuse/individualized relationship, group predominant. Similar to 7 (ind./var. group) in Line 1, but applied to the relationships among the instruments of the orchestra. Either the leader is subordinate to the group or leadership shifts from one instrument to another.",
       "shortname": "DiffuseGroupPredominant"
@@ -1544,7 +1544,7 @@
       "code_1": 8,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 0.75,
       "var_id": "3_9",
       "code_description": "Simple alternation: leader-group. A simple antiphonal relationship between a single lead instrument and an orchestra (see 8 Line 1 alt. ldr-grp).",
       "shortname": "LeaderGroupAlternation"
@@ -1559,7 +1559,7 @@
       "code_1": 9,
       "code_2": 8,
       "code_3": null,
-      "display_code": 0.73,
+      "display_code": 0.79,
       "var_id": "3_10_9",
       "code_description": "Group group alternation and leader group alternation",
       "shortname": "GroupGroupAlternationAndLeaderGroupAlternation"
@@ -1574,7 +1574,7 @@
       "code_1": 10,
       "code_2": 7,
       "code_3": null,
-      "display_code": 0.73,
+      "display_code": 0.79,
       "var_id": "3_11_8",
       "code_description": "Leader group overlap alternation and diffuse group predominant",
       "shortname": "LeaderGroupOverlapAlternationAndDiffuseGroupPredominant"
@@ -1589,7 +1589,7 @@
       "code_1": 11,
       "code_2": 7,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 0.83,
       "var_id": "3_12_8",
       "code_description": "Group leader overlap alternation and diffuse group predominant",
       "shortname": "GroupLeaderOverlapAlternationAndDiffuseGroupPredominant"
@@ -1604,7 +1604,7 @@
       "code_1": 9,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 0.83,
       "var_id": "3_10",
       "code_description": " Simple alternation: group-group. An orchestra divided into two or more parts with an antiphonal relationship between them.",
       "shortname": "GroupGroupAlternation"
@@ -1619,7 +1619,7 @@
       "code_1": 10,
       "code_2": 9,
       "code_3": null,
-      "display_code": 0.81,
+      "display_code": 0.88,
       "var_id": "3_11_10",
       "code_description": "Leader group overlap alternation and group group alternation",
       "shortname": "LeaderGroupOverlapAlternationAndGroupGroupAlternation"
@@ -1634,7 +1634,7 @@
       "code_1": 12,
       "code_2": 7,
       "code_3": null,
-      "display_code": 0.81,
+      "display_code": 0.88,
       "var_id": "3_13_8",
       "code_description": "Group group overlap alternation and diffuse group predominant",
       "shortname": "GroupGroupOverlapAlternationAndDiffuseGroupPredominant"
@@ -1649,7 +1649,7 @@
       "code_1": 10,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 0.92,
       "var_id": "3_11",
       "code_description": "Overlapping alternation: leader-group. Alternation between a single instrument and a group, but with overlap (see 10, Line 1 overlap: ldr-grp).",
       "shortname": "LeaderGroupOverlapAlternation"
@@ -1664,7 +1664,7 @@
       "code_1": 11,
       "code_2": 9,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 0.92,
       "var_id": "3_12_10",
       "code_description": "Group leader overlap alternation and group group alternation",
       "shortname": "GroupLeaderOverlapAlternationAndGroupGroupAlternation"
@@ -1679,7 +1679,7 @@
       "code_1": 12,
       "code_2": 9,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 0.96,
       "var_id": "3_13_10",
       "code_description": "Group group overlap alternation and group group alternation",
       "shortname": "GroupGroupOverlapAlternationAndGroupGroupAlternation"
@@ -1694,7 +1694,7 @@
       "code_1": 11,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.92,
+      "display_code": 1.0,
       "var_id": "3_12",
       "code_description": "Overlapping alternation: group-leader. Alternation between a single instrument and a group with no one instrument in the foreground more often than the others.",
       "shortname": "GroupLeaderOverlapAlternation"
@@ -1709,7 +1709,7 @@
       "code_1": 12,
       "code_2": 10,
       "code_3": null,
-      "display_code": 0.92,
+      "display_code": 1.0,
       "var_id": "3_13_11",
       "code_description": "Group group overlap alternation and leader group overlap alternation",
       "shortname": "GroupGroupOverlapAlternationAndLeaderGroupOverlapAlternation"
@@ -1724,7 +1724,7 @@
       "code_1": 12,
       "code_2": 11,
       "code_3": null,
-      "display_code": 0.96,
+      "display_code": 1.04,
       "var_id": "3_13_12",
       "code_description": "Group group overlap alternation and group leader overlap alternation",
       "shortname": "GroupGroupOverlapAlternationAndGroupLeaderOverlapAlternation"
@@ -1739,7 +1739,7 @@
       "code_1": 12,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 1.08,
       "var_id": "3_13",
       "code_description": "Overlapping alternation: group-group. The orchestra is divided into two or more groups, each of which acts as a unit, with significant overlap between them, or in an interlocking relationship, as described in Line 1 (13).",
       "shortname": "GroupGroupOverlapAlternation"
@@ -1771,7 +1771,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.2,
       "var_id": "4_1",
       "code_description": "Two or more singers who are totally unrelated musically. Each singer has their own part and goes their own way, although they sing simultaneously.",
       "shortname": "Unrelated"
@@ -1786,7 +1786,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.5,
       "var_id": "4_4_1",
       "code_description": "Monophony and unrelated",
       "shortname": "MonophonyAndUnrelated"
@@ -1801,7 +1801,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "4_4",
       "code_description": "Monophony. Only one voice is heard at a time.",
       "shortname": "Monophony"
@@ -1816,7 +1816,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "4_7_1",
       "code_description": "Unison and unrelated",
       "shortname": "UnisonAndUnrelated"
@@ -1831,7 +1831,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "4_7_4",
       "code_description": "Unison and monophony",
       "shortname": "UnisonAndMonophony"
@@ -1846,7 +1846,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "4_7",
       "code_description": "Unison. Two or more voices singing at the same melody in unison or octaves, and conforming to the same rhythmic pattern.",
       "shortname": "Unison"
@@ -1861,7 +1861,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "4_13_4",
       "code_description": "Polyphony and monophony",
       "shortname": "PolyphonyAndMonophony"
@@ -1876,7 +1876,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "4_10_7",
       "code_description": "Heterophony and unison",
       "shortname": "HeterophonyAndUnison"
@@ -1891,7 +1891,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "4_10",
       "code_description": "Heterophony. Each voice sings the same melody in a slightly different manner. The variation is usually rhythmic, with some voices trailing behind, others pushing forward, or with some voices more rhythmically active than others.",
       "shortname": "Heterophony"
@@ -1906,7 +1906,7 @@
       "code_1": 5,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "4_13_7",
       "code_description": "Polyphony and unison",
       "shortname": "PolyphonyAndUnison"
@@ -1921,7 +1921,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 2.3,
       "var_id": "4_13_10",
       "code_description": "Polyphony and heterophony",
       "shortname": "PolyphonyAndHeterophony"
@@ -1936,7 +1936,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.6,
       "var_id": "4_13",
       "code_description": "Polyphony. The use of simultaneously produced intervals other than unison or the octave. (Line 22 gives six categories of polyphony.) Two-part intervals of this kind are considered polyphony, as well as harmonies of greater complexity. ",
       "shortname": "Polyphony"
@@ -1968,7 +1968,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.2,
       "var_id": "5_1",
       "code_description": "Solo",
       "shortname": "Solo"
@@ -1983,7 +1983,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.5,
       "var_id": "5_4_1",
       "code_description": "Minimal blend and solo",
       "shortname": "MinimalBlendAndSolo"
@@ -1998,7 +1998,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "5_4",
       "code_description": "Minimal Blend (Very individualized). Singers do not attempt to match one another in tone. Individual voices stand out, and the effect can be strident or tumultuous, often producing a rich and interesting texture.",
       "shortname": "MinimalBlend"
@@ -2013,7 +2013,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "5_7_1",
       "code_description": "Medium blend and solo",
       "shortname": "MediumBlendAndSolo"
@@ -2028,7 +2028,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "5_7_4",
       "code_description": "Medium blend and minimal blend",
       "shortname": "MediumBlendAndMinimalBlend"
@@ -2043,7 +2043,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "5_7",
       "code_description": "Medium Blend (Rather individualized). Some tonal matching occurs, but individual voices may still be heard.",
       "shortname": "MediumBlend"
@@ -2058,7 +2058,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "5_10",
       "code_description": "Significant Blend (Unified blend). The group sounds resonant as a whole, with some stridence.",
       "shortname": "SignificantBlend"
@@ -2073,7 +2073,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 2.3,
       "var_id": "5_13_10",
       "code_description": "Maximal blend and significant blend",
       "shortname": "MaximalBlendAndSignificantBlend"
@@ -2088,7 +2088,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.6,
       "var_id": "5_13",
       "code_description": " Maximal blend. The singers match one another\u2019s tone in such a way as to present the effect of a single tone quality. Any stridency is the result of harmonic dissonance rather than blend. The total effect is highly resonant, clear, and unified.",
       "shortname": "MaximalBlend"
@@ -2120,7 +2120,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.2,
       "var_id": "6_1",
       "code_description": "Solo",
       "shortname": "Solo"
@@ -2135,7 +2135,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.5,
       "var_id": "6_4_1",
       "code_description": "Minimal coordination and solo",
       "shortname": "MinimalCoordinationAndSolo"
@@ -2150,7 +2150,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "6_4",
       "code_description": "Minimal rhythmic coordination. An individualized, rhythmically asynchronous performance.",
       "shortname": "MinimalCoordination"
@@ -2165,7 +2165,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "6_7_1",
       "code_description": "Moderate coordination and solo",
       "shortname": "ModerateCoordinationAndSolo"
@@ -2180,7 +2180,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "6_7_4",
       "code_description": "Moderate coordination and minimal coordination",
       "shortname": "ModerateCoordinationAndMinimalCoordination"
@@ -2195,7 +2195,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "6_7",
       "code_description": "Moderate rhythmic coordination. Some degree of rhythmic coordination, still considerably individualized.",
       "shortname": "ModerateCoordination"
@@ -2210,7 +2210,7 @@
       "code_1": 5,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "6_13_1",
       "code_description": "Maximal coordination and solo",
       "shortname": "MaximalCoordinationAndSolo"
@@ -2225,7 +2225,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "6_10_7",
       "code_description": "Unified coordination and moderate coordination",
       "shortname": "UnifiedCoordinationAndModerateCoordination"
@@ -2240,7 +2240,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "6_13_4",
       "code_description": "Maximal coordination and minimal coordination",
       "shortname": "MaximalCoordinationAndMinimalCoordination"
@@ -2255,7 +2255,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "6_10",
       "code_description": "Unified rhythmic coordination. Attacks and releases are generally coordinated but not precisely so.",
       "shortname": "UnifiedCoordination"
@@ -2270,7 +2270,7 @@
       "code_1": 5,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "6_13_7",
       "code_description": "Maximal coordination and moderate coordination",
       "shortname": "MaximalCoordinationAndModerateCoordination"
@@ -2285,7 +2285,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 2.3,
       "var_id": "6_13_10",
       "code_description": "Maximal coordination and unified coordination",
       "shortname": "MaximalCoordinationAndUnifiedCoordination"
@@ -2300,7 +2300,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.6,
       "var_id": "6_13",
       "code_description": "Maximal rhythmic coordination. Precise coordination at every rhythmic level.",
       "shortname": "MaximalCoordination"
@@ -2332,7 +2332,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.2,
       "var_id": "7_1",
       "code_description": "Non-occurrence. No instruments or Two or more instruments perceived to be totally asynchronous.",
       "shortname": "NonOccurence"
@@ -2347,7 +2347,7 @@
       "code_1": 0,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.15,
+      "display_code": 0.4,
       "var_id": "7_2",
       "code_description": "Description Not Found",
       "shortname": "Shortname Not Found"
@@ -2362,7 +2362,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.5,
       "var_id": "7_4_1",
       "code_description": "Monophony and non occurence",
       "shortname": "MonophonyAndNonOccurence"
@@ -2377,7 +2377,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "7_4",
       "code_description": "Monophony. One instrument playing one note at a time, or in octaves.",
       "shortname": "Monophony"
@@ -2392,7 +2392,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "7_7_1",
       "code_description": "Unison and non occurence",
       "shortname": "UnisonAndNonOccurence"
@@ -2407,7 +2407,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "7_7_4",
       "code_description": "Unison and monophony",
       "shortname": "UnisonAndMonophony"
@@ -2422,7 +2422,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "7_7",
       "code_description": "Unison. A group of instruments playing the same melody in unison or in octaves, an instrumental solo with simple percussion accompaniment\u2014drum, rattle, sticks, clapping, etc., or any untuned percussion ensemble unless playing in polyrhythm, in which case, code 13 (Polyrhythm) (see Point 5).\n",
       "shortname": "Unison"
@@ -2437,7 +2437,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "7_10",
       "code_description": "Heterophony. Each instrument plays the same melody in a slightly different manner. The variation is usually rhythmic, with some instruments trailing behind, others pushing forward; or with some instruments more rhythmically active than others.",
       "shortname": "Heterophony"
@@ -2452,7 +2452,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 2.3,
       "var_id": "7_13_10",
       "code_description": "Polyphony polyrhythm and heterophony",
       "shortname": "PolyphonyPolyrhythmAndHeterophony"
@@ -2467,7 +2467,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.6,
       "var_id": "7_13",
       "code_description": "Polyphony or polyrhythm. The use of simultaneously produced intervals other than unison or the octave. Two-part intervals of this kind are considered polyphony, as well as harmonies of greater complexity. ",
       "shortname": "PolyphonyPolyrhythm"
@@ -2499,7 +2499,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.2,
       "var_id": "8_1",
       "code_description": "Non-occurrence. No group. Only one instrument in the ensemble, or no instruments at all.",
       "shortname": "NonOccurence"
@@ -2514,7 +2514,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.5,
       "var_id": "8_4_1",
       "code_description": "Minimal blend and non occurence",
       "shortname": "MinimalBlendAndNonOccurence"
@@ -2529,7 +2529,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "8_4",
       "code_description": "Minimal blend. Little or no overall sonority. Instruments contrast in tone quality and do not reinforce one another at all.",
       "shortname": "MinimalBlend"
@@ -2544,7 +2544,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "8_7_1",
       "code_description": "Medium blend and non occurence",
       "shortname": "MediumBlendAndNonOccurence"
@@ -2559,7 +2559,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "8_7",
       "code_description": "Medium blend.",
       "shortname": "MediumBlend"
@@ -2574,7 +2574,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "8_10",
       "code_description": "Significant Blend.",
       "shortname": "SignificantBlend"
@@ -2589,7 +2589,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.6,
       "var_id": "8_13",
       "code_description": "Maximal blend. Total effect is highly sonorous.",
       "shortname": "MaximalBlend"
@@ -2621,7 +2621,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.2,
       "var_id": "9_1",
       "code_description": "Non-occurrence. No instruments, or no ensemble\u2014one instrument only.",
       "shortname": "NonOccurence"
@@ -2636,7 +2636,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "9_4",
       "code_description": "Minimal rhythmic coordination. The members of a group share a rhythmic pattern that is so individualized that the effect is extremely asynchronous.",
       "shortname": "MinimalCoordination"
@@ -2651,7 +2651,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "9_7_1",
       "code_description": "Moderate coordination and non occurence",
       "shortname": "ModerateCoordinationAndNonOccurence"
@@ -2666,7 +2666,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "9_7",
       "code_description": "Moderate rhythmic coordination. A group that plays together on the beat, or follows the same rhythmic pattern or patterns, in a cohesive fashion.",
       "shortname": "ModerateCoordination"
@@ -2681,7 +2681,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "9_10",
       "code_description": "Unified rhythmic coordination. There is clear-cut coordination of attack and release on the beat.",
       "shortname": "UnifiedCoordination"
@@ -2696,7 +2696,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.6,
       "var_id": "9_13",
       "code_description": "Maximal or highly unified rhythmic coordination. The orchestra is tightly linked together rhythmically.",
       "shortname": "MaximalCoordination"
@@ -2728,7 +2728,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.2,
       "var_id": "10_1",
       "code_description": "Little or no repetition\u2014wordy. A continuous stream of dissimilar sung syllables, words, and phrases, with little or no repetition or use of non-lexical utterances. In such songs\u2014epics, ballads, songs of prayer and supplication, and much of Western and Eurasian song\u2014text is of paramount importance.",
       "shortname": "LittleRepetition"
@@ -2743,7 +2743,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.5,
       "var_id": "10_4_1",
       "code_description": "Some repetition and little repetition",
       "shortname": "SomeRepetitionAndLittleRepetition"
@@ -2758,7 +2758,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "10_4",
       "code_description": "Some repetition. Some repetition and/or the use of non-lexical utterances\u2014about one fourth repeated text.",
       "shortname": "SomeRepetition"
@@ -2773,7 +2773,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "10_7_1",
       "code_description": "Half repetition and little repetition",
       "shortname": "HalfRepetitionAndLittleRepetition"
@@ -2788,7 +2788,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "10_7_4",
       "code_description": "Half repetition and some repetition",
       "shortname": "HalfRepetitionAndSomeRepetition"
@@ -2803,7 +2803,7 @@
       "code_1": 4,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "10_10_1",
       "code_description": "Quite repetitious and little repetition",
       "shortname": "QuiteRepetitiousAndLittleRepetition"
@@ -2818,7 +2818,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "10_7",
       "code_description": "Half repetition. A substantial amount of repetition and/or non-lexical utterances that more or less equals the flow of unrepeated words.",
       "shortname": "HalfRepetition"
@@ -2833,7 +2833,7 @@
       "code_1": 5,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "10_13_1",
       "code_description": "Extreme repetition and little repetition",
       "shortname": "ExtremeRepetitionAndLittleRepetition"
@@ -2848,7 +2848,7 @@
       "code_1": 4,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "10_10_4",
       "code_description": "Quite repetitious and some repetition",
       "shortname": "QuiteRepetitiousAndSomeRepetition"
@@ -2863,7 +2863,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "10_13_4",
       "code_description": "Extreme repetition and some repetition",
       "shortname": "ExtremeRepetitionAndSomeRepetition"
@@ -2878,7 +2878,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "10_10_7",
       "code_description": "Quite repetitious and half repetition",
       "shortname": "QuiteRepetitiousAndHalfRepetition"
@@ -2893,7 +2893,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "10_10",
       "code_description": "Quite repetitious. Considerably more than half (about two-thirds) of the sung performance is accounted for by repetition and/or non-lexical utterances.",
       "shortname": "QuiteRepetitious"
@@ -2908,7 +2908,7 @@
       "code_1": 5,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "10_13_7",
       "code_description": "Extreme repetition and half repetition",
       "shortname": "ExtremeRepetitionAndHalfRepetition"
@@ -2923,7 +2923,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 2.3,
       "var_id": "10_13_10",
       "code_description": "Extreme repetition and quite repetitious",
       "shortname": "ExtremeRepetitionAndQuiteRepetitious"
@@ -2938,7 +2938,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.6,
       "var_id": "10_13",
       "code_description": " Extreme repetition. The text seems to be almost entirely composed of repetition of some kind and/or non-lexical utterances.",
       "shortname": "ExtremeRepetition"
@@ -2970,7 +2970,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.12,
       "var_id": "11_1",
       "code_description": "Non-occurrence. No singers.",
       "shortname": "NonOccurence"
@@ -2985,7 +2985,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.38,
       "var_id": "11_3",
       "code_description": "One-beat rhythm. A series of equally accented single notes of about the same length.",
       "shortname": "OneBeat"
@@ -3000,7 +3000,7 @@
       "code_1": 4,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.27,
+      "display_code": 0.44,
       "var_id": "11_6_1",
       "code_description": "Simple meter and non occurence",
       "shortname": "SimpleMeterAndNonOccurence"
@@ -3015,7 +3015,7 @@
       "code_1": 4,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.35,
+      "display_code": 0.56,
       "var_id": "11_6_3",
       "code_description": "Simple meter and one beat",
       "shortname": "SimpleMeterAndOneBeat"
@@ -3030,7 +3030,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 0.69,
       "var_id": "11_6_5",
       "code_description": "Simple meter and shortname not found",
       "shortname": "SimpleMeterAndShortname Not Found"
@@ -3045,7 +3045,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 0.75,
       "var_id": "11_6",
       "code_description": "Simple meter. One simple meter\u2014duple, triple, \u201csimple,\u201d or compound\u2014runs through the whole song.",
       "shortname": "SimpleMeter"
@@ -3060,7 +3060,7 @@
       "code_1": 7,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 0.88,
       "var_id": "11_11_3",
       "code_description": "Irregular meter and one beat",
       "shortname": "IrregularMeterAndOneBeat"
@@ -3075,7 +3075,7 @@
       "code_1": 8,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.62,
+      "display_code": 1.0,
       "var_id": "11_13_3",
       "code_description": "Parlando rubato and one beat",
       "shortname": "ParlandoRubatoAndOneBeat"
@@ -3090,7 +3090,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.12,
       "var_id": "11_9",
       "code_description": "Complex meter. Here, as with 6 (simple meter), one meter prevails throughout the song. In 9, however, the measure cannot be evenly divided by two or three to form subunits of two or three beats each. ",
       "shortname": "ComplexMeter"
@@ -3105,7 +3105,7 @@
       "code_1": 8,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.73,
+      "display_code": 1.19,
       "var_id": "11_13_6",
       "code_description": "Parlando rubato and simple meter",
       "shortname": "ParlandoRubatoAndSimpleMeter"
@@ -3120,7 +3120,7 @@
       "code_1": 7,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.25,
       "var_id": "11_11_9",
       "code_description": "Irregular meter and complex meter",
       "shortname": "IrregularMeterAndComplexMeter"
@@ -3135,7 +3135,7 @@
       "code_1": 7,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.38,
       "var_id": "11_11",
       "code_description": "Irregular meter. No single meter prevails throughout. ",
       "shortname": "IrregularMeter"
@@ -3150,7 +3150,7 @@
       "code_1": 8,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.38,
       "var_id": "11_13_9",
       "code_description": "Parlando rubato and complex meter",
       "shortname": "ParlandoRubatoAndComplexMeter"
@@ -3165,7 +3165,7 @@
       "code_1": 8,
       "code_2": 7,
       "code_3": null,
-      "display_code": 0.92,
+      "display_code": 1.5,
       "var_id": "11_13_11",
       "code_description": "Parlando rubato and irregular meter",
       "shortname": "ParlandoRubatoAndIrregularMeter"
@@ -3180,7 +3180,7 @@
       "code_1": 8,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 1.62,
       "var_id": "11_13",
       "code_description": "Parlando rubato. Free rhythm, in which no regularly recurring beat can be distinguished, is often close to speech in general effect. Accents and rhythmic patterns are grouped in meaningful ways, but without reference to a regular division of time into steady beats.",
       "shortname": "ParlandoRubato"
@@ -3212,7 +3212,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.12,
       "var_id": "12_1",
       "code_description": "Non-patterned. No rhythmic coherence of any sort. Each individual is independent and does not relate rhythmically to the others. Also, a solo singer.",
       "shortname": "NonPatterened"
@@ -3227,7 +3227,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.15,
+      "display_code": 0.25,
       "var_id": "12_3_1",
       "code_description": "Rhythmic unison and non patterened",
       "shortname": "RhythmicUnisonAndNonPatterened"
@@ -3242,7 +3242,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.38,
       "var_id": "12_3",
       "code_description": "Rhythmic unison. All voices move together with little or no rhythmic independence. A group may sing in parts and still be in rhythmic unison. All parts follow basically the same rhythm, so that they move together note for note.",
       "shortname": "RhythmicUnison"
@@ -3257,7 +3257,7 @@
       "code_1": 4,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.38,
       "var_id": "12_5_1",
       "code_description": "Rhythmic heterophony and non patterened",
       "shortname": "RhythmicHeterophonyAndNonPatterened"
@@ -3272,7 +3272,7 @@
       "code_1": 4,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.5,
       "var_id": "12_5_3",
       "code_description": "Rhythmic heterophony and rhythmic unison",
       "shortname": "RhythmicHeterophonyAndRhythmicUnison"
@@ -3287,7 +3287,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.62,
       "var_id": "12_5",
       "code_description": "Rhythmic heterophony. The singers tend to follow the same rhythmic pattern but one or more singers consistently deviates from the others in some way. Some may be out of phase with and trail the others; some may embellish the melody in an individual manner, or use more or less rubato than the others. They may follow the rhythm in a general way, trailing and catching up between the notes.",
       "shortname": "RhythmicHeterophony"
@@ -3302,7 +3302,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.62,
       "var_id": "12_7_3",
       "code_description": "Accompanying rhythm and rhythmic unison",
       "shortname": "AccompanyingRhythmAndRhythmicUnison"
@@ -3317,7 +3317,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 0.75,
       "var_id": "12_7_5",
       "code_description": "Accompanying rhythm and rhythmic heterophony",
       "shortname": "AccompanyingRhythmAndRhythmicHeterophony"
@@ -3332,7 +3332,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 0.88,
       "var_id": "12_7",
       "code_description": "Accompanying rhythm. The singing group is divided into two or more parts, one of which accompanies the other. The accompanying part has independent rhythmic patterns but these are subordinate to the main part.",
       "shortname": "AccompanyingRhythm"
@@ -3347,7 +3347,7 @@
       "code_1": 8,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.62,
+      "display_code": 1.0,
       "var_id": "12_13_3",
       "code_description": "Rhythmic counterpoint and rhythmic unison",
       "shortname": "RhythmicCounterpointAndRhythmicUnison"
@@ -3362,7 +3362,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.12,
       "var_id": "12_9",
       "code_description": "Simple polyrhythm. All of the parts basically conform to a single pulse. However, there are moments when one of the parts will temporarily deviate from the basic pulse to create a new pulse in conflict with it. ",
       "shortname": "SimplePolyrhythm"
@@ -3377,7 +3377,7 @@
       "code_1": 8,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.12,
       "var_id": "12_13_5",
       "code_description": "Rhythmic counterpoint and rhythmic heterophony",
       "shortname": "RhythmicCounterpointAndRhythmicHeterophony"
@@ -3392,7 +3392,7 @@
       "code_1": 8,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.25,
       "var_id": "12_13_7",
       "code_description": "Rhythmic counterpoint and accompanying rhythm",
       "shortname": "RhythmicCounterpointAndAccompanyingRhythm"
@@ -3407,7 +3407,7 @@
       "code_1": 7,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.38,
       "var_id": "12_11",
       "code_description": "Complex polyrhythm. Two or more conflicting pulses are heard simultaneously and more or less continuously throughout the song. (For a fuller explanation of 9 and 11, see explanatory note below.)",
       "shortname": "ComplexPolyrhythm"
@@ -3422,7 +3422,7 @@
       "code_1": 8,
       "code_2": 6,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.38,
       "var_id": "12_13_9",
       "code_description": "Rhythmic counterpoint and simple polyrhythm",
       "shortname": "RhythmicCounterpointAndSimplePolyrhythm"
@@ -3437,7 +3437,7 @@
       "code_1": 8,
       "code_2": 7,
       "code_3": null,
-      "display_code": 0.92,
+      "display_code": 1.5,
       "var_id": "12_13_11",
       "code_description": "Rhythmic counterpoint and complex polyrhythm",
       "shortname": "RhythmicCounterpointAndComplexPolyrhythm"
@@ -3452,7 +3452,7 @@
       "code_1": 8,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 1.62,
       "var_id": "12_13",
       "code_description": "Rhythmic counterpoint. Two or more rhythmic patterns, equal to and distinct from one another, occur simultaneously within the same rhythmic framework, but without conflict of pulse. ",
       "shortname": "RhythmicCounterpoint"
@@ -3484,7 +3484,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.14,
       "var_id": "13_1",
       "code_description": "Non-occurrence. No instruments",
       "shortname": "NonOccurence"
@@ -3499,7 +3499,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.15,
+      "display_code": 0.29,
       "var_id": "13_3_1",
       "code_description": "One beat and non occurence",
       "shortname": "OneBeatAndNonOccurence"
@@ -3514,7 +3514,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.43,
       "var_id": "13_3",
       "code_description": "One-beat rhythm. A series of equally accented single notes of about the same length.",
       "shortname": "OneBeat"
@@ -3529,7 +3529,7 @@
       "code_1": 4,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.27,
+      "display_code": 0.5,
       "var_id": "13_6_1",
       "code_description": "Simple meter and non occurence",
       "shortname": "SimpleMeterAndNonOccurence"
@@ -3544,7 +3544,7 @@
       "code_1": 4,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.35,
+      "display_code": 0.64,
       "var_id": "13_6_3",
       "code_description": "Simple meter and one beat",
       "shortname": "SimpleMeterAndOneBeat"
@@ -3559,7 +3559,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 0.86,
       "var_id": "13_6",
       "code_description": "Simple meter. One simple meter (duple, triple, simple, or compound) runs through the whole piece.",
       "shortname": "SimpleMeter"
@@ -3574,7 +3574,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 0.86,
       "var_id": "13_9_3",
       "code_description": "Complex meter and one beat",
       "shortname": "ComplexMeterAndOneBeat"
@@ -3589,7 +3589,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.58,
+      "display_code": 1.07,
       "var_id": "13_9_6",
       "code_description": "Complex meter and simple meter",
       "shortname": "ComplexMeterAndSimpleMeter"
@@ -3604,7 +3604,7 @@
       "code_1": 7,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.62,
+      "display_code": 1.14,
       "var_id": "13_13_3",
       "code_description": "Parlando rubato and one beat",
       "shortname": "ParlandoRubatoAndOneBeat"
@@ -3619,7 +3619,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.29,
       "var_id": "13_9",
       "code_description": "Complex meter. Here, as with 6, one meter prevails throughout the piece, however the measure cannot be evenly divided by two or three to form subunits of two or three beats each.",
       "shortname": "ComplexMeter"
@@ -3634,7 +3634,7 @@
       "code_1": 7,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.73,
+      "display_code": 1.36,
       "var_id": "13_13_6",
       "code_description": "Parlando rubato and simple meter",
       "shortname": "ParlandoRubatoAndSimpleMeter"
@@ -3649,7 +3649,7 @@
       "code_1": 6,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.43,
       "var_id": "13_11_9",
       "code_description": "Irregular meter and complex meter",
       "shortname": "IrregularMeterAndComplexMeter"
@@ -3664,7 +3664,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.57,
       "var_id": "13_11",
       "code_description": "Irregular meter. No one meter prevails throughout. A piece that is basically in 3/4, but has one or more measures in 2/4, is coded 11, as well as a piece in which the meter shifts continually from measure to measure\u2014for example, 3/4, 2/4, 3/4, 3/4, 5/4, 3/2, etc.",
       "shortname": "IrregularMeter"
@@ -3679,7 +3679,7 @@
       "code_1": 7,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.57,
       "var_id": "13_13_9",
       "code_description": "Parlando rubato and complex meter",
       "shortname": "ParlandoRubatoAndComplexMeter"
@@ -3694,7 +3694,7 @@
       "code_1": 7,
       "code_2": 6,
       "code_3": null,
-      "display_code": 0.92,
+      "display_code": 1.71,
       "var_id": "13_13_11",
       "code_description": "Parlando rubato and irregular meter",
       "shortname": "ParlandoRubatoAndIrregularMeter"
@@ -3709,7 +3709,7 @@
       "code_1": 7,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 1.86,
       "var_id": "13_13",
       "code_description": "Parlando rubato. Free rhythm in which no regularly recurring beat can be distinguished.",
       "shortname": "ParlandoRubato"
@@ -3741,7 +3741,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.12,
       "var_id": "14_1",
       "code_description": "No orchestra or non-patterned.",
       "shortname": "NoOrchestra"
@@ -3756,7 +3756,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.15,
+      "display_code": 0.25,
       "var_id": "14_3_1",
       "code_description": "Rhythmic unison and no orchestra",
       "shortname": "RhythmicUnisonAndNoOrchestra"
@@ -3771,7 +3771,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.38,
       "var_id": "14_3",
       "code_description": "Rhythmic unison. All instruments move together with little or no rhythmic independence. A group may play in parts and still be in rhythmic unison.",
       "shortname": "RhythmicUnison"
@@ -3786,7 +3786,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.38,
       "var_id": "14_5_1",
       "code_description": "Rhythmic heterophony and no orchestra",
       "shortname": "RhythmicHeterophonyAndNoOrchestra"
@@ -3801,7 +3801,7 @@
       "code_1": 5,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.5,
       "var_id": "14_7_1",
       "code_description": "Accompanying rhythm and no orchestra",
       "shortname": "AccompanyingRhythmAndNoOrchestra"
@@ -3816,7 +3816,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.5,
       "var_id": "14_5_3",
       "code_description": "Rhythmic heterophony and rhythmic unison",
       "shortname": "RhythmicHeterophonyAndRhythmicUnison"
@@ -3831,7 +3831,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.62,
       "var_id": "14_5",
       "code_description": "Rhythmic heterophony. The instruments tend to follow the same rhythmic pattern, but one or more instruments consistently deviates from the others in some way. Some may be out of phase with and trail the others. Some may embellish the melody in an individual manner, or use more or less rubato (divergence from the strict beat) than others.",
       "shortname": "RhythmicHeterophony"
@@ -3846,7 +3846,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.62,
       "var_id": "14_7_3",
       "code_description": "Accompanying rhythm and rhythmic unison",
       "shortname": "AccompanyingRhythmAndRhythmicUnison"
@@ -3861,7 +3861,7 @@
       "code_1": 5,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 0.75,
       "var_id": "14_7_5",
       "code_description": "Accompanying rhythm and rhythmic heterophony",
       "shortname": "AccompanyingRhythmAndRhythmicHeterophony"
@@ -3876,7 +3876,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 0.88,
       "var_id": "14_7",
       "code_description": "Accompanying rhythm. The instrumental group is divided into two or more parts, one of which accompanies the other. The accompanying part has independent rhythmic patterns, but these are subordinate to the main part. They may be (1) less active rhythmically, (2) less active melodically, (3) softer, or (4) they may occur intermittently. If the accompanying part is equal in importance and rhythmic activity to the main part, so that the accompaniment becomes, in effect, another melody, consider coding 13 (Rc).",
       "shortname": "AccompanyingRhythm"
@@ -3891,7 +3891,7 @@
       "code_1": 7,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 0.88,
       "var_id": "14_11_3",
       "code_description": "Complex polyrhythm and rhythmic unison",
       "shortname": "ComplexPolyrhythmAndRhythmicUnison"
@@ -3906,7 +3906,7 @@
       "code_1": 8,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.62,
+      "display_code": 1.0,
       "var_id": "14_13_3",
       "code_description": "Rhythmic counterpoint and rhythmic unison",
       "shortname": "RhythmicCounterpointAndRhythmicUnison"
@@ -3921,7 +3921,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.12,
       "var_id": "14_9",
       "code_description": "Simple polyrhythm. All of the parts basically conform to a single pulse. However, there are moments when one of the parts will temporarily deviate from the basic pulse to create a new pulse in conflict with it. The conflict may last a moment or it may resolve itself only after several \u201cmeasures,\u201d as in much classical Indian music. In any case, this rhythmic conflict must be only temporary.",
       "shortname": "SimplePolyrhythm"
@@ -3936,7 +3936,7 @@
       "code_1": 7,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.12,
       "var_id": "14_11_7",
       "code_description": "Complex polyrhythm and accompanying rhythm",
       "shortname": "ComplexPolyrhythmAndAccompanyingRhythm"
@@ -3951,7 +3951,7 @@
       "code_1": 7,
       "code_2": 6,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.25,
       "var_id": "14_11_9",
       "code_description": "Complex polyrhythm and simple polyrhythm",
       "shortname": "ComplexPolyrhythmAndSimplePolyrhythm"
@@ -3966,7 +3966,7 @@
       "code_1": 7,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.38,
       "var_id": "14_11",
       "code_description": "Complex polyrhythm. Two or more conflicting pulses are heard simultaneously and more or less continually throughout the song.",
       "shortname": "ComplexPolyrhythm"
@@ -3981,7 +3981,7 @@
       "code_1": 8,
       "code_2": 6,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.38,
       "var_id": "14_13_9",
       "code_description": "Rhythmic counterpoint and simple polyrhythm",
       "shortname": "RhythmicCounterpointAndSimplePolyrhythm"
@@ -3996,7 +3996,7 @@
       "code_1": 8,
       "code_2": 7,
       "code_3": null,
-      "display_code": 0.92,
+      "display_code": 1.5,
       "var_id": "14_13_11",
       "code_description": "Rhythmic counterpoint and complex polyrhythm",
       "shortname": "RhythmicCounterpointAndComplexPolyrhythm"
@@ -4011,7 +4011,7 @@
       "code_1": 8,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 1.62,
       "var_id": "14_13",
       "code_description": "Rhythmic counterpoint. Two or more rhythmic patterns, equal to and distinct from one another, occur simultaneously within the same rhythmic framework but without conflict of pulse. A fugue is an example of this quality, which is also vigorous in folk and indigenous music. The principal feature to watch for is the presence of two or more independent parts active throughout the piece.",
       "shortname": "RhythmicCounterpoint"
@@ -4043,7 +4043,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.25,
       "var_id": "15_1",
       "code_description": "Arched. An arched phrase begins at a certain point, rises in pitch, and then descends. Code at this point only if arched phrases occur prominently, not if the melody as a whole is arched.",
       "shortname": "Arched"
@@ -4058,7 +4058,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.75,
       "var_id": "15_5_1",
       "code_description": "Terraced and arched",
       "shortname": "TerracedAndArched"
@@ -4073,7 +4073,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 1.25,
       "var_id": "15_5",
       "code_description": "Terraced. The entire melody is characterized by a long descent in pitch, interrupted by periods of leveling off and, in some cases, by incidental rises. The melody begins at a relatively high pitch, moves downward through a phrase or two, and then levels off. The next portion begins at the same pitch level or slightly above it, descending to an even lower point, where it once again levels off. This cascading descent proceeds throughout the song, so that the melody ends on or near its lowest point. A sketch of this kind of melody would resemble a terraced field or a tiled roof.",
       "shortname": "Terraced"
@@ -4088,7 +4088,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 2.25,
       "var_id": "15_9",
       "code_description": "Undulating. Most phrases have a wave-like shape. They move up and down through a number of peaks and valleys of varying heights. Also coded here are those rare cases in which the shape of the phrase is predominantly ascending.",
       "shortname": "Undulating"
@@ -4103,7 +4103,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 2.75,
       "var_id": "15_13_9",
       "code_description": "Descending and undulating",
       "shortname": "DescendingAndUndulating"
@@ -4118,7 +4118,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 3.25,
       "var_id": "15_13",
       "code_description": "Descending. Most phrases descend gradually or abruptly.",
       "shortname": "Descending"
@@ -4857,7 +4857,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.14,
       "var_id": "17_1",
       "code_description": "Very long phrases. Phrases that seem to run to the limit or beyond the limit of a singer\u2019s breath capacity (16+ seconds).",
       "shortname": "VeryLongPhrases"
@@ -4872,7 +4872,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.36,
       "var_id": "17_4_1",
       "code_description": "Long phrases and very long phrases",
       "shortname": "LongPhrasesAndVeryLongPhrases"
@@ -4887,7 +4887,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.57,
       "var_id": "17_4",
       "code_description": "Long phrases. An intermediate point between medium phrase lengths and very long phrases (10-15 seconds).",
       "shortname": "LongPhrases"
@@ -4902,7 +4902,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.57,
       "var_id": "17_7_1",
       "code_description": "Medium phrases and very long phrases",
       "shortname": "MediumPhrasesAndVeryLongPhrases"
@@ -4917,7 +4917,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": 1,
-      "display_code": 0.31,
+      "display_code": 0.57,
       "var_id": "17_7_4_1",
       "code_description": "Medium phrases and long phrases and very long phrases",
       "shortname": "MediumPhrasesAndLongPhrasesAndVeryLongPhrases"
@@ -4932,7 +4932,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 0.79,
       "var_id": "17_7_4",
       "code_description": "Medium phrases and long phrases",
       "shortname": "MediumPhrasesAndLongPhrases"
@@ -4947,7 +4947,7 @@
       "code_1": 5,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 0.79,
       "var_id": "17_10_1",
       "code_description": "Short phrases and very long phrases",
       "shortname": "ShortPhrasesAndVeryLongPhrases"
@@ -4962,7 +4962,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.0,
       "var_id": "17_7",
       "code_description": "Medium phrases. Normal for the familiar English ballad type (5-9 seconds).",
       "shortname": "MediumPhrases"
@@ -4977,7 +4977,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.0,
       "var_id": "17_10_4",
       "code_description": "Short phrases and long phrases",
       "shortname": "ShortPhrasesAndLongPhrases"
@@ -4992,7 +4992,7 @@
       "code_1": 5,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.21,
       "var_id": "17_10_7",
       "code_description": "Short phrases and medium phrases",
       "shortname": "ShortPhrasesAndMediumPhrases"
@@ -5007,7 +5007,7 @@
       "code_1": 6,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.21,
       "var_id": "17_13_4",
       "code_description": "Very short phrases and long phrases",
       "shortname": "VeryShortPhrasesAndLongPhrases"
@@ -5022,7 +5022,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.43,
       "var_id": "17_10",
       "code_description": "Short phrases. (3-4 seconds).",
       "shortname": "ShortPhrases"
@@ -5037,7 +5037,7 @@
       "code_1": 6,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.43,
       "var_id": "17_13_7",
       "code_description": "Very short phrases and medium phrases",
       "shortname": "VeryShortPhrasesAndMediumPhrases"
@@ -5052,7 +5052,7 @@
       "code_1": 6,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 1.64,
       "var_id": "17_13_10",
       "code_description": "Very short phrases and short phrases",
       "shortname": "VeryShortPhrasesAndShortPhrases"
@@ -5067,7 +5067,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 1.86,
       "var_id": "17_13",
       "code_description": " Very short phrases. (1-2 seconds).",
       "shortname": "VeryShortPhrases"
@@ -5099,7 +5099,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.09,
       "var_id": "18_1",
       "code_description": "There are more than eight phrases before a full repeat.",
       "shortname": "MoreThanEightPhrases"
@@ -5114,7 +5114,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.27,
       "var_id": "18_3",
       "code_description": "There are five or seven phrases before a full repeat.",
       "shortname": "FiveSevenPhrases"
@@ -5129,7 +5129,7 @@
       "code_1": 4,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.27,
       "var_id": "18_5_1",
       "code_description": "Four eight phrases asymmetrical and more than eight phrases",
       "shortname": "FourEightPhrasesAsymmetricalAndMoreThanEightPhrases"
@@ -5144,7 +5144,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.36,
       "var_id": "18_5_3",
       "code_description": "Four eight phrases asymmetrical and five seven phrases",
       "shortname": "FourEightPhrasesAsymmetricalAndFiveSevenPhrases"
@@ -5159,7 +5159,7 @@
       "code_1": 7,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.35,
+      "display_code": 0.41,
       "var_id": "18_8_1",
       "code_description": "Three six phrases asymmetrical and more than eight phrases",
       "shortname": "ThreeSixPhrasesAsymmetricalAndMoreThanEightPhrases"
@@ -5174,7 +5174,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.45,
       "var_id": "18_5",
       "code_description": "There are four or eight phrases, asymmetrically arranged.",
       "shortname": "FourEightPhrasesAsymmetrical"
@@ -5189,7 +5189,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 0.55,
       "var_id": "18_6",
       "code_description": "Four or eight phrases symmetrically arranged. All phrases are approximately the same length.",
       "shortname": "FourEightPhrasesSymmerical"
@@ -5204,7 +5204,7 @@
       "code_1": 10,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 0.55,
       "var_id": "18_11_1",
       "code_description": "Two phrases asymmetrical and more than eight phrases",
       "shortname": "TwoPhrasesAsymmetricalAndMoreThanEightPhrases"
@@ -5219,7 +5219,7 @@
       "code_1": 11,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 0.64,
       "var_id": "18_13_1",
       "code_description": "One two phrases symmetrical and more than eight phrases",
       "shortname": "OneTwoPhrasesSymmetricalAndMoreThanEightPhrases"
@@ -5234,7 +5234,7 @@
       "code_1": 7,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.62,
+      "display_code": 0.73,
       "var_id": "18_8",
       "code_description": "Three or six phrases, asymmetrically arranged.",
       "shortname": "ThreeSixPhrasesAsymmetrical"
@@ -5249,7 +5249,7 @@
       "code_1": 8,
       "code_2": 7,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 0.77,
       "var_id": "18_9_8",
       "code_description": "Three six phrases symmetrical and three six phrases asymmetrical",
       "shortname": "ThreeSixPhrasesSymmetricalAndThreeSixPhrasesAsymmetrical"
@@ -5264,7 +5264,7 @@
       "code_1": 8,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 0.82,
       "var_id": "18_9",
       "code_description": "Three or six phrases, symmetrically arranged.",
       "shortname": "ThreeSixPhrasesSymmetrical"
@@ -5279,7 +5279,7 @@
       "code_1": 11,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 0.82,
       "var_id": "18_13_5",
       "code_description": "One two phrases symmetrical and four eight phrases asymmetrical",
       "shortname": "OneTwoPhrasesSymmetricalAndFourEightPhrasesAsymmetrical"
@@ -5294,7 +5294,7 @@
       "code_1": 10,
       "code_2": 7,
       "code_3": null,
-      "display_code": 0.73,
+      "display_code": 0.86,
       "var_id": "18_11_8",
       "code_description": "Two phrases asymmetrical and three six phrases asymmetrical",
       "shortname": "TwoPhrasesAsymmetricalAndThreeSixPhrasesAsymmetrical"
@@ -5309,7 +5309,7 @@
       "code_1": 11,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.73,
+      "display_code": 0.86,
       "var_id": "18_13_6",
       "code_description": "One two phrases symmetrical and four eight phrases symmerical",
       "shortname": "OneTwoPhrasesSymmetricalAndFourEightPhrasesSymmerical"
@@ -5324,7 +5324,7 @@
       "code_1": 10,
       "code_2": 8,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 0.91,
       "var_id": "18_11_9",
       "code_description": "Two phrases asymmetrical and three six phrases symmetrical",
       "shortname": "TwoPhrasesAsymmetricalAndThreeSixPhrasesSymmetrical"
@@ -5339,7 +5339,7 @@
       "code_1": 11,
       "code_2": 7,
       "code_3": null,
-      "display_code": 0.81,
+      "display_code": 0.95,
       "var_id": "18_13_8",
       "code_description": "One two phrases symmetrical and three six phrases asymmetrical",
       "shortname": "OneTwoPhrasesSymmetricalAndThreeSixPhrasesAsymmetrical"
@@ -5354,7 +5354,7 @@
       "code_1": 10,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.0,
       "var_id": "18_11",
       "code_description": "Two phrases asymmetrically arranged.",
       "shortname": "TwoPhrasesAsymmetrical"
@@ -5369,7 +5369,7 @@
       "code_1": 11,
       "code_2": 8,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.0,
       "var_id": "18_13_9",
       "code_description": "One two phrases symmetrical and three six phrases symmetrical",
       "shortname": "OneTwoPhrasesSymmetricalAndThreeSixPhrasesSymmetrical"
@@ -5384,7 +5384,7 @@
       "code_1": 11,
       "code_2": 10,
       "code_3": null,
-      "display_code": 0.92,
+      "display_code": 1.09,
       "var_id": "18_13_11",
       "code_description": "One two phrases symmetrical and two phrases asymmetrical",
       "shortname": "OneTwoPhrasesSymmetricalAndTwoPhrasesAsymmetrical"
@@ -5399,7 +5399,7 @@
       "code_1": 11,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 1.18,
       "var_id": "18_13",
       "code_description": " One or two phrases, symmetrically arranged.",
       "shortname": "OneTwoPhrasesSymmetrical"
@@ -5431,7 +5431,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.14,
       "var_id": "19_1",
       "code_description": "The final tone is the lowest note of the song.",
       "shortname": "LowestNote"
@@ -5446,7 +5446,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.36,
       "var_id": "19_4_1",
       "code_description": "Lower half and lowest note",
       "shortname": "LowerHalfAndLowestNote"
@@ -5461,7 +5461,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.57,
       "var_id": "19_4",
       "code_description": "The final tone falls within the lower half of the total range.",
       "shortname": "LowerHalf"
@@ -5476,7 +5476,7 @@
       "code_1": 5,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.71,
       "var_id": "19_9_1",
       "code_description": "Midpoint and lowest note",
       "shortname": "MidpointAndLowestNote"
@@ -5491,7 +5491,7 @@
       "code_1": 6,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 0.86,
       "var_id": "19_11_1",
       "code_description": "Upper half and lowest note",
       "shortname": "UpperHalfAndLowestNote"
@@ -5506,7 +5506,7 @@
       "code_1": 7,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.0,
       "var_id": "19_13_1",
       "code_description": "Highest note and lowest note",
       "shortname": "HighestNoteAndLowestNote"
@@ -5521,7 +5521,7 @@
       "code_1": 7,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.21,
       "var_id": "19_13_4",
       "code_description": "Highest note and lower half",
       "shortname": "HighestNoteAndLowerHalf"
@@ -5536,7 +5536,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.29,
       "var_id": "19_9",
       "code_description": "The final tone is located at or near the midpoint of the total range.",
       "shortname": "Midpoint"
@@ -5551,7 +5551,7 @@
       "code_1": 6,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.43,
       "var_id": "19_11_9",
       "code_description": "Upper half and midpoint",
       "shortname": "UpperHalfAndMidpoint"
@@ -5566,7 +5566,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.57,
       "var_id": "19_11",
       "code_description": "The final tone falls within the upper half of the total range.",
       "shortname": "UpperHalf"
@@ -5581,7 +5581,7 @@
       "code_1": 7,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.57,
       "var_id": "19_13_9",
       "code_description": "Highest note and midpoint",
       "shortname": "HighestNoteAndMidpoint"
@@ -5596,7 +5596,7 @@
       "code_1": 7,
       "code_2": 6,
       "code_3": null,
-      "display_code": 0.92,
+      "display_code": 1.71,
       "var_id": "19_13_11",
       "code_description": "Highest note and upper half",
       "shortname": "HighestNoteAndUpperHalf"
@@ -5611,7 +5611,7 @@
       "code_1": 7,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 1.86,
       "var_id": "19_13",
       "code_description": "The final tone is the highest note of the song.",
       "shortname": "HighestNote"
@@ -5643,7 +5643,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.2,
       "var_id": "20_1",
       "code_description": "A monotone to a major second.",
       "shortname": "MonotoneMajorSecond"
@@ -5658,7 +5658,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.5,
       "var_id": "20_4_1",
       "code_description": "Minor third perfect fifth and monotone major second",
       "shortname": "MinorThirdPerfectFifthAndMonotoneMajorSecond"
@@ -5673,7 +5673,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "20_4",
       "code_description": "A minor third to a perfect fifth.",
       "shortname": "MinorThirdPerfectFifth"
@@ -5688,7 +5688,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "20_7_1",
       "code_description": "Minor sixth octave and monotone major second",
       "shortname": "MinorSixthOctaveAndMonotoneMajorSecond"
@@ -5703,7 +5703,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "20_7_4",
       "code_description": "Minor sixth octave and minor third perfect fifth",
       "shortname": "MinorSixthOctaveAndMinorThirdPerfectFifth"
@@ -5718,7 +5718,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "20_7",
       "code_description": "A minor sixth to an octave.",
       "shortname": "MinorSixthOctave"
@@ -5733,7 +5733,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "20_10",
       "code_description": "A minor ninth to a major fourteenth.",
       "shortname": "MinorNinthMajorFourteenth"
@@ -5748,7 +5748,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 2.3,
       "var_id": "20_13_10",
       "code_description": "Two octaves or more and minor ninth major fourteenth",
       "shortname": "TwoOctavesOrMoreAndMinorNinthMajorFourteenth"
@@ -5763,7 +5763,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.6,
       "var_id": "20_13",
       "code_description": "Two octaves or more.",
       "shortname": "TwoOctavesOrMore"
@@ -5795,7 +5795,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.17,
       "var_id": "21_1",
       "code_description": "Monotone. No intervals occur. The song remains on approximately one pitch. A polyphonic song would be coded \u201cmonotone\u201d if each part stays at the same pitch level.",
       "shortname": "Monotone"
@@ -5810,7 +5810,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.42,
       "var_id": "21_4_1",
       "code_description": "Narrow intervals and monotone",
       "shortname": "NarrowIntervalsAndMonotone"
@@ -5825,7 +5825,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.67,
       "var_id": "21_4",
       "code_description": "Narrow intervals. Intervals of a half step or less are prominent (though not necessarily predominant) in the song.",
       "shortname": "NarrowIntervals"
@@ -5840,7 +5840,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.67,
       "var_id": "21_7_1",
       "code_description": "Diatonic intervals and monotone",
       "shortname": "DiatonicIntervalsAndMonotone"
@@ -5855,7 +5855,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": 1,
-      "display_code": 0.31,
+      "display_code": 0.67,
       "var_id": "21_7_4_1",
       "code_description": "Diatonic intervals and narrow intervals and monotone",
       "shortname": "DiatonicIntervalsAndNarrowIntervalsAndMonotone"
@@ -5870,7 +5870,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 0.92,
       "var_id": "21_7_4",
       "code_description": "Diatonic intervals and narrow intervals",
       "shortname": "DiatonicIntervalsAndNarrowIntervals"
@@ -5885,7 +5885,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.17,
       "var_id": "21_7",
       "code_description": "Diatonic intervals. Diatonic melodies where whole step predominates.",
       "shortname": "DiatonicIntervals"
@@ -5900,7 +5900,7 @@
       "code_1": 6,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.17,
       "var_id": "21_13_1",
       "code_description": "Very large intervals and monotone",
       "shortname": "VeryLargeIntervalsAndMonotone"
@@ -5915,7 +5915,7 @@
       "code_1": 4,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.17,
       "var_id": "21_10_4",
       "code_description": "Large intervals and narrow intervals",
       "shortname": "LargeIntervalsAndNarrowIntervals"
@@ -5930,7 +5930,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.67,
       "var_id": "21_10",
       "code_description": "Large intervals. Intervals of a third occur more frequently than other intervals.",
       "shortname": "LargeIntervals"
@@ -5945,7 +5945,7 @@
       "code_1": 6,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 1.92,
       "var_id": "21_13_10",
       "code_description": "Very large intervals and large intervals",
       "shortname": "VeryLargeIntervalsAndLargeIntervals"
@@ -5960,7 +5960,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.17,
       "var_id": "21_13",
       "code_description": "Very large intervals. Intervals of a fourth and a fifth or larger predominate.",
       "shortname": "VeryLargeIntervals"
@@ -5992,7 +5992,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.17,
       "var_id": "22_1",
       "code_description": "No polyphony.",
       "shortname": "NoPolyphony"
@@ -6007,7 +6007,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.15,
+      "display_code": 0.33,
       "var_id": "22_3_1",
       "code_description": "Drone polyphony and no polyphony",
       "shortname": "DronePolyphonyAndNoPolyphony"
@@ -6022,7 +6022,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.5,
       "var_id": "22_3",
       "code_description": "Drone polyphony. One or more tones are held or repeated while the melody follows its own course. The drone part or parts need not necessarily remain on the same level throughout the song. The pitch of the drone can be shifted, while another part moves freely around it. Do not code drone polyphony when the drone effect is only a transitory one.",
       "shortname": "DronePolyphony"
@@ -6037,7 +6037,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.27,
+      "display_code": 0.58,
       "var_id": "22_6_1",
       "code_description": "Isolate chords and no polyphony",
       "shortname": "IsolateChordsAndNoPolyphony"
@@ -6052,7 +6052,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.35,
+      "display_code": 0.75,
       "var_id": "22_6_3",
       "code_description": "Isolate chords and drone polyphony",
       "shortname": "IsolateChordsAndDronePolyphony"
@@ -6067,7 +6067,7 @@
       "code_1": 4,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.35,
+      "display_code": 0.75,
       "var_id": "22_8_1",
       "code_description": "Parallel chords and no polyphony",
       "shortname": "ParallelChordsAndNoPolyphony"
@@ -6082,7 +6082,7 @@
       "code_1": 4,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 0.92,
       "var_id": "22_8_3",
       "code_description": "Parallel chords and drone polyphony",
       "shortname": "ParallelChordsAndDronePolyphony"
@@ -6097,7 +6097,7 @@
       "code_1": 5,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 0.92,
       "var_id": "22_10_1",
       "code_description": "Harmony and no polyphony",
       "shortname": "HarmonyAndNoPolyphony"
@@ -6112,7 +6112,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 1.0,
       "var_id": "22_6",
       "code_description": "Isolated chords. Chords occurring in a texture that is basically unison\u2014chords that appear in a song otherwise sung in unison. Two different chords rarely succeed one another. In some cases, there may be only one chord in each section. If this chord tends to recur at the same point in each repetition, the song is coded 6. If not, the song is not considered polyphonic.",
       "shortname": "IsolateChords"
@@ -6127,7 +6127,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.5,
+      "display_code": 1.08,
       "var_id": "22_10_3",
       "code_description": "Harmony and drone polyphony",
       "shortname": "HarmonyAndDronePolyphony"
@@ -6142,7 +6142,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.17,
       "var_id": "22_8_6",
       "code_description": "Parallel chords and isolate chords",
       "shortname": "ParallelChordsAndIsolateChords"
@@ -6157,7 +6157,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.62,
+      "display_code": 1.33,
       "var_id": "22_8",
       "code_description": "Parallel chords. Two or more parts moving parallel to one another at pitch intervals other than the octave or unison. Parallel means that the parts move in the same direction. The distance between the parts does not have to be maintained at exactly the same interval throughout, as long as the general movement is parallel.",
       "shortname": "ParallelChords"
@@ -6172,7 +6172,7 @@
       "code_1": 6,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.62,
+      "display_code": 1.33,
       "var_id": "22_13_3",
       "code_description": "Counterpoint and drone polyphony",
       "shortname": "CounterpointAndDronePolyphony"
@@ -6187,7 +6187,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.5,
       "var_id": "22_10_8",
       "code_description": "Harmony and parallel chords",
       "shortname": "HarmonyAndParallelChords"
@@ -6202,7 +6202,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.67,
       "var_id": "22_10",
       "code_description": "Harmony. Contrary motion occurs. Some parts move downward while others move upward. This may also happen within the general context of parallel movement. As long as there is some significant amount of contrary motion, 10 can be coded.",
       "shortname": "Harmony"
@@ -6217,7 +6217,7 @@
       "code_1": 6,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.81,
+      "display_code": 1.75,
       "var_id": "22_13_8",
       "code_description": "Counterpoint and parallel chords",
       "shortname": "CounterpointAndParallelChords"
@@ -6232,7 +6232,7 @@
       "code_1": 6,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 1.92,
       "var_id": "22_13_10",
       "code_description": "Counterpoint and harmony",
       "shortname": "CounterpointAndHarmony"
@@ -6247,7 +6247,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.17,
       "var_id": "22_13",
       "code_description": "Counterpoint. Two or more parts that are rhythmically and melodically independent. In all other cases except drone polyphony, the parts move together rhythmically. In counterpoint, as distinct from the drone, the parts are active melodically. 13 is coded when at least two parts are rhythmically active and contrastive.",
       "shortname": "Counterpoint"
@@ -6279,7 +6279,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.2,
       "var_id": "23_1",
       "code_description": "Extreme embellishment.",
       "shortname": "ExtremeEmbeillishment"
@@ -6294,7 +6294,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "23_4",
       "code_description": "Much embellishment.",
       "shortname": "MuchEmbeillishment"
@@ -6309,7 +6309,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "23_7_1",
       "code_description": "Medium embellishment and extreme embeillishment",
       "shortname": "MediumEmbellishmentAndExtremeEmbeillishment"
@@ -6324,7 +6324,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "23_7_4",
       "code_description": "Medium embellishment and much embeillishment",
       "shortname": "MediumEmbellishmentAndMuchEmbeillishment"
@@ -6339,7 +6339,7 @@
       "code_1": 4,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "23_10_1",
       "code_description": "Slight embellishment and extreme embeillishment",
       "shortname": "SlightEmbellishmentAndExtremeEmbeillishment"
@@ -6354,7 +6354,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "23_7",
       "code_description": "Medium or considerable embellishment.",
       "shortname": "MediumEmbellishment"
@@ -6369,7 +6369,7 @@
       "code_1": 5,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "23_13_1",
       "code_description": "Little or no embellishment and extreme embeillishment",
       "shortname": "LittleOrNoEmbellishmentAndExtremeEmbeillishment"
@@ -6384,7 +6384,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "23_13_4",
       "code_description": "Little or no embellishment and much embeillishment",
       "shortname": "LittleOrNoEmbellishmentAndMuchEmbeillishment"
@@ -6399,7 +6399,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "23_10",
       "code_description": "Slight embellishment.",
       "shortname": "SlightEmbellishment"
@@ -6414,7 +6414,7 @@
       "code_1": 5,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "23_13_7",
       "code_description": "Little or no embellishment and medium embellishment",
       "shortname": "LittleOrNoEmbellishmentAndMediumEmbellishment"
@@ -6429,7 +6429,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 2.3,
       "var_id": "23_13_10",
       "code_description": "Little or no embellishment and slight embellishment",
       "shortname": "LittleOrNoEmbellishmentAndSlightEmbellishment"
@@ -6444,7 +6444,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.6,
       "var_id": "23_13",
       "code_description": "Little or no embellishment.",
       "shortname": "LittleOrNoEmbellishment"
@@ -6476,7 +6476,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.14,
       "var_id": "24_1",
       "code_description": "Very slow.",
       "shortname": "VerySlow"
@@ -6491,7 +6491,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.15,
+      "display_code": 0.29,
       "var_id": "24_3_1",
       "code_description": "Quite slow and very slow",
       "shortname": "QuiteSlowAndVerySlow"
@@ -6506,7 +6506,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.43,
       "var_id": "24_3",
       "code_description": "Quite slow.",
       "shortname": "QuiteSlow"
@@ -6521,7 +6521,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.43,
       "var_id": "24_5_1",
       "code_description": "Slow and very slow",
       "shortname": "SlowAndVerySlow"
@@ -6536,7 +6536,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.57,
       "var_id": "24_5_3",
       "code_description": "Slow and quite slow",
       "shortname": "SlowAndQuiteSlow"
@@ -6551,7 +6551,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.71,
       "var_id": "24_5",
       "code_description": "Slow",
       "shortname": "Slow"
@@ -6566,7 +6566,7 @@
       "code_1": 5,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.71,
       "var_id": "24_9_1",
       "code_description": "Moderate tempo and very slow",
       "shortname": "ModerateTempoAndVerySlow"
@@ -6581,7 +6581,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 0.86,
       "var_id": "24_9_3",
       "code_description": "Moderate tempo and quite slow",
       "shortname": "ModerateTempoAndQuiteSlow"
@@ -6596,7 +6596,7 @@
       "code_1": 5,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.0,
       "var_id": "24_9_5",
       "code_description": "Moderate tempo and slow",
       "shortname": "ModerateTempoAndSlow"
@@ -6611,7 +6611,7 @@
       "code_1": 6,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.0,
       "var_id": "24_11_3",
       "code_description": "Fast and quite slow",
       "shortname": "FastAndQuiteSlow"
@@ -6626,7 +6626,7 @@
       "code_1": 6,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.62,
+      "display_code": 1.14,
       "var_id": "24_11_5",
       "code_description": "Fast and slow",
       "shortname": "FastAndSlow"
@@ -6641,7 +6641,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.29,
       "var_id": "24_9",
       "code_description": "Moderate tempo.",
       "shortname": "ModerateTempo"
@@ -6656,7 +6656,7 @@
       "code_1": 6,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.43,
       "var_id": "24_11_9",
       "code_description": "Fast and moderate tempo",
       "shortname": "FastAndModerateTempo"
@@ -6671,7 +6671,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.57,
       "var_id": "24_11",
       "code_description": "Fast.",
       "shortname": "Fast"
@@ -6686,7 +6686,7 @@
       "code_1": 7,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.57,
       "var_id": "24_13_9",
       "code_description": "Very fast and moderate tempo",
       "shortname": "VeryFastAndModerateTempo"
@@ -6701,7 +6701,7 @@
       "code_1": 7,
       "code_2": 6,
       "code_3": null,
-      "display_code": 0.92,
+      "display_code": 1.71,
       "var_id": "24_13_11",
       "code_description": "Very fast and fast",
       "shortname": "VeryFastAndFast"
@@ -6716,7 +6716,7 @@
       "code_1": 7,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 1.86,
       "var_id": "24_13",
       "code_description": "Very fast.",
       "shortname": "VeryFast"
@@ -6748,7 +6748,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.2,
       "var_id": "25_1",
       "code_description": "Very soft.",
       "shortname": "VerySoft"
@@ -6763,7 +6763,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.5,
       "var_id": "25_4_1",
       "code_description": "Soft and very soft",
       "shortname": "SoftAndVerySoft"
@@ -6778,7 +6778,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "25_4",
       "code_description": "Soft",
       "shortname": "Soft"
@@ -6793,7 +6793,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "25_7_1",
       "code_description": "Mid volume and very soft",
       "shortname": "MidVolumeAndVerySoft"
@@ -6808,7 +6808,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "25_7_4",
       "code_description": "Mid volume and soft",
       "shortname": "MidVolumeAndSoft"
@@ -6823,7 +6823,7 @@
       "code_1": 4,
       "code_2": 1.5,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 1.2,
       "var_id": "25_10_2",
       "code_description": "Loud and shortname not found",
       "shortname": "LoudAndShortname Not Found"
@@ -6838,7 +6838,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": 1,
-      "display_code": 0.46,
+      "display_code": 1.2,
       "var_id": "25_10_7_1",
       "code_description": "Loud and mid volume and very soft",
       "shortname": "LoudAndMidVolumeAndVerySoft"
@@ -6853,7 +6853,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "25_7",
       "code_description": "Mid-volume.",
       "shortname": "MidVolume"
@@ -6868,7 +6868,7 @@
       "code_1": 4,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "25_10_4",
       "code_description": "Loud and soft",
       "shortname": "LoudAndSoft"
@@ -6883,7 +6883,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "25_10_7",
       "code_description": "Loud and mid volume",
       "shortname": "LoudAndMidVolume"
@@ -6898,7 +6898,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "25_13_4",
       "code_description": "Very loud and soft",
       "shortname": "VeryLoudAndSoft"
@@ -6913,7 +6913,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "25_10",
       "code_description": "Loud",
       "shortname": "Loud"
@@ -6928,7 +6928,7 @@
       "code_1": 5,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "25_13_7",
       "code_description": "Very loud and mid volume",
       "shortname": "VeryLoudAndMidVolume"
@@ -6943,7 +6943,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 2.3,
       "var_id": "25_13_10",
       "code_description": "Very loud and loud",
       "shortname": "VeryLoudAndLoud"
@@ -6958,7 +6958,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.6,
       "var_id": "25_13",
       "code_description": "Very loud.",
       "shortname": "VeryLoud"
@@ -6990,7 +6990,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.17,
       "var_id": "26_1",
       "code_description": "Extreme rubato. If there is no beat, and the piece has already been coded 13 (Free rhythm) on Line 11 (Overall vocal rhythm), 1 is automatically coded.",
       "shortname": "ExtremeRubato"
@@ -7005,7 +7005,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.5,
       "var_id": "26_5_1",
       "code_description": "Much rubato and extreme rubato",
       "shortname": "MuchRubatoAndExtremeRubato"
@@ -7020,7 +7020,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.83,
       "var_id": "26_5",
       "code_description": "Much rubato.",
       "shortname": "MuchRubato"
@@ -7035,7 +7035,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.83,
       "var_id": "26_9_1",
       "code_description": "Some rubato and extreme rubato",
       "shortname": "SomeRubatoAndExtremeRubato"
@@ -7050,7 +7050,7 @@
       "code_1": 6,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.17,
       "var_id": "26_13_1",
       "code_description": "No rubato and extreme rubato",
       "shortname": "NoRubatoAndExtremeRubato"
@@ -7065,7 +7065,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.17,
       "var_id": "26_9_5",
       "code_description": "Some rubato and much rubato",
       "shortname": "SomeRubatoAndMuchRubato"
@@ -7080,7 +7080,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.5,
       "var_id": "26_9",
       "code_description": "Some rubato. A small amount of freedom\u2014for example, if pauses of irregular length occur between sections or stanzas of the melody.",
       "shortname": "SomeRubato"
@@ -7095,7 +7095,7 @@
       "code_1": 6,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.5,
       "var_id": "26_13_5",
       "code_description": "No rubato and much rubato",
       "shortname": "NoRubatoAndMuchRubato"
@@ -7110,7 +7110,7 @@
       "code_1": 6,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.83,
       "var_id": "26_13_9",
       "code_description": "No rubato and some rubato",
       "shortname": "NoRubatoAndSomeRubato"
@@ -7125,7 +7125,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.17,
       "var_id": "26_13",
       "code_description": "No rubato. Strict conformity to the beat.",
       "shortname": "NoRubato"
@@ -7157,7 +7157,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.17,
       "var_id": "27_1",
       "code_description": "Extreme rubato.",
       "shortname": "ExtremeRubato"
@@ -7172,7 +7172,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.5,
       "var_id": "27_5_1",
       "code_description": "Much rubato and extreme rubato",
       "shortname": "MuchRubatoAndExtremeRubato"
@@ -7187,7 +7187,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.83,
       "var_id": "27_5",
       "code_description": "Much rubato.",
       "shortname": "MuchRubato"
@@ -7202,7 +7202,7 @@
       "code_1": 6,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.17,
       "var_id": "27_13_1",
       "code_description": "No rubato and extreme rubato",
       "shortname": "NoRubatoAndExtremeRubato"
@@ -7217,7 +7217,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.5,
       "var_id": "27_9",
       "code_description": "Some rubato.",
       "shortname": "SomeRubato"
@@ -7232,7 +7232,7 @@
       "code_1": 6,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.83,
       "var_id": "27_13_9",
       "code_description": "No rubato and some rubato",
       "shortname": "NoRubatoAndSomeRubato"
@@ -7247,7 +7247,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.17,
       "var_id": "27_13",
       "code_description": "No rubato.",
       "shortname": "NoRubato"
@@ -7279,7 +7279,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.17,
       "var_id": "28_1",
       "code_description": "Maximal glissando. Glissando is extremely prominent.",
       "shortname": "MaximalGlissando"
@@ -7294,7 +7294,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.38,
+      "display_code": 0.83,
       "var_id": "28_5",
       "code_description": "Prominent glissando.",
       "shortname": "ProminentGlissando"
@@ -7309,7 +7309,7 @@
       "code_1": 5,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.17,
       "var_id": "28_9_5",
       "code_description": "Some glissando and prominent glissando",
       "shortname": "SomeGlissandoAndProminentGlissando"
@@ -7324,7 +7324,7 @@
       "code_1": 6,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.17,
       "var_id": "28_13_1",
       "code_description": "Little or no glissando and maximal glissando",
       "shortname": "LittleOrNoGlissandoAndMaximalGlissando"
@@ -7339,7 +7339,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.5,
       "var_id": "28_9",
       "code_description": "Some glissando.",
       "shortname": "SomeGlissando"
@@ -7354,7 +7354,7 @@
       "code_1": 6,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.5,
       "var_id": "28_13_5",
       "code_description": "Little or no glissando and prominent glissando",
       "shortname": "LittleOrNoGlissandoAndProminentGlissando"
@@ -7369,7 +7369,7 @@
       "code_1": 6,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.85,
+      "display_code": 1.83,
       "var_id": "28_13_9",
       "code_description": "Little or no glissando and some glissando",
       "shortname": "LittleOrNoGlissandoAndSomeGlissando"
@@ -7384,7 +7384,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.17,
       "var_id": "28_13",
       "code_description": "Little or no glissando.",
       "shortname": "LittleOrNoGlissando"
@@ -7416,7 +7416,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.33,
       "var_id": "29_1",
       "code_description": "Much melisma. Most of the pitch changes are unarticulated.",
       "shortname": "MuchMelisma"
@@ -7431,7 +7431,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 1.33,
       "var_id": "29_7_1",
       "code_description": "Some melisma and much melisma",
       "shortname": "SomeMelismaAndMuchMelisma"
@@ -7446,7 +7446,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 2.33,
       "var_id": "29_7",
       "code_description": "Some melisma. Some of the pitch changes are unarticulated.",
       "shortname": "SomeMelisma"
@@ -7461,7 +7461,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 2.33,
       "var_id": "29_13_1",
       "code_description": "Little or no melisma and much melisma",
       "shortname": "LittleOrNoMelismaAndMuchMelisma"
@@ -7476,7 +7476,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 3.33,
       "var_id": "29_13_7",
       "code_description": "Little or no melisma and some melisma",
       "shortname": "LittleOrNoMelismaAndSomeMelisma"
@@ -7491,7 +7491,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 4.33,
       "var_id": "29_13",
       "code_description": "Little or no melisma. Syllabic: All of the pitch changes are articulated in separate syllables.",
       "shortname": "LittleOrNoMelisma"
@@ -7523,7 +7523,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.2,
       "var_id": "30_1",
       "code_description": "Much tremolo. Tremolo is heavy throughout the song.",
       "shortname": "MuchTremolo"
@@ -7538,7 +7538,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.5,
       "var_id": "30_4_1",
       "code_description": "Moderate tremolo.and much tremolo",
       "shortname": "ModerateTremolo.AndMuchTremolo"
@@ -7553,7 +7553,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "30_4",
       "code_description": "Moderate tremolo.",
       "shortname": "ModerateTremolo."
@@ -7568,7 +7568,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "30_7_1",
       "code_description": "Some tremolo and much tremolo",
       "shortname": "SomeTremoloAndMuchTremolo"
@@ -7583,7 +7583,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "30_7_4",
       "code_description": "Some tremolo and moderate tremolo.",
       "shortname": "SomeTremoloAndModerateTremolo."
@@ -7598,7 +7598,7 @@
       "code_1": 4,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "30_10_1",
       "code_description": "Slight tremolo and much tremolo",
       "shortname": "SlightTremoloAndMuchTremolo"
@@ -7613,7 +7613,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "30_7",
       "code_description": "Some tremolo. Tremolo is present and noticeable, but relatively slight.",
       "shortname": "SomeTremolo"
@@ -7628,7 +7628,7 @@
       "code_1": 5,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "30_13_1",
       "code_description": "Little tremolo and much tremolo",
       "shortname": "LittleTremoloAndMuchTremolo"
@@ -7643,7 +7643,7 @@
       "code_1": 4,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "30_10_4",
       "code_description": "Slight tremolo and moderate tremolo.",
       "shortname": "SlightTremoloAndModerateTremolo."
@@ -7658,7 +7658,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "30_13_4",
       "code_description": "Little tremolo and moderate tremolo.",
       "shortname": "LittleTremoloAndModerateTremolo."
@@ -7673,7 +7673,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "30_10_7",
       "code_description": "Slight tremolo and some tremolo",
       "shortname": "SlightTremoloAndSomeTremolo"
@@ -7688,7 +7688,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "30_10",
       "code_description": "Slight tremolo.",
       "shortname": "SlightTremolo"
@@ -7703,7 +7703,7 @@
       "code_1": 5,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "30_13_7",
       "code_description": "Little tremolo and some tremolo",
       "shortname": "LittleTremoloAndSomeTremolo"
@@ -7718,7 +7718,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 2.3,
       "var_id": "30_13_10",
       "code_description": "Little tremolo and slight tremolo",
       "shortname": "LittleTremoloAndSlightTremolo"
@@ -7733,7 +7733,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.6,
       "var_id": "30_13",
       "code_description": "Little or no tremolo",
       "shortname": "LittleTremolo"
@@ -7765,7 +7765,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.25,
       "var_id": "31_1",
       "code_description": "Much glottal. Strongly characterized by glottal activity.",
       "shortname": "MuchGlottal"
@@ -7780,7 +7780,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 1.0,
       "var_id": "31_7_1",
       "code_description": "Some glottal and much glottal",
       "shortname": "SomeGlottalAndMuchGlottal"
@@ -7795,7 +7795,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.75,
       "var_id": "31_7",
       "code_description": "Some glottal. Glottal activity present and noticeable.",
       "shortname": "SomeGlottal"
@@ -7810,7 +7810,7 @@
       "code_1": 4,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.75,
       "var_id": "31_13_1",
       "code_description": "Little or no glottal and much glottal",
       "shortname": "LittleOrNoGlottalAndMuchGlottal"
@@ -7825,7 +7825,7 @@
       "code_1": 4,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.5,
       "var_id": "31_13_7",
       "code_description": "Little or no glottal and some glottal",
       "shortname": "LittleOrNoGlottalAndSomeGlottal"
@@ -7840,7 +7840,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 3.25,
       "var_id": "31_13",
       "code_description": "Little or no glottal. Little or no glottal activity.",
       "shortname": "LittleOrNoGlottal"
@@ -7872,7 +7872,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.2,
       "var_id": "32_1",
       "code_description": "Very high. Usually falsetto in men.",
       "shortname": "VeryHigh"
@@ -7887,7 +7887,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.5,
       "var_id": "32_4_1",
       "code_description": "Highest note and very high",
       "shortname": "HighestNoteAndVeryHigh"
@@ -7902,7 +7902,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "32_7_1",
       "code_description": "Mid voice and very high",
       "shortname": "MidVoiceAndVeryHigh"
@@ -7917,7 +7917,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "32_4",
       "code_description": "High. Usually head register.",
       "shortname": "HighestNote"
@@ -7932,7 +7932,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": 1,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "32_7_4_1",
       "code_description": "Mid voice and highest note and very high",
       "shortname": "MidVoiceAndHighestNoteAndVeryHigh"
@@ -7947,7 +7947,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "32_7_4",
       "code_description": "Mid voice and highest note",
       "shortname": "MidVoiceAndHighestNote"
@@ -7962,7 +7962,7 @@
       "code_1": 4,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "32_10_1",
       "code_description": "Low and very high",
       "shortname": "LowAndVeryHigh"
@@ -7977,7 +7977,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "32_7",
       "code_description": "Mid-voice.",
       "shortname": "MidVoice"
@@ -7992,7 +7992,7 @@
       "code_1": 5,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "32_13_1",
       "code_description": "Very low and very high",
       "shortname": "VeryLowAndVeryHigh"
@@ -8007,7 +8007,7 @@
       "code_1": 4,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "32_10_4",
       "code_description": "Low and highest note",
       "shortname": "LowAndHighestNote"
@@ -8022,7 +8022,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": 2,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "32_10_7_4",
       "code_description": "Low and mid voice and highest note",
       "shortname": "LowAndMidVoiceAndHighestNote"
@@ -8037,7 +8037,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "32_10_7",
       "code_description": "Low and mid voice",
       "shortname": "LowAndMidVoice"
@@ -8052,7 +8052,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "32_13_4",
       "code_description": "Very low and highest note",
       "shortname": "VeryLowAndHighestNote"
@@ -8067,7 +8067,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "32_10",
       "code_description": "Low. Usually sung \u201cin the chest.\u201d",
       "shortname": "Low"
@@ -8082,7 +8082,7 @@
       "code_1": 5,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "32_13_7",
       "code_description": "Very low and mid voice",
       "shortname": "VeryLowAndMidVoice"
@@ -8097,7 +8097,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 2.3,
       "var_id": "32_13_10",
       "code_description": "Very low and low",
       "shortname": "VeryLowAndLow"
@@ -8112,7 +8112,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.6,
       "var_id": "32_13",
       "code_description": "Very low. The singer is probably producing their lowest tone.",
       "shortname": "VeryLow"
@@ -8144,7 +8144,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.12,
       "var_id": "33_1",
       "code_description": "Very narrow. The narrowest, squeezed, thin, and tense voices. The vocal cavities are narrowed and constricted by raising the glottis, raising the tongue and pulling it back, and tensing the muscles in the throat.",
       "shortname": "VeryNarrow"
@@ -8159,7 +8159,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.15,
+      "display_code": 0.25,
       "var_id": "33_3_1",
       "code_description": "Narrow and very narrow",
       "shortname": "NarrowAndVeryNarrow"
@@ -8174,7 +8174,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.23,
+      "display_code": 0.38,
       "var_id": "33_3",
       "code_description": "Narrow. A markedly squeezed, narrow, and tense voice.",
       "shortname": "Narrow"
@@ -8189,7 +8189,7 @@
       "code_1": 4,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.27,
+      "display_code": 0.44,
       "var_id": "33_6_1",
       "code_description": "Speaking and very narrow",
       "shortname": "SpeakingAndVeryNarrow"
@@ -8204,7 +8204,7 @@
       "code_1": 4,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.35,
+      "display_code": 0.56,
       "var_id": "33_6_3",
       "code_description": "Speaking and narrow",
       "shortname": "SpeakingAndNarrow"
@@ -8219,7 +8219,7 @@
       "code_1": 6,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 0.69,
       "var_id": "33_8_3",
       "code_description": "Wide and narrow",
       "shortname": "WideAndNarrow"
@@ -8234,7 +8234,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.46,
+      "display_code": 0.75,
       "var_id": "33_6",
       "code_description": "Speaking. Medium width, neither narrow and tense nor wide and relaxed, this voice often has a speech-like quality.",
       "shortname": "Speaking"
@@ -8249,7 +8249,7 @@
       "code_1": 7,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.5,
+      "display_code": 0.81,
       "var_id": "33_10_3",
       "code_description": "Very wide and narrow",
       "shortname": "VeryWideAndNarrow"
@@ -8264,7 +8264,7 @@
       "code_1": 6,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 0.88,
       "var_id": "33_8_6",
       "code_description": "Wide and speaking",
       "shortname": "WideAndSpeaking"
@@ -8279,7 +8279,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.62,
+      "display_code": 1.0,
       "var_id": "33_8",
       "code_description": "Wide. A relaxed, open-throated voice, usually evincing a considerable amount of resonance. This latter quality can be obscured by nasalization, which can be produced simultaneously.",
       "shortname": "Wide"
@@ -8294,7 +8294,7 @@
       "code_1": 7,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.62,
+      "display_code": 1.0,
       "var_id": "33_10_6",
       "code_description": "Very wide and speaking",
       "shortname": "VeryWideAndSpeaking"
@@ -8309,7 +8309,7 @@
       "code_1": 8,
       "code_2": 7,
       "code_3": 2,
-      "display_code": 0.67,
+      "display_code": 1.08,
       "var_id": "33_13_10_3",
       "code_description": "Yodel and very wide and narrow",
       "shortname": "YodelAndVeryWideAndNarrow"
@@ -8324,7 +8324,7 @@
       "code_1": 7,
       "code_2": 6,
       "code_3": null,
-      "display_code": 0.69,
+      "display_code": 1.12,
       "var_id": "33_10_8",
       "code_description": "Very wide and wide",
       "shortname": "VeryWideAndWide"
@@ -8339,7 +8339,7 @@
       "code_1": 8,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.73,
+      "display_code": 1.19,
       "var_id": "33_13_6",
       "code_description": "Yodel and speaking",
       "shortname": "YodelAndSpeaking"
@@ -8354,7 +8354,7 @@
       "code_1": 7,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.25,
       "var_id": "33_10",
       "code_description": "Very wide. A wide-open, resonant, often ringing or liquid voice",
       "shortname": "VeryWide"
@@ -8369,7 +8369,7 @@
       "code_1": 8,
       "code_2": 6,
       "code_3": null,
-      "display_code": 0.81,
+      "display_code": 1.31,
       "var_id": "33_13_8",
       "code_description": "Yodel and wide",
       "shortname": "YodelAndWide"
@@ -8384,7 +8384,7 @@
       "code_1": 8,
       "code_2": 7,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 1.44,
       "var_id": "33_13_10",
       "code_description": "Yodel and very wide",
       "shortname": "YodelAndVeryWide"
@@ -8399,7 +8399,7 @@
       "code_1": 8,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 1.62,
       "var_id": "33_13",
       "code_description": "Yodel. A distinctively liquid, wide-open, extremely relaxed way of singing. It is often, but not necessarily, characterized by quick, wide, and seemingly effortless leaps in pitch that pass from chesty tone to falsetto, or head tone, and back again.",
       "shortname": "Yodel"
@@ -8431,7 +8431,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.14,
       "var_id": "34_1",
       "code_description": "Extreme nasalization. Strongly nasalized throughout the performance.",
       "shortname": "ExtremeNasalization"
@@ -8446,7 +8446,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.36,
       "var_id": "34_4_1",
       "code_description": "Marked nasalization and extreme nasalization",
       "shortname": "MarkedNasalizationAndExtremeNasalization"
@@ -8461,7 +8461,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.57,
       "var_id": "34_4",
       "code_description": "Marked nasalization. Marked nasalization, with definite but not extreme nasality running throughout the performance.",
       "shortname": "MarkedNasalization"
@@ -8476,7 +8476,7 @@
       "code_1": 4,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.57,
       "var_id": "34_7_1",
       "code_description": "Intermittent nasalization and extreme nasalization",
       "shortname": "IntermittentNasalizationAndExtremeNasalization"
@@ -8491,7 +8491,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": 1,
-      "display_code": 0.31,
+      "display_code": 0.57,
       "var_id": "34_7_4_1",
       "code_description": "Intermittent nasalization and marked nasalization and extreme nasalization",
       "shortname": "IntermittentNasalizationAndMarkedNasalizationAndExtremeNasalization"
@@ -8506,7 +8506,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 0.79,
       "var_id": "34_7_4",
       "code_description": "Intermittent nasalization and marked nasalization",
       "shortname": "IntermittentNasalizationAndMarkedNasalization"
@@ -8521,7 +8521,7 @@
       "code_1": 6,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 0.79,
       "var_id": "34_10_1",
       "code_description": "Slight nasalization and extreme nasalization",
       "shortname": "SlightNasalizationAndExtremeNasalization"
@@ -8536,7 +8536,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.0,
       "var_id": "34_7",
       "code_description": "Intermittent nasalization. Nasality that occurs irregularly but clearly in the voice, as is frequently the case with singers of sub-Saharan African origin. This is the midpoint in the line and may be coded for songs that seem to be neither marked nor slight in their degree of nasality.",
       "shortname": "IntermittentNasalization"
@@ -8551,7 +8551,7 @@
       "code_1": 6,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.0,
       "var_id": "34_10_4",
       "code_description": "Slight nasalization and marked nasalization",
       "shortname": "SlightNasalizationAndMarkedNasalization"
@@ -8566,7 +8566,7 @@
       "code_1": 7,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.21,
       "var_id": "34_13_4",
       "code_description": "Little or no nasalization and marked nasalization",
       "shortname": "LittleOrNoNasalizationAndMarkedNasalization"
@@ -8581,7 +8581,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.43,
       "var_id": "34_10",
       "code_description": "Slight nasalization. Occasional touches of nasalization that do not occur in relationship to nasal consonants. This situation is encountered, for example, in the singing of many groups of Central Europe.\n",
       "shortname": "SlightNasalization"
@@ -8596,7 +8596,7 @@
       "code_1": 7,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.43,
       "var_id": "34_13_7",
       "code_description": "Little or no nasalization and intermittent nasalization",
       "shortname": "LittleOrNoNasalizationAndIntermittentNasalization"
@@ -8611,7 +8611,7 @@
       "code_1": 7,
       "code_2": 6,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 1.64,
       "var_id": "34_13_10",
       "code_description": "Little or no nasalization and slight nasalization",
       "shortname": "LittleOrNoNasalizationAndSlightNasalization"
@@ -8626,7 +8626,7 @@
       "code_1": 7,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 1.86,
       "var_id": "34_13",
       "code_description": "Little or no nasalization. Where nasalization occurs only in connection with nasal consonants, or where nasal consonants tend to be eliminated and little or no nasalization is heard.",
       "shortname": "LittleOrNoNasalization"
@@ -8658,7 +8658,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.2,
       "var_id": "35_1",
       "code_description": "Extreme rasp. A markedly strident, hoarse, or grating singing voice.",
       "shortname": "ExtremeRasp"
@@ -8673,7 +8673,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.5,
       "var_id": "35_4_1",
       "code_description": "Great rasp and extreme rasp",
       "shortname": "GreatRaspAndExtremeRasp"
@@ -8688,7 +8688,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "35_4",
       "code_description": "Great rasp. Pronounced rasp, but less strident than above.",
       "shortname": "GreatRasp"
@@ -8703,7 +8703,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "35_7_1",
       "code_description": "Intermittent rasp and extreme rasp",
       "shortname": "IntermittentRaspAndExtremeRasp"
@@ -8718,7 +8718,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": 1,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "35_7_4_1",
       "code_description": "Intermittent rasp and great rasp and extreme rasp",
       "shortname": "IntermittentRaspAndGreatRaspAndExtremeRasp"
@@ -8733,7 +8733,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "35_7_4",
       "code_description": "Intermittent rasp and great rasp",
       "shortname": "IntermittentRaspAndGreatRasp"
@@ -8748,7 +8748,7 @@
       "code_1": 4,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "35_10_1",
       "code_description": "Slight rasp and extreme rasp",
       "shortname": "SlightRaspAndExtremeRasp"
@@ -8763,7 +8763,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "35_7",
       "code_description": "Intermittent rasp. Intermittent, or moderate and steady rasp.",
       "shortname": "IntermittentRasp"
@@ -8778,7 +8778,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "35_13_4",
       "code_description": "None and great rasp",
       "shortname": "NoneAndGreatRasp"
@@ -8793,7 +8793,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "35_10",
       "code_description": "Slight rasp. Perceptible touches of rasp.",
       "shortname": "SlightRasp"
@@ -8808,7 +8808,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 2.3,
       "var_id": "35_13_10",
       "code_description": "None and slight rasp",
       "shortname": "NoneAndSlightRasp"
@@ -8823,7 +8823,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.6,
       "var_id": "35_13",
       "code_description": "None. Voices lack rasp.",
       "shortname": "None"
@@ -8855,7 +8855,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.17,
       "var_id": "36_1",
       "code_description": "Very forceful accent, with powerful stresses falling on many notes.",
       "shortname": "VeryForcefulAccent"
@@ -8870,7 +8870,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.42,
       "var_id": "36_4_1",
       "code_description": "Forceful accent and very forceful accent",
       "shortname": "ForcefulAccentAndVeryForcefulAccent"
@@ -8885,7 +8885,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.67,
       "var_id": "36_4",
       "code_description": "Forceful accent, with strong accents falling on the main pulses of the meter.",
       "shortname": "ForcefulAccent"
@@ -8900,7 +8900,7 @@
       "code_1": 4,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.67,
       "var_id": "36_7_1",
       "code_description": "Moderate accent and very forceful accent",
       "shortname": "ModerateAccentAndVeryForcefulAccent"
@@ -8915,7 +8915,7 @@
       "code_1": 4,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 0.92,
       "var_id": "36_7_4",
       "code_description": "Moderate accent and forceful accent",
       "shortname": "ModerateAccentAndForcefulAccent"
@@ -8930,7 +8930,7 @@
       "code_1": 5,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 0.92,
       "var_id": "36_10_1",
       "code_description": "Relaxed accent and very forceful accent",
       "shortname": "RelaxedAccentAndVeryForcefulAccent"
@@ -8945,7 +8945,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.17,
       "var_id": "36_7",
       "code_description": "Moderate accent, a moderate stress falling along the main beat pattern of the meter, clearly outlining but not exaggerating it.",
       "shortname": "ModerateAccent"
@@ -8960,7 +8960,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.17,
       "var_id": "36_10_4",
       "code_description": "Relaxed accent and forceful accent",
       "shortname": "RelaxedAccentAndForcefulAccent"
@@ -8975,7 +8975,7 @@
       "code_1": 6,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.42,
       "var_id": "36_13_4",
       "code_description": "Very relaxed and forceful accent",
       "shortname": "VeryRelaxedAndForcefulAccent"
@@ -8990,7 +8990,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.67,
       "var_id": "36_10",
       "code_description": "Relaxed accent, a relaxed handling of the accent pattern.",
       "shortname": "RelaxedAccent"
@@ -9005,7 +9005,7 @@
       "code_1": 6,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 1.67,
       "var_id": "36_13_7",
       "code_description": "Very relaxed and moderate accent",
       "shortname": "VeryRelaxedAndModerateAccent"
@@ -9020,7 +9020,7 @@
       "code_1": 6,
       "code_2": 5,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 1.92,
       "var_id": "36_13_10",
       "code_description": "Very relaxed and relaxed accent",
       "shortname": "VeryRelaxedAndRelaxedAccent"
@@ -9035,7 +9035,7 @@
       "code_1": 6,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.17,
       "var_id": "36_13",
       "code_description": "Very relaxed, absence of clear stresses, such that a flowing, sometimes understated, melodic line is produced.",
       "shortname": "VeryRelaxed"
@@ -9067,7 +9067,7 @@
       "code_1": 1,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.08,
+      "display_code": 0.2,
       "var_id": "37_1",
       "code_description": "Very precise enunciation. Highly articulated consonants and syllables. This is generally typical of the storytelling singers of Eurasian polities.",
       "shortname": "VeryPreciseEnunciation"
@@ -9082,7 +9082,7 @@
       "code_1": 2,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.19,
+      "display_code": 0.5,
       "var_id": "37_4_1",
       "code_description": "Precise enunciation and very precise enunciation",
       "shortname": "PreciseEnunciationAndVeryPreciseEnunciation"
@@ -9097,7 +9097,7 @@
       "code_1": 2,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "37_4",
       "code_description": "Precise enunciation. Clearly articulated consonants in sung texts. Here one listens to the whole consonantal range and makes certain that all consonants are easily discernible.",
       "shortname": "PreciseEnunciation"
@@ -9112,7 +9112,7 @@
       "code_1": 3,
       "code_2": 1,
       "code_3": null,
-      "display_code": 0.31,
+      "display_code": 0.8,
       "var_id": "37_7_1",
       "code_description": "Moderate enunciation and very precise enunciation",
       "shortname": "ModerateEnunciationAndVeryPreciseEnunciation"
@@ -9127,7 +9127,7 @@
       "code_1": 3,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.42,
+      "display_code": 1.1,
       "var_id": "37_7_4",
       "code_description": "Moderate enunciation and precise enunciation",
       "shortname": "ModerateEnunciationAndPreciseEnunciation"
@@ -9142,7 +9142,7 @@
       "code_1": 3,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.54,
+      "display_code": 1.4,
       "var_id": "37_7",
       "code_description": "Moderate enunciation. A moderate degree of enunciation.",
       "shortname": "ModerateEnunciation"
@@ -9157,7 +9157,7 @@
       "code_1": 4,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "37_10_7",
       "code_description": "Softened enunciation and moderate enunciation",
       "shortname": "SoftenedEnunciationAndModerateEnunciation"
@@ -9172,7 +9172,7 @@
       "code_1": 5,
       "code_2": 2,
       "code_3": null,
-      "display_code": 0.65,
+      "display_code": 1.7,
       "var_id": "37_13_4",
       "code_description": "Very softened enunciation and precise enunciation",
       "shortname": "VerySoftenedEnunciationAndPreciseEnunciation"
@@ -9187,7 +9187,7 @@
       "code_1": 4,
       "code_2": null,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "37_10",
       "code_description": "Softened enunciation. Consonants are hard to distinguish and syllables are run together to some degree.",
       "shortname": "SoftenedEnunciation"
@@ -9202,7 +9202,7 @@
       "code_1": 5,
       "code_2": 3,
       "code_3": null,
-      "display_code": 0.77,
+      "display_code": 2.0,
       "var_id": "37_13_7",
       "code_description": "Very softened enunciation and moderate enunciation",
       "shortname": "VerySoftenedEnunciationAndModerateEnunciation"
@@ -9217,7 +9217,7 @@
       "code_1": 5,
       "code_2": 4,
       "code_3": null,
-      "display_code": 0.88,
+      "display_code": 2.3,
       "var_id": "37_13_10",
       "code_description": "Very softened enunciation and softened enunciation",
       "shortname": "VerySoftenedEnunciationAndSoftenedEnunciation"
@@ -9232,7 +9232,7 @@
       "code_1": 5,
       "code_2": null,
       "code_3": null,
-      "display_code": 1.0,
+      "display_code": 2.6,
       "var_id": "37_13",
       "code_description": "Very softened enunciation. Situations in which consonants are absent or nearly absent from the text, and/or in which syllables are run together.",
       "shortname": "VerySoftenedEnunciation"

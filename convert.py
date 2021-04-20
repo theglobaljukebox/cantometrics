@@ -69,6 +69,7 @@ def encode_data(line_num, data):
     keys = list(column_counter.keys())
     values = list(column_counter.values())
     
+    scale = mapping_data[line_num-1]["scale"]
     for i in range(len(keys)):
         original_1 = 0
         original_2 = None
@@ -153,7 +154,7 @@ def encode_data(line_num, data):
                 "code_1": code_1, 
                 "code_2": code_2, 
                 "code_3": code_3, 
-                "display_code": round(display_code/13,2),
+                "display_code": round(display_code/scale,2),
                 "var_id": var_id,
                 "code_description": description,
                 "shortname": shortname
