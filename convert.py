@@ -147,7 +147,7 @@ def encode_data(line_num, data):
                 print("CODE_4 LINE:", line_num, " KEY:", e)
         
         #normalized display code
-        if display_code != None:
+        if display_code != 0:
             norm_dc = round(((display_code-1)/(scale-1)),2)
 
         row.append(
@@ -167,7 +167,7 @@ def encode_data(line_num, data):
                 "shortname": shortname
             })
         
-    row.sort(key=lambda x: x["display_code"])
+    # row.sort(key=lambda x: x["display_code"])
     return(row)
 
 def main():
