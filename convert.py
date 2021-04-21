@@ -94,7 +94,6 @@ def encode_data(line_num, data):
                     original_1 = int(closest)
                     original_2 = int(math.floor(math.log2(diff)))
                     original_3 = int(math.log2(diff_2))
-                    display_code = round((original_1+original_2+original_3)/3,2)
                     var_id = str(line_num)+'_'+str(original_1)+'_'+str(original_2)+'_'+str(original_3)
                     
                     shortname = ''
@@ -129,17 +128,20 @@ def encode_data(line_num, data):
                 shortname, description = get_metadata(line_num, original_1)
         try:
             code_1 = mapping_data[line_num-1][str(original_1)]
+            display_code = code_1
         except KeyError as e:
             print("LINE:", line_num, " KEY:", e)
         
         if(original_2):
             try:
                 code_2 = mapping_data[line_num-1][str(original_2)]
+                display_code = round((code_1+code_2)/2,2)
             except KeyError as e:
                 print("CODE_2 LINE:", line_num, " KEY:", e)
         if(original_3):
             try:
                 code_3 = mapping_data[line_num-1][str(original_3)]
+                display_code = round((code_1+code_2+code_3)/3,2)
             except KeyError as e:
                 print("CODE_4 LINE:", line_num, " KEY:", e)
         
