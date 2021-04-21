@@ -77,7 +77,8 @@ def encode_data(line_num, data):
         code_1 = 0
         code_2 = None
         code_3 = None
-        display_code = 0
+        display_code = None
+        norm_dc = None
         var_id = ''
         if (keys[i] is None):
             continue
@@ -145,6 +146,10 @@ def encode_data(line_num, data):
             except KeyError as e:
                 print("CODE_4 LINE:", line_num, " KEY:", e)
         
+        #normalized display code
+        if display_code != None:
+            norm_dc = round(((display_code-1)/(scale-1)),2)
+
         row.append(
             {
                 "code":keys[i],
@@ -156,7 +161,7 @@ def encode_data(line_num, data):
                 "code_1": code_1, 
                 "code_2": code_2, 
                 "code_3": code_3, 
-                "display_code": round(display_code/scale,2),
+                "display_code": norm_dc,
                 "var_id": var_id,
                 "code_description": description,
                 "shortname": shortname
