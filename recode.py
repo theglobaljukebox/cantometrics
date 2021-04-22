@@ -5,8 +5,6 @@ import sys
 import warnings
 from helper import conversion
 
-
-
 # single_1 = (conversion(2**1, [1,4,7,10,13])) == (1,)
 # single_2 = (conversion(2, [1,4,7,10,13])) == (1,)
 # single_3 = (conversion(2**10, [1,4,7,10,13])) == (10,)

@@ -3,6 +3,10 @@ env/
 no_git/
 logs/
 
+# files
+etc/meta_variables (from stella).csv
+invalid_codes.txt
+
 # History files
 .Rhistory
 .Rapp.history
