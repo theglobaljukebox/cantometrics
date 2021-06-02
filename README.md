@@ -1,4 +1,4 @@
-# The Global Jukebox Data
+# Cantometrics Data
 
 This repository is for pulling, formatting, validating and cleaning the Cantometrics dataset.
 
