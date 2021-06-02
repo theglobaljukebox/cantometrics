@@ -1,3 +1,5 @@
+https://img.shields.io/github/v/release/theglobaljukebox/cantometrics
+
 # Cantometrics Data
 
 This repository is for pulling, formatting, validating and cleaning the Cantometrics dataset.
