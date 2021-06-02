@@ -3,6 +3,7 @@ import numpy as np
 from pandas import read_csv, melt
 
 data = read_csv("raw/data.csv")
+data = data.drop(['Preferred_name'], axis = 1)
 long_df = melt(data, id_vars = ['song_id', 'society_id'], var_name='var_id', value_name = 'code')
 
 

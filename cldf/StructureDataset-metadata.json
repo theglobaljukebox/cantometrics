@@ -27,25 +27,31 @@
                     {
                         "name": "song_id",
                         "datatype": {"base": "integer", "format": "[0-9]{1,5}"},
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
-                        "required": true
+                        "propertyUrl": "",
+                        "required": false
                     },
                     {
                         "name": "society_id",
                         "datatype": {"base": "integer", "format": "[0-9]{5}"},
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
-                        "required": true
+                        "required": false
                     },
                     {
                         "name": "var_id",
                         "datatype": {"base": "string", "format": "line_[0-9]{1,2}"},
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
-                        "required": true
+                        "required": false
                     },
                     {
                         "name": "code",
                         "datatype": {"base": "integer", "format": "[1-9][0-9]?$|^14336"},
                         "required": false
+                    },
+                    {
+                        "name": "ID",
+                        "datatype": {"base": "integer"},
+                        "required": false,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id"
                     }
                 ],
                 "foreignKeys": [
@@ -71,6 +77,9 @@
                             ]
                         }
                     }
+                ],
+                "primaryKey": [
+                    "ID"
                 ]
             }
         },
@@ -84,7 +93,7 @@
                         "name": "society_id",
                         "datatype": {"base": "integer", "format": "[0-9]{5}"},
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
-                        "required": true
+                        "required": false
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
@@ -97,6 +106,18 @@
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
                         "required": false,
                         "name": "Society_longitude"
+                    },
+                                        {
+                        "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
+                        "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+                        "required": false,
+                        "name": "Area_latitude"
+                    },
+                    {
+                        "datatype": {"base": "decimal", "minimum": -180, "maximum": 180},
+                        "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+                        "required": false,
+                        "name": "Area_longitude"
                     },
                     {
                         "datatype": "string",
@@ -121,18 +142,26 @@
                     },
                     {
                         "datatype": "string",
-                        "required": true,
+                        "required": false,
                         "name": "society"
                     },
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "alternative_names"
+                        "name": "People"
+                    },                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "People2"
+                    },                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "People3"
                     },
                     {
                         "datatype": "string",
                         "required": false,
-                        "name": "Arensberglomax_clusters"
+                        "name": "alternative_names"
                     },
                     {
                         "datatype": "string",
@@ -143,6 +172,19 @@
                         "datatype": "string",
                         "required": false,
                         "name": "cantometrics_samplesize"
+                    },
+                                        {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "minutage_samplesize"
+                    },                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "parlametrics_samplesize"
+                    },                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "phonotactics_samplesize"
                     },
                     {
                         "datatype": "string",
@@ -158,11 +200,6 @@
                         "datatype": "string",
                         "required": false,
                         "name": "Arensberglomax_taxon"
-                    },
-                    {
-                        "datatype": "string",
-                        "required": false,
-                        "name": "Taxon_id"
                     },
                     {
                         "datatype": "string",
@@ -185,11 +222,6 @@
                         "name": "Language_family"
                     },
                     {
-                        "datatype": {"base": "string", "format": "[a-z]{3}"},
-                        "required": false,
-                        "name": "ISO6393"
-                    },
-                    {
                       "name": "Glottocode",
                       "datatype": {"base": "string", "format": "[a-z0-9]{4}[1-9][0-9]{3}"},
                       "valueUrl":"http://glottolog.org/resource/languoid/id/{glottocode}",
@@ -204,7 +236,42 @@
                     {
                         "datatype": "string",
                         "required": false,
+                        "name": "EA_cu# UPDATE"
+                    },                    
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "EA_Prov_name"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "EA_Prov_#"
+                    },                    
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "EA_#"
+                    },                    
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Culture Sources"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
                         "name": "dplace_id"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Culture_Wiki"
+                    },                 
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Notes_1"
                     },
                     {
                         "datatype": "string",
@@ -232,7 +299,7 @@
         },
         {
             "url": "songs.csv",
-            "dc:conformsTo": "",
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Generic",
             "dc:extent": 5883,
             "tableSchema": {
                 "columns": [
@@ -240,7 +307,7 @@
                         "name": "song_id",
                         "datatype": {"base": "integer", "format": "[0-9]{1,5}"},
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
-                        "required": true
+                        "required": false
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
@@ -270,7 +337,38 @@
                         "name": "society_id",
                         "datatype": {"base": "integer", "format": "[0-9]{5}"},
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
-                        "required": true
+                        "required": false
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/meta/glossary#macroarea",
+                        "required": false,
+                        "name": "Region"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Division"
+                    },                        
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Subregion"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Area"
+                    },                    
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Preferred_name"
+                    },                    
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Society_location"
                     },
                     {
                         "datatype": "string",
@@ -279,22 +377,17 @@
                     },
                     {
                         "datatype": "string",
-                        "required": true,
+                        "required": false,
                         "name": "Duration"
                     },
                     {
                         "datatype": "string",
-                        "required": true,
+                        "required": false,
                         "name": "Audio_file"
                     },
                     {
                         "datatype": "string",
-                        "required": true,
-                        "name": "archivalsource_id"
-                    },
-                    {
-                        "datatype": "string",
-                        "required": true,
+                        "required": false,
                         "name": "Song"
                     },
                     {
@@ -339,18 +432,48 @@
                     },
                     {
                         "datatype": "string",
-                        "required": true,
+                        "required": false,
                         "name": "Publisher"
                     },
                     {
                         "datatype": "string",
-                        "required": true,
+                        "required": false,
                         "name": "Publcation_collection"
+                    },                    
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Sources"
+                    },                  
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Source_tag"
                     },
                     {
                         "datatype": "string",
-                        "required": true,
+                        "required": false,
                         "name": "Repository"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "archivalsource_id"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Living_metadata"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Classification_notes"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": false,
+                        "name": "Metadata_notes"
                     }
                 ],
                 "foreignKeys": [

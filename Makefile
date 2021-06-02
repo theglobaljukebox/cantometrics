@@ -26,7 +26,9 @@ process: env
 	@printf "Convert data to long format"
 	./env/bin/python3 to_long.py
 	@printf "Backtransform codes to single level codes"
-	./env/bin/python3 recode.py 2>&1 | tee logs/recode.log
+	./env/bin/python3 recode.py #2>&1 | tee logs/recode.log
+
+process2: env
 	cp raw/societies.csv cldf/
 	cp raw/songs.csv cldf/
 	./env/bin/python3 rename_andsubset.py
