@@ -13,6 +13,7 @@ Raw data is presented in three data tables within raw/
 | societies.csv    | Metadata on the societies from which the songs originate.|
 
 Cantometrics data is also available in CLDF format within cldf/ 
+Within the CLDF dataset, multicodings have been parsed to the original values. 
 
 | file             | description                                              |
 |------------------|----------------------------------------------------------|
