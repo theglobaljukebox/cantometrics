@@ -1,133 +1,133 @@
-name,short_title,description,table,visibility,required,type,notes
-Society_latitude,,Latitude for the location of a soceity,societies,public,FALSE,continuous,between -180 & + 180
-Society_longitude,,Longitude for the location of a soceity,societies,public,FALSE,continuous,between -90 & + 90
-Area_latitude,,Latitude for the macroarea affiliated with a society,societies,internal,FALSE,continuous,between -180 & + 180
-Area_longitude,,Longitude for the macroarea affiliated with a society,societies,internal,FALSE,continuous,between -90 & + 90
-Region,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,FALSE,string,
-Division,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,FALSE,string,
-Subregion,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,FALSE,string,
-Area,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,FALSE,string,
-society,,Prefered name of a culture,societies,public,TRUE,string,
-alternative_names,,Alternative name for a culture; Ethnonyms ,societies,public,FALSE,string,
-People,,"People:  Ethnographic Atlas, GlobalJB",societies,internal,FALSE,string,
-People2,,Larger cultural grouping encompassing People1. Not finalized or completed yet.,societies,internal,FALSE,string,
-People3,,,societies,internal,FALSE,string,
-Arensberglomax_clusters,,"Categories relating to a clustering analyses performed in Lomax, A. (1989). Cantometrics. In International encyclopedia of communications (1st ed., pp. 230–233). New York, NY: Oxford University Press.",societies,public,FALSE,categorical,Is there a restriced set of values? 
-Focal_years,,Year or decade to which song and culture data pertain. ,societies,public,FALSE,string,
-cantometrics_samplesize,,The number of data points in Cantometrics for a society,societies,public,TRUE,integer,
-minutage_samplesize,,The number of data points in Minutage for a society,societies,internal,FALSE,integer,
-parlametrics_samplesize,,The number of data points in Parlametrics for a society,societies,internal,FALSE,integer,
-phonotactics_samplesize,,The number of data points in Phonotactics for a society,societies,internal,FALSE,integer,
-Koppen_climate_terrain,,Climate category based on Koppen-Geiger World Maps http://koeppen-geiger.vu-wien.ac.at/. Multiple categories are comma separated. ,societies,public,FALSE,categorical,
-Koppen_code,,Climate category code based on Koppen-Geiger World Maps http://koeppen-geiger.vu-wien.ac.at/. Multiple categories are comma separated. ,societies,public,FALSE,categorical,
-Arensberglomax_taxon,,"Taxon allocations from Lomax, A., & Arensberg, C. M. (1977). A Worldwide Evolutionary Classification of Cultures by Subsistence Systems. Current Anthropology, 18(4), 659–708.",societies,public,FALSE,identifier,
-Taxon_id,,"Refined Arensberg-Lomax Culture ID, from Lomax & Arensberg (1977). ",societies,public,FALSE,identifier,structured as four letters followed by four numbers?
-Language,,Primary language spoken by a culture,societies,public,TRUE,string,
-Language_nearsubfamily,,Lower-level hierarchical language clade,societies,public,FALSE,string,
-Language_largersubfamily,,Higher-level hierarchical language clade,societies,public,FALSE,string,
-Language_family,,The language family linked to a culture,societies,public,FALSE,string,
-Language_familytree,,The hierarchy of language families linked to a culture,societies,internal,FALSE,string,
-ISO6393,,ISO 639 is a standardized nomenclature used to classify languages,societies,public,FALSE,identifier,Can we remove the ISO 6393 prefix? Then this column can be constrained more appropriately. 
-Glottocode,,Identification code based on Glottolog.org,societies,public,TRUE,identifier,[a-z]{4}[0-9]{4}
-Country,,"Name of the country a culture resides in. If a culture persists across borders, countries are seperated by semi-colons. ",societies,public,FALSE,categorical,
-Country_id,,Numeric identifier for Country,societies,internal,TRUE,identifier,Mostly empty?
-society_id,,Unique identifier for each culture,societies,public,TRUE,identifier; foreign key,Always 5 numbers?
-C_cid,,Unique identifier for each culture in Cantometrics,societies,internal,FALSE,identifier; foreign key,
-M_cid,,Unique identifier for each culture in Minutage,societies,internal,FALSE,identifier; foreign key,
-Ch_cid,,Unique identifier for each culture in Choreometrics,societies,internal,FALSE,identifier; foreign key,
-P_cid,,Unique identifier for each culture in Parlametrics,societies,internal,FALSE,identifier; foreign key,
-Ph_cid,,Unique identifier for each culture in Phonotactics,societies,internal,FALSE,identifier; foreign key,
-I+cid,,Unique identifier for each culture in Instrument & Ensembles,societies,internal,FALSE,identifier; foreign key,
-Soc_cid,,Unique identifier for each culture in XXXX,societies,internal,TRUE,identifier; foreign key,
-dplace_id,,Unique identifier for pairing data to D-PLACE (d-place.org),societies,public,FALSE,identifier,
-EA_cu_name,,,societies,internal,FALSE,string,
-EA_cu# UPDATE,,,societies,internal,FALSE,string,
-Murdock_cu#,,,societies,internal,FALSE,integer,
-EA_Prov_name,,,societies,internal,FALSE,string,
-EA_Prov_#,,,societies,internal,FALSE,integer,
-EA_Prov_notes,,,societies,internal,FALSE,string,
-EA_#,,,societies,internal,FALSE,integer,
-Culture_Wiki,,,societies,internal,FALSE,string,
-Society_summary,,Notes about a society,societies,public,FALSE,string,
-Notes_1,,Notes about a society,societies,internal,FALSE,string,
-Notes_2,,Notes about a society,societies,internal,FALSE,string,
-Culture Sources,,,societies,internal,FALSE,string,
-song_id,,Unique identifer for each song,data,public,TRUE,identifier; foreign key,
-Preferred_name,,Prefered name of a society,data,remove,FALSE,identifier; foreign key,
-society_id,,Unique identifier for each society,data,public,TRUE,identifier; foreign key,
-line_1,,"This line describes the social organization of the singing group. Here you will find variations of “call and response.” Two basic elements of group organization are considered: 1) Prominence of solo or leader’s part; 2) Type of group organization. The scale is one of increasingly integrated social relations, from solo to interlock.",data,public,TRUE,categorical,
-line_2,,"The term “orchestra” refers to the performers of any non-vocal sounds heard on the record, whether they be body-produced (clapping, stamping) or object-produced by anything from two sticks to a symphony orchestra.",data,public,TRUE,categorical,
-line_3,,"Line 3 and Line 1 (Social Organization of the Vocal Group) correspond, but the social relationships between the orchestra’s parts are more difficult to identify—for example, it is often hard to distinguish between types of overlap. In many cases, two or more coding situations may be equally important, requiring multiple coding. The scale is one of increasing integration, from solo to interlock.",data,public,TRUE,Categorical,
-line_4,,The musical coordination amongst the singers in a group considers both melodic and rhythmic elements.,data,public,TRUE,Categorical,
-line_5,,"Both diffuse and cohesive sounds are pleasing within a given aesthetic. Much tonal blend depends upon wide, clear voicing and the relative absence of vocal noise and ornamentation. In contrast, with tonal independence, no individual yields to another, producing a noisy effect. Intermediate blend is often a reedy unison in which individual voices are heard.",data,public,TRUE,Ordinal,
-line_6,,"The degree of rhythmic coordination between members of the singing group depends on the degree to which its members coordinate their attacks and releases. Rhythmic blend is considered maximal when attacks and releases are precisely coordinated. If movement from note to note is staggered, then rhythmic blend is considered minimal. Both effects are aesthetically grounded, powerful, and pleasing.",data,public,TRUE,Categorical,
-line_7,,"Overall musical coordination amongst members of the orchestra, taking both melodic and rhythmic elements into account. Here, polyrhythm is treated as a type of polyphony, as each part is independent.",data,public,TRUE,Ordinal,
-line_8,,"The concept of tonal blend applies to orchestras differently than to voices. An orchestra composed of several different kinds of instruments can rarely achieve the same degree of tonal unity as a chorus of voices. Consequently, the measure of blend for orchestras is not uniformity of timbre, but rather the overall sonority of the ensemble.",data,public,TRUE,Ordinal,
-line_9,,"Rates the degree of rhythmic coordination between members of the orchestra. If all attacks and releases are precisely coordinated, rhythmic blend is considered maximal. If, on the other hand, movements from note to note are invariably asynchronous, rhythmic blend is considered minimal.",data,public,TRUE,Ordinal,
-line_10,,"Listening to the text as it is performed, consider the degree of repetition in the text without considering the meaning of the words. Knowledge of the language of the text has no bearing on this rating. Instead, make a judgment about the proportion of the text in the whole song that seems to be repeated, or which consists of words that have no lexical meaning.",data,public,TRUE,Categorical,
-line_11,,"In most musical styles, the performer or performers employ a single, overall rhythmic “ground plan,” which serves as a point of reference for the infinite variety of rhythmic detail possible within the scheme. Although many such overall formats are possible, they have been divided here into five general categories. The categories for this measure apply to the overall rhythm of the voices. In order to code the instrumental part, refer to Line 13.",data,public,TRUE,Categorical,
-line_12,,"Singing groups establish their rhythmic activity in a number of ways. In some cases, all singers or parts in a chorus may stick to the main rhythm. In others, there may be one or more contrasting rhythmic parts. This line provides seven descriptive categories for the various types of rhythmic relationships that link a group together within one of the overall metrical patterns already coded in Line 11.",data,public,TRUE,Categorical,
-line_13,,"In most musical styles, the performer or performers employ a single, overall rhythmic plan that serves as a point of reference for the great variety of rhythmic detail possible within the scheme. Although a large number of such overall schemes are possible, here they are divided them into six general categories. The categories for this measure apply to the overall rhythm of the instrumental part.",data,public,TRUE,Categorical,
-line_14,,The various types of relationships between the instruments are rated here.,data,public,TRUE,Categorical,
-line_15,,"The characteristic contours of the vocal line are described in very general terms. While most of the other lines are scalar to some degree, this line did not lend itself to such treatment. Hence, the sequence of the four categories of melodic shape is arbitrary.",data,public,TRUE,Categorical,
-line_16,,"Line 16 is an attempt to deal succinctly with the full range of melodic forms. At one end of the scale is simple litany, defined here as a short tune composed of one or two phrases repeated over and over again; in the middle there are strophic forms; and at the other end is the most complex type, through-composed, in which many varied phrases are strung together in a fashion that to some listeners may seem to be almost formless. Degrees of melodic variation within these forms are dealt with here as well.",data,public,TRUE,Ordinal,
-line_17,,"A simple five-point scale is used to describe phrase length. Coding was done without a stopwatch for half the song sample, and then a test with a stopwatch was made. It was found that the length of phrase rated by ear closely approximated the stopwatch measurements.",data,public,TRUE,Ordinal,
-line_18,,"Determine the number of melodic phrases that occur in a song before a full repeat of the entire phrase sequence, as well as the presence or absence of phrase symmetry.",data,public,TRUE,Ordinal,
-line_19,,"The relation of the final note to the total range of the song. The ear training one develops through listening to the musical examples facilitates a simple, non-technical approach to the concepts outlined here. The rating scale used is a relatively simple one.",data,public,TRUE,Ordinal,
-line_20,,"This is a method of judging the total melodic range of a song, which is the distance between its highest and lowest notes. Careful listening makes it possible to take a non-technical approach to this measure.",data,public,TRUE,Ordinal,
-line_21,,"An interval is the distance in pitch between two notes. Here interval size is estimated by using a subjective five-point scale, in order to determine the relative frequency of one or more size-categories of interval in a performance.",data,public,TRUE,Ordinal,
-line_22,,"This measure considers the use of simultaneously produced intervals other than unison or the octave. Two-part intervals of this kind are considered polyphony, as well as harmonies of greater complexity. Simultaneously produced intervals may also occur in heterophony. (See also Line 4.)",data,public,TRUE,Categorical,
-line_23,,"Embellishment is one of several devices used by the singer as a kind of qualification, or ornament, of the “basic” melodic line. An embellished melodic line contains two entirely distinct kinds of note value, the embellished part being much more rapid and ephemeral than the melodic part.",data,public,TRUE,Ordinal,
-line_24,,"As employed in Cantometrics, tempo is based on a relative and approximate determination of the speed or speeds of a performance.",data,public,TRUE,Ordinal,
-line_25,,"Volume measures the relative degree of loudness in a performance. As with tempo, a subjective scale cued by the human ear proved most useful for determining volume. A decibel count of volume in any given recording is affected by so many factors that it would be meaningless unless every stage of both the recording and playback were subject to the most rigorous control.",data,public,TRUE,Ordinal,
-line_26,,A judgment about how strictly tempo is maintained during a vocal performance.,data,public,TRUE,Ordinal,
-line_27,,"A judgment about how strictly tempo is maintained during a performance, applied to the orchestra or accompanying instruments.",data,public,TRUE,Ordinal,
-line_28,,"Glissando is the effect created when the voice slides smoothly from one tone to another, passing through all the intermediate pitch levels.",data,public,TRUE,Ordinal,
-line_29,,"The same syllable of text sung to two or more notes of melody—or, conversely, the passage of several notes over one syllable.",data,public,TRUE,Ordinal,
-line_30,,"Tremolo is a quavering or shaking in the voice, heard as an undulation between two closely adjacent pitches or tone colors. It is usually discernible only on notes held for an appreciable length of time.",data,public,TRUE,Ordinal,
-line_31,,"Glottal articulation is the product of noticeably forceful activity in the pharyngeal, or glottal, area in the back of the throat. Some singers actually manipulate their laryngeal prominence (Adam’s apple) with their fingers to produce this effect.",data,public,TRUE,Ordinal,
-line_32,,"Vocal pitch refers to the tonal height, or frequency, of the voice. It is commonly used to describe the key most natural for the voice of the singer.",data,public,TRUE,Ordinal,
-line_33,,"This measure concerns the contrast between voices that sound mellow, relaxed, and resonant (wide), and voices that are tense, pinched, and restricted in resonance (narrow).",data,public,TRUE,Ordinal,
-line_34,,"A nasalized tone is a strong marker of some singing styles even in the absence of nasal syllables, probably because singing is normally louder and more forceful than speaking. When a wide sample of recorded song is examined, the absence of nasalization in some styles is also striking. For this reason, nasalization is coded, in spite of the vagueness of the term.",data,public,TRUE,Ordinal,
-line_35,,"Rasp is frequently associated with very marked, forced vocalizing. It cuts through musical performances in which everyone is singing loudly with a loud accompaniment. In some parts of the world, performers sing in a grating tone, at the same time forcefully emphasizing consonants. The result is clear articulation, but with a noisier tonal image.",data,public,TRUE,Ordinal,
-line_36,,"Accent is heard as the dynamic attack on sung tones. It describes the prominence given to a note or chord, usually by increasing the volume or lengthening the duration, or by a brief preceding silence.",data,public,TRUE,Ordinal,
-line_37,,"Employing a scale of five degrees, this measure evaluates how precisely consonants are articulated in sung texts. It must be borne in mind that, in general, enunciation in singing is bound to be less clear than in speaking.",data,public,TRUE,Ordinal,
-orv_1,,,data,internal,FALSE,integer,
-orv_2,,,data,internal,FALSE,integer,
-ensemble_value_id,,,data,internal,FALSE,string,
-ensemble_value_label,,,data,internal,FALSE,string,
-instrument_value_id,,,data,internal,FALSE,string,
-instrument_value_label,,,data,internal,FALSE,string,
-song_id,,Unique identifer for each song,songs,public,TRUE,identifier; foreign key,
-Local_latitude,,Latitude of the recording location ,songs,public,FALSE,continuous,between -180 & + 180
-Local_longitude,,Longitude of the recording location,songs,public,FALSE,continuous,between -90 & + 90
-Homeland_latitude,,Latitude of the homeland for diasporic societies,songs,public,FALSE,continuous,between -180 & + 180
-Homeland_longitude,,Longitude of the homeland for diasporic societies,songs,public,FALSE,continuous,between -90 & + 90
-Region,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",songs,remove,FALSE,string,
-Division,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",songs,remove,FALSE,string,
-Subregion,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",songs,remove,FALSE,string,
-Area,,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",songs,remove,FALSE,string,
-Preferred_name,,Society name,songs,remove,FALSE,string,
-Society_location,,Written description of society location,songs,remove,FALSE,string,
-society_id,,Unique identifier for each society,songs,public,FALSE,identifier; foreign key,must be 5 numbers?
-Audio_notes,,Notes on the audio file,songs,public,FALSE,string,
-Duration,,Length of Audio file,songs,public,FALSE,string,
-Audio_file,,Name of the audio file,songs,public,FALSE,identifier,
-archivalsource_id,,Identification number of the archival source of the audio file,songs,public,FALSE,identifier,any special structure?
-Song,,Name of the song,songs,public,FALSE,string,
-Genre,,Genre of the song,songs,public,FALSE,string,
-Song_notes,,"Notes about the song recording. Details vary in length, but can range from the purpose of the song, to descriptions of instruments and how they are played, to what the song is about",songs,public,FALSE,string,
-Performers,,Written description of the performers in the song,songs,public,FALSE,string,
-Instruments,,Written description of the instruments used in the song,songs,public,FALSE,string,
-Vocalist_gender,,Gender of the Vocalists.,songs,public,FALSE,categorical,
-Lyrics,,Lyrics of the song (sometimes with translation),songs,public,FALSE,string,
-Living_metadata,,,songs,internal,FALSE,string,
-Recorded_by,,Name of who recorded the song,songs,public,FALSE,string,
-Year,,Year song was recorded,songs,public,FALSE,integer,
-Publisher,,Who published the song,songs,public,FALSE,string,
-Publcation_collection,,Name of the collection,songs,public,FALSE,string,
-Repository,,Name of the repository,songs,public,FALSE,string,
-Classification_notes,,,songs,internal,FALSE,string,
-Metadata_notes,,,songs,internal,FALSE,string,
-Sources,,,songs,internal,FALSE,string,
-Source_tag,,,songs,internal,FALSE,string,
+name,description,table,visibility,required,type,notes,Stella_Comments,Pat comments,Anna comments
+Society_latitude,Latitude for the location of a soceity,societies,public,TRUE,continuous,between -180 & + 180,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
+Society_longitude,Longitude for the location of a soceity,societies,public,TRUE,continuous,between -90 & + 90,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
+Area_latitude,Latitude for the macroarea affiliated with a society,societies,public,TRUE,continuous,between -180 & + 180,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
+Area_longitude,Longitude for the macroarea affiliated with a society,societies,public,TRUE,continuous,between -90 & + 90,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
+Region,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
+Division,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
+Subregion,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
+Area,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
+society,Prefered name of a culture,societies,public,TRUE,string,,,,Require and public
+alternative_names,Alternative name for a culture; Ethnonyms ,societies,public,TRUE,string,,,,Require and public
+People,"People:  Ethnographic Atlas, GlobalJB",societies,public,TRUE,string,,"Anna might want this to be public, check with her",Yes I think all Peoples columns were supposed to be public,Require and public
+People2,Larger cultural grouping encompassing People1. Not finalized or completed yet.,societies,public,TRUE,string,,,Yes I think all Peoples columns were supposed to be public,Require and public
+People3,,societies,public,TRUE,string,,,Yes I think all Peoples columns were supposed to be public,Require and public
+Arensberglomax_clusters,"Categories relating to a clustering analyses performed in Lomax, A. (1989). Cantometrics. In International encyclopedia of communications (1st ed., pp. 230‰ЫТ233). New York, NY: Oxford University Press.",societies,internal,FALSE,categorical,Is there a restriced set of values? ,"Check with Anna about restrictions, I think there should be a restricted set of values but I'm not sure, and not sure what they are.",,"Internal, I think"
+Focal_years,Year or decade to which song and culture data pertain. ,societies,public,TRUE,string,,,,Require
+cantometrics_samplesize,The number of data points in Cantometrics for a society,societies,public,TRUE,integer,,"Required should be FALSE. There are societies that are coded for other datasets and not canto. And a handful of societies are not coded for any dataset, they are leftover from old codes that were removed and other things, but we're keeping them (though maybe they should be internal?) Let me know if you want more detail on that. ","""I originally had been thinking that we would publish one public version now which ONLY includesКsocieties with Cantometric codings and keep a private version thatКincludes societies with only data from non-cantometrics. But as I think about this I think it would be overly confusing. So I think best to do as Stella suggests and just publish ONE version that includes ALL societies, even those without Cantometrics. So I agree with StellaХs comments here and in the rows below.""",Require-I agree
+minutage_samplesize,The number of data points in Minutage for a society,societies,public,TRUE,integer,,Should be public,I agree (See comment immediately above),Require and public
+parlametrics_samplesize,The number of data points in Parlametrics for a society,societies,public,TRUE,integer,,Should be public,I agree (See comment immediately above),Require and public
+phonotactics_samplesize,The number of data points in Phonotactics for a society,societies,public,TRUE,integer,,Should be public,I agree (See comment immediately above),Require and public
+Koppen_climate_terrain,Climate category based on Koppen-Geiger World Maps http://koeppen-geiger.vu-wien.ac.at/. Multiple categories are comma separated. ,societies,public,TRUE,categorical,,,,Why remove?  Require and public
+Koppen_code,Climate category code based on Koppen-Geiger World Maps http://koeppen-geiger.vu-wien.ac.at/. Multiple categories are comma separated. ,societies,public,FALSE,categorical,,,,Why is the repeated?
+Arensberglomax_taxon,"Taxon allocations from Lomax, A., & Arensberg, C. M. (1977). A Worldwide Evolutionary Classification of Cultures by Subsistence Systems. Current Anthropology, 18(4), 659‰ЫТ708.",societies,public,TRUE,identifier,,,,"Require, public, if the field is blank require something like NI, no information"
+Taxon_id,"Refined Arensberg-Lomax Culture ID, from Lomax & Arensberg (1977).",societies,internal,FALSE,identifier,structured as four letters followed by four numbers?,"Structured as ""scfal"" followed by an integer (from 1-1276 currently). I think this should be internal for now because we don't have the data ready, and these taxon ids are a new identifier that we created to go with digitized data once we prepare it.",,Internal now
+Language,Primary language spoken by a culture,societies,public,TRUE,string,,,,Require and public
+Language_nearsubfamily,Lower-level hierarchical language clade,societies,public,TRUE,string,,Required should be TRUE,,Require and public
+Language_largersubfamily,Higher-level hierarchical language clade,societies,public,TRUE,string,,Required should be TRUE,,Require and public
+Language_family,The language family linked to a culture,societies,public,TRUE,string,,Required should be TRUE,,Require and public
+Language_familytree,The hierarchy of language families linked to a culture,societies,internal,FALSE,string,,,,Internal for now
+ISO6393,ISO 639 is a standardized nomenclature used to classify languages,societies,internal,FALSE,identifier,Can we remove the ISO 6393 prefix? Then this column can be constrained more appropriately.,Fine with me,Remove,I agree Remove
+Glottocode,Identification code based on Glottolog.org,societies,public,TRUE,identifier,[a-z]{4}[0-9]{4},,Required and public,Require and public
+Country,"Name of the country a culture resides in. If a culture persists across borders, countries are seperated by semi-colons. ",societies,public,TRUE,categorical,,,Required and public,Require and public
+Country_id,Numeric identifier for Country,societies,internal,FALSE,identifier,Mostly empty?,"Not sure what this column was supposed to be. Check with Anna, but I would say remove it or clarify what it is and keep internal.",Keep and internal,Internal
+society_id,Unique identifier for each culture,societies,public,TRUE,identifier; foreign key,Always 5 numbers?,"Looks like all of them except one are 5 digit numbers, but not sure if that is worth making a requirement. They come from the original Lomax documents and new ones are added sequentially.","Agree with Stella,  Required and public",Leave as is.
+C_cid,Unique identifier for each culture in Cantometrics,societies,internal,FALSE,identifier; foreign key,,,"internal, unless Stella says they are all the same.","internal, unless Stella says they are all the same."
+M_cid,Unique identifier for each culture in Minutage,societies,internal,FALSE,identifier; foreign key,,,"internal, unless Stella says they are all the same.","internal, unless Stella says they are all the same."
+Ch_cid,Unique identifier for each culture in Choreometrics,societies,internal,FALSE,identifier; foreign key,,,"internal, unless Stella says they are all the same.","internal, unless Stella says they are all the same."
+P_cid,Unique identifier for each culture in Parlametrics,societies,internal,FALSE,identifier; foreign key,,,"internal, unless Stella says they are all the same.","internal, unless Stella says they are all the same."
+Ph_cid,Unique identifier for each culture in Phonotactics,societies,internal,FALSE,identifier; foreign key,,,"internal, unless Stella says they are all the same.","internal, unless Stella says they are all the same."
+I+cid,Unique identifier for each culture in Instrument & Ensembles,societies,internal,FALSE,identifier; foreign key,,"I deleted this column, it was not accurate.",Deleted,Deleted
+Soc_cid,Unique identifier for each culture in XXXX,societies,internal,TRUE,identifier; foreign key,,"I deleted this column, it was not accurate.",Deleted ,Deleted
+dplace_id,Unique identifier for pairing data to D-PLACE (d-place.org),societies,public,TRUE,identifier,,,Required and public,Require and public
+EA_cu_name,,societies,internal,FALSE,string,,,Required and public—UPDATE,Internal
+EA_cu# UPDATE,,societies,public,TRUE,string,,,Required and public,Require and public
+Murdock_cu#,,societies,internal,FALSE,integer,,,Internal ,Internal
+EA_Prov_name,,societies,public,TRUE,string,,"I think Anna might want this to be public, check with her.",Required and public,Require and public
+EA_Prov_#,,societies,public,TRUE,integer,,"I think Anna might want this to be public, check with her.",Required and public,Require and public
+EA_Prov_notes,,societies,internal,FALSE,string,,Deleted this column.,Deleted,Deleted
+EA_#,,societies,public,TRUE,integer,,,"Required as above, EA new",Require and public
+Culture_Wiki,,societies,public,TRUE,string,,,Required and public,Require and public
+Society_summary,Notes about a society,societies,public,TRUE,string,,,Required and public,Require and public
+Notes_1,Notes about a society,societies,public,TRUE,string,,,,Require and public
+Notes_2,Notes about a society,societies,internal,FALSE,string,,,,Internal
+Culture Sources,,societies,public,TRUE,string,,I think this should be public? So that users can look up the source in our source database.,Required and public,Require and public
+song_id,Unique identifer for each song,data,public,TRUE,identifier; foreign key,,,,"We have those elsewhere—we have those.  Those are CODING IDS SAM PLEASE NOTE THIS.  Maybe there should be an identifier for each song, AND a coding Id.  "
+Preferred_name,Prefered name of a society,data,public,TRUE,identifier; foreign key,,"Why remove? I would call it ""society"" rather than ""preferred_name"" because it's the same as the society col on the culture metadata. But it seems useful to have. If keeping it, required should be TRUE.","Required and public, and remove “preferred”","Required and public, and remove “preferred” Society Name"
+society_id,Unique identifier for each society,data,public,TRUE,identifier; foreign key,,??,,"Required and public,"
+line_1,"ThisеКlineеКdescribesеКtheеКsocialеКorganizationеКofеКtheеКsingingеКgroup.еКHereеКyouеКwillеКfindеКvariationsеКofеК‰ЫПcallеКandеКresponse.‰ЫќеКTwoеКbasicеКelementsеКofеКgroupеКorganizationеКareеКconsidered: 1)еКProminenceеКofеКsoloеКorеКleader‰ЫЄsеКpart; 2)еКTypeеКofеКgroupеКorganization. TheеКscaleеКisеКoneеКofеКincreasinglyеКintegratedеКsocialеКrelations,еКfromеКsoloеКtoеКinterlock.",data,public,TRUE,categorical,,,,"Required and public,"
+line_2,"TheеКtermеК‰ЫПorchestra‰ЫќеКrefersеКtoеКtheеКperformersеКofеКanyеКnon-vocalеКsoundsеКheardеКonеКtheеКrecord,еКwhetherеКtheyеКbeеКbody-producedеК(clapping,еКstamping)еКorеКobject-producedеКbyеКanythingеКfromеКtwoеКsticksеКtoеКaеКsymphonyеКorchestra.",data,public,TRUE,categorical,,,,"Required and public,"
+line_3,"LineеК3еКandеКLineеК1еК(SocialеКOrganizationеКofеКtheеКVocalеКGroup)еКcorrespond,еКbutеКtheеКsocialеКrelationshipsеКbetweenеКtheеКorchestra‰ЫЄsеКpartsеКareеКmoreеКdifficultеКtoеКidentify‰ЫУforеКexample,еКitеКisеКoftenеКhardеКtoеКdistinguishеКbetweenеКtypesеКofеКoverlap.еКInеКmanyеКcases,еКtwoеКorеКmoreеКcodingеКsituationsеКmayеКbeеКequallyеКimportant,еКrequiringеКmultipleеКcoding.еКTheеКscaleеКisеКoneеКofеКincreasingеКintegration,еКfromеКsoloеКtoеКinterlock.",data,public,TRUE,Categorical,,,,"Required and public,"
+line_4,TheеКmusicalеКcoordinationеКamongstеКtheеКsingersеКinеКaеКgroupеКconsidersеКbothеКmelodicеКandеКrhythmicеКelements.,data,public,TRUE,Categorical,,,,"Required and public,"
+line_5,"BothеКdiffuseеКandеКcohesiveеКsoundsеКareеКpleasingеКwithinеКaеКgivenеКaesthetic.еКMuchеКtonalеКblendеКdependsеКuponеКwide,еКclearеКvoicingеКandеКtheеКrelativeеКabsenceеКofеКvocalеКnoiseеКandеКornamentation.еКInеКcontrast,еКwithеКtonalеКindependence,еКnoеКindividualеКyieldsеКtoеКanother,еКproducingеКaеКnoisyеКeffect.еКIntermediateеКblendеКisеКoftenеКaеКreedyеКunisonеКinеКwhichеКindividualеКvoicesеКareеКheard.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_6,"TheеКdegreeеКofеКrhythmicеКcoordinationеКbetweenеКmembersеКofеКtheеКsingingеКgroupеКdependsеКonеКtheеКdegreeеКtoеКwhichеКitsеКmembersеКcoordinateеКtheirеКattacksеКandеКreleases.еКRhythmicеКblendеКisеКconsideredеКmaximalеКwhenеКattacksеКandеКreleasesеКareеКpreciselyеКcoordinated.еКIfеКmovementеКfromеКnoteеКtoеКnoteеКisеКstaggered,еКthenеКrhythmicеКblendеКisеКconsideredеКminimal.еКBothеКeffectsеКareеКaestheticallyеКgrounded,еКpowerful,еКandеКpleasing.",data,public,TRUE,Categorical,,,,"Required and public,"
+line_7,"OverallеКmusicalеКcoordinationеКamongstеКmembersеКofеКtheеКorchestra,еКtakingеКbothеКmelodicеКandеКrhythmicеКelementsеКintoеКaccount.еКHere,еКpolyrhythmеКisеКtreatedеКasеКaеКtypeеКofеКpolyphony,еКasеКeachеКpartеКisеКindependent.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_8,"TheеКconceptеКofеКtonalеКblendеКappliesеКtoеКorchestrasеКdifferentlyеКthanеКtoеКvoices.еКAnеКorchestraеКcomposedеКofеКseveralеКdifferentеКkindsеКofеКinstrumentsеКcanеКrarelyеКachieveеКtheеКsameеКdegreeеКofеКtonalеКunityеКasеКaеКchorusеКofеКvoices.еКConsequently,еКtheеКmeasureеКofеКblendеКforеКorchestrasеКisеКnotеКuniformityеКofеКtimbre,еКbutеКratherеКtheеКoverallеКsonorityеКofеКtheеКensemble.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_9,"RatesеКtheеКdegreeеКofеКrhythmicеКcoordinationеКbetweenеКmembersеКofеКtheеКorchestra.еКIfеКallеКattacksеКandеКreleasesеКareеКpreciselyеКcoordinated,еКrhythmicеКblendеКisеКconsideredеКmaximal.еКIf,еКonеКtheеКotherеКhand,еКmovementsеКfromеКnoteеКtoеКnoteеКareеКinvariablyеКasynchronous,еКrhythmicеКblendеКisеКconsideredеКminimal.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_10,"ListeningеКtoеКtheеКtextеКasеКitеКisеКperformed,еКconsiderеКtheеКdegreeеКofеКrepetitionеКinеКtheеКtextеКwithoutеКconsideringеКtheеКmeaningеКofеКtheеКwords.еКKnowledgeеКofеКtheеКlanguageеКofеКtheеКtextеКhasеКnoеКbearingеКonеКthisеКrating.еКInstead,еКmakeеКaеКjudgmentеКaboutеКtheеКproportionеКofеКtheеКtextеКinеКtheеКwholeеКsongеКthatеКseemsеКtoеКbeеКrepeated,еКorеКwhichеКconsistsеКofеКwordsеКthatеКhaveеКnoеКlexicalеКmeaning.",data,public,TRUE,Categorical,,,,"Required and public,"
+line_11,"InеКmostеКmusicalеКstyles,еКtheеКperformerеКorеКperformersеКemployеКaеКsingle,еКoverallеКrhythmicеК‰ЫПgroundеКplan,‰ЫќеКwhichеКservesеКasеКaеКpointеКofеКreferenceеКforеКtheеКinfiniteеКvarietyеКofеКrhythmicеКdetailеКpossibleеКwithinеКtheеКscheme.еКAlthoughеКmanyеКsuchеКoverallеКformatsеКareеКpossible,еКtheyеКhaveеКbeenеКdividedеКhereеКintoеКfiveеКgeneralеКcategories.еКTheеКcategoriesеКforеКthisеКmeasureеКapplyеКtoеКtheеКoverallеКrhythmеКofеКtheеКvoices.еКInеКorderеКtoеКcodeеКtheеКinstrumentalеКpart,еКreferеКtoеКLineеК13.",data,public,TRUE,Categorical,,,,"Required and public,"
+line_12,"SingingеКgroupsеКestablishеКtheirеКrhythmicеКactivityеКinеКaеКnumberеКofеКways.еКInеКsomeеКcases,еКallеКsingersеКorеКpartsеКinеКaеКchorusеКmayеКstickеКtoеКtheеКmainеКrhythm.еКInеКothers,еКthereеКmayеКbeеКoneеКorеКmoreеКcontrastingеКrhythmicеКparts.еКThisеКlineеКprovidesеКsevenеКdescriptiveеКcategoriesеКforеКtheеКvariousеКtypesеКofеКrhythmicеКrelationshipsеКthatеКlinkеКaеКgroupеКtogetherеКwithinеКoneеКofеКtheеКoverallеКmetricalеКpatternsеКalreadyеКcodedеКinеКLineеК11.",data,public,TRUE,Categorical,,,,"Required and public,"
+line_13,"InеКmostеКmusicalеКstyles,еКtheеКperformerеКorеКperformersеКemployеКaеКsingle,еКoverallеКrhythmicеКplanеКthatеКservesеКasеКaеКpointеКofеКreferenceеКforеКtheеКgreatеКvarietyеКofеКrhythmicеКdetailеКpossibleеКwithinеКtheеКscheme.еКAlthoughеКaеКlargeеКnumberеКofеКsuchеКoverallеКschemesеКareеКpossible,еКhereеКtheyеКareеКdividedеКthemеКintoеКsixеКgeneralеКcategories.еКTheеКcategoriesеКforеКthisеКmeasureеКapplyеКtoеКtheеКoverallеКrhythmеКofеКtheеКinstrumentalеКpart.",data,public,TRUE,Categorical,,,,"Required and public,"
+line_14,TheеКvariousеКtypesеКofеКrelationshipsеКbetweenеКtheеКinstrumentsеКareеКratedеКhere.,data,public,TRUE,Categorical,,,,"Required and public,"
+line_15,"TheеКcharacteristicеКcontoursеКofеКtheеКvocalеКlineеКareеКdescribedеКinеКveryеКgeneralеКterms.еКWhileеКmostеКofеКtheеКotherеКlinesеКareеКscalarеКtoеКsomeеКdegree,еКthisеКlineеКdidеКnotеКlendеКitselfеКtoеКsuchеКtreatment.еКHence,еКtheеКsequenceеКofеКtheеКfourеКcategoriesеКofеКmelodicеКshapeеКisеКarbitrary.",data,public,TRUE,Categorical,,,,"Required and public,"
+line_16,"LineеК16еКisеКanеКattemptеКtoеКdealеКsuccinctlyеКwithеКtheеКfullеКrangeеКofеКmelodicеКforms.еКAtеКoneеКendеКofеКtheеКscaleеКisеКsimpleеКlitany,еКdefinedеКhereеКasеКaеКshortеКtuneеКcomposedеКofеКoneеКorеКtwoеКphrasesеКrepeatedеКoverеКandеКoverеКagain;еКinеКtheеКmiddleеКthereеКareеКstrophicеКforms;еКandеКatеКtheеКotherеКendеКisеКtheеКmostеКcomplexеКtype,еКthrough-composed,еКinеКwhichеКmanyеКvariedеКphrasesеКareеКstrungеКtogetherеКinеКaеКfashionеКthatеКtoеКsomeеКlistenersеКmayеКseemеКtoеКbeеКalmostеКformless.еКDegreesеКofеКmelodicеКvariationеКwithinеКtheseеКformsеКareеКdealtеКwithеКhereеКasеКwell.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_17,"AеКsimpleеКfive-pointеКscaleеКisеКusedеКtoеКdescribeеКphraseеКlength.еКCodingеКwasеКdoneеКwithoutеКaеКstopwatchеКforеКhalfеКtheеКsongеКsample,еКandеКthenеКaеКtestеКwithеКaеКstopwatchеКwasеКmade.еКItеКwasеКfoundеКthatеКtheеКlengthеКofеКphraseеКratedеКbyеКearеКcloselyеКapproximatedеКtheеКstopwatchеКmeasurements.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_18,"DetermineеКtheеКnumberеКofеКmelodicеКphrasesеКthatеКoccurеКinеКaеКsongеКbeforeеКaеКfullеКrepeatеКofеКtheеКentireеКphraseеКsequence,еКasеКwellеКasеКtheеКpresenceеКorеКabsenceеКofеКphraseеКsymmetry.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_19,"TheеКrelationеКofеКtheеКfinalеКnoteеКtoеКtheеКtotalеКrangeеКofеКtheеКsong.еКTheеКearеКtrainingеКoneеКdevelopsеКthroughеКlisteningеКtoеКtheеКmusicalеКexamplesеКfacilitatesеКaеКsimple,еКnon-technicalеКapproachеКtoеКtheеКconceptsеКoutlinedеКhere.еКTheеКratingеКscaleеКusedеКisеКaеКrelativelyеКsimpleеКone.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_20,"ThisеКisеКaеКmethodеКofеКjudgingеКtheеКtotalеКmelodicеКrangeеКofеКaеКsong,еКwhichеКisеКtheеКdistanceеКbetweenеКitsеКhighestеКandеКlowestеКnotes.еКCarefulеКlisteningеКmakesеКitеКpossibleеКtoеКtakeеКaеКnon-technicalеКapproachеКtoеКthisеКmeasure.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_21,"AnеКintervalеКisеКtheеКdistanceеКinеКpitchеКbetweenеКtwoеКnotes.еКHereеКintervalеКsizeеКisеКestimatedеКbyеКusingеКaеКsubjectiveеКfive-pointеКscale,еКinеКorderеКtoеКdetermineеКtheеКrelativeеКfrequencyеКofеКoneеКorеКmoreеКsize-categoriesеКofеКintervalеКinеКaеКperformance.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_22,"ThisеКmeasureеКconsidersеКtheеКuseеКofеКsimultaneouslyеКproducedеКintervalsеКotherеКthanеКunisonеКorеКtheеКoctave.еКTwo-partеКintervalsеКofеКthisеКkindеКareеКconsideredеКpolyphony,еКasеКwellеКasеКharmoniesеКofеКgreaterеКcomplexity.еКSimultaneouslyеКproducedеКintervalsеКmayеКalsoеКoccurеКinеКheterophony.еК(SeeеКalsoеКLineеК4.)",data,public,TRUE,Categorical,,,,"Required and public,"
+line_23,"EmbellishmentеКisеКoneеКofеКseveralеКdevicesеКusedеКbyеКtheеКsingerеКasеКaеКkindеКofеКqualification,еКorеКornament,еКofеКtheеК‰ЫПbasic‰ЫќеКmelodicеКline.еКAnеКembellishedеКmelodicеКlineеКcontainsеКtwoеКentirelyеКdistinctеКkindsеКofеКnoteеКvalue,еКtheеКembellishedеКpartеКbeingеКmuchеКmoreеКrapidеКandеКephemeralеКthanеКtheеКmelodicеКpart.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_24,"AsеКemployedеКinеКCantometrics,еКtempoеКisеКbasedеКonеКaеКrelativeеКandеКapproximateеКdeterminationеКofеКtheеКspeedеКorеКspeedsеКofеКaеКperformance.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_25,"VolumeеКmeasuresеКtheеКrelativeеКdegreeеКofеКloudnessеКinеКaеКperformance.еКAsеКwithеКtempo,еКaеКsubjectiveеКscaleеКcuedеКbyеКtheеКhumanеКearеКprovedеКmostеКusefulеКforеКdeterminingеКvolume.еКAеКdecibelеКcountеКofеКvolumeеКinеКanyеКgivenеКrecordingеКisеКaffectedеКbyеКsoеКmanyеКfactorsеКthatеКitеКwouldеКbeеКmeaninglessеКunlessеКeveryеКstageеКofеКbothеКtheеКrecordingеКandеКplaybackеКwereеКsubjectеКtoеКtheеКmostеКrigorousеКcontrol.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_26,AеКjudgmentеКaboutеКhowеКstrictlyеКtempoеКisеКmaintainedеКduringеКaеКvocalеКperformance.,data,public,TRUE,Ordinal,,,,"Required and public,"
+line_27,"AеКjudgmentеКaboutеКhowеКstrictlyеКtempoеКisеКmaintainedеКduringеКaеКperformance,еКappliedеКtoеКtheеКorchestraеКorеКaccompanyingеКinstruments.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_28,"GlissandoеКisеКtheеКeffectеКcreatedеКwhenеКtheеКvoiceеКslidesеКsmoothlyеКfromеКoneеКtoneеКtoеКanother,еКpassingеКthroughеКallеКtheеКintermediateеКpitchеКlevels.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_29,"TheеКsameеКsyllableеКofеКtextеКsungеКtoеКtwoеКorеКmoreеКnotesеКofеКmelody‰ЫУor,еКconversely,еКtheеКpassageеКofеКseveralеКnotesеКoverеКoneеКsyllable.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_30,"TremoloеКisеКaеКquaveringеКorеКshakingеКinеКtheеКvoice,еКheardеКasеКanеКundulationеКbetweenеКtwoеКcloselyеКadjacentеКpitchesеКorеКtoneеКcolors.еКItеКisеКusuallyеКdiscernibleеКonlyеКonеКnotesеКheldеКforеКanеКappreciableеКlengthеКofеКtime.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_31,"GlottalеКarticulationеКisеКtheеКproductеКofеКnoticeablyеКforcefulеКactivityеКinеКtheеКpharyngeal,еКorеКglottal,еКareaеКinеКtheеКbackеКofеКtheеКthroat.еКSomeеКsingersеКactuallyеКmanipulateеКtheirеКlaryngealеКprominenceеК(Adam‰ЫЄsеКapple)еКwithеКtheirеКfingersеКtoеКproduceеКthisеКeffect.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_32,"VocalеКpitchеКrefersеКtoеКtheеКtonalеКheight,еКorеКfrequency,еКofеКtheеКvoice.еКItеКisеКcommonlyеКusedеКtoеКdescribeеКtheеКkeyеКmostеКnaturalеКforеКtheеКvoiceеКofеКtheеКsinger.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_33,"ThisеКmeasureеКconcernsеКtheеКcontrastеКbetweenеКvoicesеКthatеКsoundеКmellow,еКrelaxed,еКandеКresonantеК(wide),еКandеКvoicesеКthatеКareеКtense,еКpinched,еКandеКrestrictedеКinеКresonanceеК(narrow).",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_34,"AеКnasalizedеКtoneеКisеКaеКstrongеКmarkerеКofеКsomeеКsingingеКstylesеКevenеКinеКtheеКabsenceеКofеКnasalеКsyllables,еКprobablyеКbecauseеКsingingеКisеКnormallyеКlouderеКandеКmoreеКforcefulеКthanеКspeaking.еКWhenеКaеКwideеКsampleеКofеКrecordedеКsongеКisеКexamined,еКtheеКabsenceеКofеКnasalizationеКinеКsomeеКstylesеКisеКalsoеКstriking.еКForеКthisеКreason,еКnasalizationеКisеКcoded,еКinеКspiteеКofеКtheеКvaguenessеКofеКtheеКterm.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_35,"RaspеКisеКfrequentlyеКassociatedеКwithеКveryеКmarked,еКforcedеКvocalizing.еКItеКcutsеКthroughеКmusicalеКperformancesеКinеКwhichеКeveryoneеКisеКsingingеКloudlyеКwithеКaеКloudеКaccompaniment.еКInеКsomeеКpartsеКofеКtheеКworld,еКperformersеКsingеКinеКaеКgratingеКtone,еКatеКtheеКsameеКtimeеКforcefullyеКemphasizingеКconsonants.еКTheеКresultеКisеКclearеКarticulation,еКbutеКwithеКaеКnoisierеКtonalеКimage.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_36,"AccentеКisеКheardеКasеКtheеКdynamicеКattackеКonеКsungеКtones.еКItеКdescribesеКtheеКprominenceеКgivenеКtoеКaеКnoteеКorеКchord,еКusuallyеКbyеКincreasingеКtheеКvolumeеКorеКlengtheningеКtheеКduration,еКorеКbyеКaеКbriefеКprecedingеКsilence.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_37,"EmployingеКaеКscaleеКofеКfiveеКdegrees,еКthisеКmeasureеКevaluatesеКhowеКpreciselyеКconsonantsеКareеКarticulatedеКinеКsungеКtexts.еКItеКmustеКbeеКborneеКinеКmindеКthat,еКinеКgeneral,еКenunciationеКinеКsingingеКisеКboundеКtoеКbeеКlessеКclearеКthanеКinеКspeaking.",data,public,TRUE,Ordinal,,,,"Required and public,"
+orv_1,,data,internal,FALSE,integer,,,,
+orv_2,,data,internal,FALSE,integer,,,,
+ensemble_value_id,,data,internal,FALSE,string,,,,
+ensemble_value_label,,data,internal,FALSE,string,,,,
+instrument_value_id,,data,internal,FALSE,string,,,,
+instrument_value_label,,data,internal,FALSE,string,,,,
+song_id,Unique identifer for each song,songs,public,TRUE,identifier; foreign key,,,,
+Local_latitude,Latitude of the recording location ,songs,public,TRUE,continuous,between -180 & + 180,Required should be TRUE,Required,"Required and public,"
+Local_longitude,Longitude of the recording location,songs,public,TRUE,continuous,between -90 & + 90,Required should be TRUE,Required,"Required and public,"
+Homeland_latitude,Latitude of the homeland for diasporic societies,songs,public,TRUE,continuous,between -180 & + 180,,Required,"Required and public,"
+Homeland_longitude,Longitude of the homeland for diasporic societies,songs,public,TRUE,continuous,between -90 & + 90,,Required,"Required and public,"
+Region,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",songs,public,TRUE,string,,"Could we keep internal? It is very useful to have these for sorting the sheet for internal purposes, but I understand they they are redundant to display publicly.",Required and public,"Required and public,"
+Division,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",songs,public,TRUE,string,,"Could we keep internal? It is very useful to have these for sorting the sheet for internal purposes, but I understand they they are redundant to display publicly.",Required and public,"Required and public,"
+Subregion,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",songs,public,TRUE,string,,"Could we keep internal? It is very useful to have these for sorting the sheet for internal purposes, but I understand they they are redundant to display publicly.",Required and public,"Required and public,"
+Area,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",songs,public,TRUE,string,,"Could we keep internal? It is very useful to have these for sorting the sheet for internal purposes, but I understand they they are redundant to display publicly.",Required and public,"Required and public,"
+Preferred_name,Society name,songs,public,TRUE,string,,"Could we keep internal? It is very useful to have these for sorting the sheet for internal purposes, but I understand they they are redundant to display publicly.",Required and public,"Required and public,"
+Society_location,Written description of society location,songs,public,TRUE,string,,"Don't remove! And make public. For field recordings, this is the recording location. For commerical recordings or other situations where the recording location doesn't represent the society, both are listed (e.g. Cairo, Egypt [Recorded in Canada]). This is where the lat-longs are derived from.",Required and public,"Required and public,"
+society_id,Unique identifier for each society,songs,public,TRUE,identifier; foreign key,must be 5 numbers?,,,"Required and public,"
+Audio_notes,Notes on the audio file,songs,public,TRUE,string,,,Required and public,"Required and public,"
+Duration,Length of Audio file,songs,public,TRUE,string,,,Required and public,"Required and public,"
+Audio_file,Name of the audio file,songs,public,TRUE,identifier,,,Required and public.,"ID of audio file (T12240 , or T122R05, as we have it.)"
+archivalsource_id,Identification number of the archival source of the audio file,songs,internal,FALSE,identifier,any special structure?,Structure varies by media type (LP or tape) and is sometimes inconsistent so I wouldn't specify a structure. These link to Lomax source materials so it seems best to keep true to the listed source id even if inconsistently formatted.,Maintain structure as is.  Rquired and internal,Maintain as is. Agree with Stella.  Require and internal.
+Song,Name of the song,songs,public,TRUE,string,,Required should be TRUE,Required and public,"Required and public,"
+Genre,Genre of the song,songs,public,TRUE,string,,,Required and public,"Required and public,"
+Song_notes,"Notes about the song recording. Details vary in length, but can range from the purpose of the song, to descriptions of instruments and how they are played, to what the song is about",songs,public,TRUE,string,,,Required and public,"Required and public,"
+Performers,Written description of the performers in the song,songs,public,TRUE,string,,,Required and public,"Required and public,"
+Instruments,Written description of the instruments used in the song,songs,public,TRUE,string,,,Required and public,"Required and public,"
+Vocalist_gender,Gender of the Vocalists.,songs,public,TRUE,categorical,,,Required and public,"Required and public,"
+Lyrics,Lyrics of the song (sometimes with translation),songs,public,TRUE,string,,,Required and public,"Required and public,"
+Living_metadata,,songs,internal,FALSE,string,,,Internal for the present. Will add to public later,"Required, Internal"
+Recorded_by,Name of who recorded the song,songs,public,TRUE,string,,,Required and public,"Required and public,"
+Year,Year song was recorded,songs,public,TRUE,integer,,,Required and public,"Required and public,"
+Publisher,Who published the song,songs,public,TRUE,string,,,Required and public,"Required and public,"
+Publcation_collection,Name of the collection,songs,public,TRUE,string,,,Required and public,"Required and public,"
+Repository,Name of the repository,songs,public,TRUE,string,,,Required and public,"Required and public,"
+Classification_notes,,songs,internal,FALSE,string,,,Internal and  required,"Required, Internal"
+Metadata_notes,,songs,internal,FALSE,string,,,Internal and  required,"Required, Internal"
+Sources,,songs,public,TRUE,string,,,Required and public,"Required and public,"
+Source_tag,,songs,public,TRUE,string,,"Again, maybe this should be public so users can look up the source in source database.",Required and public,"Required and public,"
