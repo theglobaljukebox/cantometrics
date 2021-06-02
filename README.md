@@ -1,4 +1,4 @@
-![https://img.shields.io/github/v/release/theglobaljukebox/cantometrics]
+![](https://img.shields.io/github/v/release/theglobaljukebox/cantometrics)
 
 # Cantometrics Data
 
