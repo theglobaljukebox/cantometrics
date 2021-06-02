@@ -4,6 +4,24 @@
 
 This repository is for pulling, formatting, validating and cleaning the Cantometrics dataset.
 
+Raw data is presented in three data tables within raw/
+
+| file             | description                                              |
+|------------------|----------------------------------------------------------|
+| data.csv         | Cantometric codings of songs in the sample.              |
+| songs.csv        | Metadata on the songs coded in data.csv                  |
+| societies.csv    | Metadata on the societies from which the songs originate.|
+
+Cantometrics data is also available in CLDF format within cldf/ 
+
+| file             | description                                              |
+|------------------|----------------------------------------------------------|
+| data.csv         | Long format Cantometrics codings of the songs in the sample.|
+| songs.csv        | Metadata on the songs coded in data.csv                  |
+| societies.csv    | Metadata on the societies from which the songs originate.|
+
+Additionally there is information on variable and coding descriptions within etc/ 
+
 ## Getting started
 
 To see the list of available commands and scripts type into your terminal:
