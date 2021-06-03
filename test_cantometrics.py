@@ -7,8 +7,14 @@ from helper import conversion
 
 @pytest.fixture(scope='module')
 @dt.working_directory(__file__)
-def df():
+def df_raw():
     return pd.read_csv('raw/data.csv')
+
+@pytest.fixture(scope='module')
+@dt.working_directory(__file__)
+def song_cldf():
+    return pd.read_csv('cldf/songs.csv')
+
 
 ## Testing that all codes are valid
 
@@ -21,11 +27,11 @@ def is_coding_allowed(integer, n=13):
             integer -= 2**i
     return True if integer == 0 else False
 
-def test_column(df):
-    for col in df.columns:
-        if 'line_' in col:
-            print(col)
-            assert all([is_coding_allowed(x) == True for x in df[col]])
+# def test_codings(df_raw):
+#     for col in df_raw.columns:
+#         if 'line_' in col:
+#             print(col)
+#             assert all([is_coding_allowed(x) == True for x in df_raw[col]])
 
 
 def test_conversion():
@@ -47,6 +53,6 @@ def test_conversion():
 
     assert all([single_1, single_2, single_3, double_1, double_2, triple_1, triple_2])
 
-# def test_runtime(df):
-#     dt.validate(df['canto_coding_id'], int)
+def test_rownums(df_raw, song_cldf):
+    assert df_raw.index[0] == song_cldf.index[0]
 
