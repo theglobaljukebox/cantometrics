@@ -31,8 +31,6 @@ Additionally there is information on variable and coding descriptions within etc
 
 Research that uses data from the Global Jukebox should cite both the original source(s) of the data and this paper (e.g., research using data from the Cantometrics dataset: “Lomax (1968); Wood et al. (2021)”). The reference list should include the date that data were accessed and URL for the Global Jukebox (http://theglobaljukebox.org), in addition to the full reference for Lomax (1968). Additionally, Cantometrics is versioned and stored on Zenodo. Users can cite the specific dataset and version used by visiting [zenodo website].
 
-https://psyarxiv.com/4z97j/
-
 ## Versions
 
 See the [list of releases](https://github.com/theglobaljukebox/cantometrics/releases) for available released versions of Cantometrics data.
