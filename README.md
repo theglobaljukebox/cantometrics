@@ -27,7 +27,7 @@ See the [list of releases](https://github.com/theglobaljukebox/cantometrics/rele
 
 ## Acknowledgements
 
-The Global Jukebox would not exist without the cultural datasets upon which it relies; we would like to acknowledge the years of work by Alan Lomax, and the enormous contributions made by other scholars in the field towards their maintenance and updating.
+The Global Jukebox would not exist without the extensive recordings collected throughout the world by Alan Lomax; we would like to acknowledge his years of work by  and the enormous contributions made by other scholars in the field towards their maintenance and updating.
 
 ## Getting started
 
