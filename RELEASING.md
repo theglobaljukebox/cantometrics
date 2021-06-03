@@ -1,6 +1,12 @@
 
 # Releasing `cantometrics`
 
+To see the list of available commands and scripts type into your terminal:
+
+`make help`
+
+<small><strong>Note:</strong> This code has been tested for Mac/Windows, but if you are on a windows, please submit a pull request so we can make it easier to run. This step assumes you have a working distribution of `make`. For installation instructions please update XCode or follow the specific guidelines for installing `make` on your system. </small>
+
 ## Check the data
 
 The data are currently stored within Google-Drive sheets. Make sure you can access these before trying to create a release.
