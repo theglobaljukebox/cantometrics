@@ -48,5 +48,6 @@ To see the list of available commands and scripts type into your terminal:
 
 `make update`
 
-## Funding 
+## Funding 
+
 The Global Jukebox has been developed with support from the National Endowment for the Arts, the National Endowment for the Humanities, the Concordia Foundation, the Rock Foundation, and Odyssey Productions.
