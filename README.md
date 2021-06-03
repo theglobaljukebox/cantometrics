@@ -1,5 +1,3 @@
-![](https://img.shields.io/github/v/release/theglobaljukebox/cantometrics)
-
 # Cantometrics Data
 
 This repository is for pulling, formatting, validating and cleaning the Cantometrics dataset, a dataset forming part of [The Global Jukebox](https://theglobaljukebox.org/#).
@@ -49,3 +47,6 @@ To see the list of available commands and scripts type into your terminal:
 ## Update dependencies
 
 `make update`
+
+## Funding 
+The Global Jukebox has been developed with support from the National Endowment for the Arts, the National Endowment for the Humanities, the Concordia Foundation, the Rock Foundation, and Odyssey Productions.
