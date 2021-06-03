@@ -29,25 +29,6 @@ See the [list of releases](https://github.com/theglobaljukebox/cantometrics/rele
 
 The Global Jukebox would not exist without the extensive recordings collected throughout the world by Alan Lomax; we would like to acknowledge his years of work by  and the enormous contributions made by other scholars in the field towards their maintenance and updating.
 
-## Getting started
-
-To see the list of available commands and scripts type into your terminal:
-
-`make help`
-
-<small><strong>Note:</strong> This code has been tested for Mac/Windows, but if you are on a windows, please submit a pull request so we can make it easier to run. This step assumes you have a working distribution of `make`. For installation instructions please update XCode or follow the specific guidelines for installing `make` on your system. </small>
-
-## Collect google drive data
-
-`make download`
-
-## Convert data to CLDF format
-`make process`
-
-## Update dependencies
-
-`make update`
-
 ## Funding 
 
 The Global Jukebox has been developed with support from the National Endowment for the Arts, the National Endowment for the Humanities, the Concordia Foundation, the Rock Foundation, and Odyssey Productions.
