@@ -33,7 +33,6 @@ process2: env
 	cp raw/songs.csv cldf/
 	./env/bin/python3 rename_andsubset.py
 
-
 test: env
 	./env/bin/cldf validate ./cldf/StructureDataset-metadata.json 2>&1 | tee logs/cldf.log
 	./env/bin/python3 -m pytest

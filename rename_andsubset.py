@@ -34,11 +34,11 @@ songs["society_id"]         = songs["society_id"].astype(str)
 data["society_id"]          = data["society_id"].astype(str)
 keep_societies = data["society_id"].unique()
 societies = societies[societies.society_id.isin(keep_societies)]
-songs = songs[songs.society_id.isin(keep_societies)]
+# songs = songs[songs.society_id.isin(keep_societies)]
 
 # Manually remove these songs because AW wants to keep the metadata in googlesheets
 remove_songs = open("removed_songs.txt").read().splitlines()
-# songs = songs[np.logical_not(songs.song_id.isin(remove_songs))]
+songs = songs[np.logical_not(songs.song_id.isin(remove_songs))]
 
 data.to_csv('cldf/data.csv', index=False)
 songs.to_csv('cldf/songs.csv', index=False)
