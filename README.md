@@ -2,7 +2,7 @@
 
 # Cantometrics Data
 
-This repository is for pulling, formatting, validating and cleaning the Cantometrics dataset, a dataset forming part of [The Global Jukebox](https://theglobaljukebox.org/#)
+This repository is for pulling, formatting, validating and cleaning the Cantometrics dataset, a dataset forming part of [The Global Jukebox](https://theglobaljukebox.org/#).
 
 Raw data is presented in three data tables within raw/
 
