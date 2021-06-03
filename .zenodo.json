@@ -1,0 +1,74 @@
+{
+    "access_right": "open",
+    "contributors": [
+        {
+            "name": "Sam Passmore",
+            "type": "DataCurator"
+        }
+    ],
+    "keywords": [
+        "cultural-heritage"
+    ],
+    "upload_type": "dataset",
+    "creators": [
+      {
+        "name": "Anna L C Wood"
+      }, 
+      {
+        "name": "Kate R Kirby"
+      }, 
+      {
+        "name": "Carol R Ember"
+      }, 
+      {
+        "name": "Stella Silbert"
+      }, 
+      {
+        "name": "Hideo Daikoku"
+      }, 
+      {
+        "name": "John McBride"
+      }, 
+      {
+        "name": "Sam Passmore"
+      }, 
+      {
+        "name": "Forrestine Paulay"
+      }, 
+      {
+        "name": "Michael Flory"
+      }, 
+      {
+        "name": "John Szinger"
+      }, 
+      {
+        "name": "Gideon D'Arcangelo"
+      }, 
+      {
+        "name": "Marco Guarino"
+      }, 
+      {
+        "name": "Maisa Atayeva"
+      }, 
+      {
+        "name": "Jesse Rifkin"
+      }, 
+      {
+        "name": "Violet Baron"
+      }, 
+      {
+        "name": "Miriam El Hajli"
+      }, 
+      {
+        "name": "Martin Szinger"
+      }, 
+      {
+        "name": "Patrick E Savage"
+      }
+    ],
+    "title": "The Global Jukebox: Cantometrics",
+    "description": "<p>The data repository for the Cantometrics dataset </p>",
+    "license": {
+        "id": "CC-BY-NC-4.0"
+    }
+}
