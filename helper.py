@@ -22,7 +22,7 @@ def conversion(value, value_set):
 				break
 			# We know there are max. 3 codings in the dataset, therefore, if we can't find a combination of codes 
 			# in the set that match the value, then the code must be incorrect. 
-			if(i == 4):
+			if(i == 5):
 				single_codes = (float("NaN"),)
 				running = False
 				warnings.warn("WARNING: An impossible value has been found")

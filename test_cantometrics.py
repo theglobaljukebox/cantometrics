@@ -21,17 +21,15 @@ def song_cldf():
 # Test for single value
 def is_coding_allowed(integer, n=13):
     for i in range(n,0,-1):
-        if integer == 0:
-            return False
         if integer >= 2**i:
             integer -= 2**i
     return True if integer == 0 else False
 
-# def test_codings(df_raw):
-#     for col in df_raw.columns:
-#         if 'line_' in col:
-#             print(col)
-#             assert all([is_coding_allowed(x) == True for x in df_raw[col]])
+def test_codings(df_raw):
+    for col in df_raw.columns:
+        if 'line_' in col:
+            print(col)
+            assert all([is_coding_allowed(x) == True for x in df_raw[col]])
 
 
 def test_conversion():
