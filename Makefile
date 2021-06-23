@@ -8,11 +8,11 @@ update: env
 	./env/bin/python3 ./env/bin/pip3 install --upgrade -r requirements.txt
 
 
-all: download process test
+all: download process process2 test
 
 help:
 	@printf "\nIf you are an authenticated user and you want to update the data from Google Drive, run: make download\n\n"
-	@printf "To build the dataset into CLDF format, run: make process \n\n"
+	@printf "To build the dataset into CLDF format, run: make process (this takes some time), then make process2 (this does not take very long) \n\n"
 	@printf "To validate the dataset, run: make test \n\n"
 
 download: env

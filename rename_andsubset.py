@@ -40,7 +40,7 @@ societies = societies[societies.society_id.isin(keep_societies)]
 remove_songs = open("removed_songs.txt").read().splitlines()
 songs = songs[np.logical_not(songs.song_id.isin(remove_songs))]
 
-data.to_csv('cldf/data.csv', index=False)
-songs.to_csv('cldf/songs.csv', index=False)
-songs.to_csv('raw/songs.csv', index=False)
-societies.to_csv('cldf/societies.csv', index=False)
+data.to_csv('cldf/data.csv', index=False, na_rep='')
+songs.to_csv('cldf/songs.csv', index=False, na_rep='')
+songs.to_csv('raw/songs.csv', index=False, na_rep='')
+societies.to_csv('cldf/societies.csv', index=False, na_rep='')

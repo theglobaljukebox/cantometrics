@@ -9,6 +9,11 @@ from helper import conversion
 @dt.working_directory(__file__)
 def df_raw():
     return pd.read_csv('raw/data.csv')
+    
+@pytest.fixture(scope='module')
+@dt.working_directory(__file__)
+def df_cldf():
+    return pd.read_csv('cldf/data.csv')
 
 @pytest.fixture(scope='module')
 @dt.working_directory(__file__)
@@ -25,11 +30,15 @@ def is_coding_allowed(integer, n=13):
             integer -= 2**i
     return True if integer == 0 else False
 
-def test_codings(df_raw):
+def test_rawcodings(df_raw):
     for col in df_raw.columns:
         if 'line_' in col:
             print(col)
             assert all([is_coding_allowed(x) == True for x in df_raw[col]])
+
+
+def test_cldfcodings(df_cldf):
+    assert all(df_cldf.codes < 14)
 
 
 def test_conversion():
