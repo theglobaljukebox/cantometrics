@@ -27,7 +27,7 @@ Language_nearsubfamily,Lower-level hierarchical language clade,societies,public,
 Language_largersubfamily,Higher-level hierarchical language clade,societies,public,TRUE,string,,Required should be TRUE,,Require and public
 Language_family,The language family linked to a culture,societies,public,TRUE,string,,Required should be TRUE,,Require and public
 Language_familytree,The hierarchy of language families linked to a culture,societies,internal,FALSE,string,,,,Internal for now
-ISO6393,ISO 639 is a standardized nomenclature used to classify languages,societies,internal,FALSE,identifier,Can we remove the ISO 6393 prefix? Then this column can be constrained more appropriately.,Fine with me,Remove,I agree Remove
+ISO6393,ISO 639 is a standardized nomenclature used to classify languages,societies,internal,TRUE,identifier,Can we remove the ISO 6393 prefix? Then this column can be constrained more appropriately.,Fine with me,Remove,I agree Remove
 Glottocode,Identification code based on Glottolog.org,societies,public,TRUE,identifier,[a-z]{4}[0-9]{4},,Required and public,Require and public
 Country,"Name of the country a culture resides in. If a culture persists across borders, countries are seperated by semi-colons. ",societies,public,TRUE,categorical,,,Required and public,Require and public
 Country_id,Numeric identifier for Country,societies,internal,FALSE,identifier,Mostly empty?,"Not sure what this column was supposed to be. Check with Anna, but I would say remove it or clarify what it is and keep internal.",Keep and internal,Internal

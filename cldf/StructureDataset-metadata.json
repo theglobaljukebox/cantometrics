@@ -99,25 +99,29 @@
                         "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
                         "required": false,
-                        "name": "Society_latitude"
+                        "name": "Society_latitude",
+                        "null": ""
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": -180, "maximum": 180},
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
                         "required": false,
-                        "name": "Society_longitude"
+                        "name": "Society_longitude",
+                        "null": ""
                     },
                                         {
                         "datatype": {"base": "decimal", "minimum": -90, "maximum": 90},
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
                         "required": false,
-                        "name": "Area_latitude"
+                        "name": "Area_latitude",
+                        "null": ""
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": -180, "maximum": 180},
                         "propertyUrl": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
                         "required": false,
-                        "name": "Area_longitude"
+                        "name": "Area_longitude",
+                        "null": ""
                     },
                     {
                         "datatype": "string",
