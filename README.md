@@ -11,9 +11,9 @@ Wood, A. L. C., Kirby, K. R., Ember, C. R., Silbert, S., Daikoku, H., McBride, J
 
 This repository is for pulling, formatting, validating, and cleaning the Cantometrics dataset. 
 
-Raw data is presented in three data tables within raw/. The raw dataset is a digitisation of the original cantometrics dataset. All coded values in the original data set are transformed to 2^\[value\] to accomodate codings with multiple values (multicodings). Meanings of these codes can be found in etc/raw_codes.csv
+Raw data is presented in three data tables within raw/. The raw dataset is a digitisation of the original cantometrics dataset. All coded values in the original data set are transformed to 2^\[value\] to accomodate codings with multiple values (multicodings). Meanings of these codes can be found in etc/raw_codes.csv.
 
-| file             | description                                              |
+| raw/             | description                                              |
 |------------------|----------------------------------------------------------|
 | data.csv         | Cantometric codings of songs in the sample.              |
 | songs.csv        | Metadata on the songs coded in data.csv                  |
@@ -22,7 +22,7 @@ Raw data is presented in three data tables within raw/. The raw dataset is a dig
 Cantometrics data is also available in CLDF format within cldf/ 
 Within the CLDF dataset, multicodings have been seperate to single coded values. Meanings for these codes can be found in etc/codes.csv 
 
-| file             | description                                              |
+| cldf/             | description                                              |
 |------------------|----------------------------------------------------------|
 | data.csv         | Long format Cantometrics codings of the songs in the sample.|
 | songs.csv        | Metadata on the songs coded in data.csv                  |
@@ -30,7 +30,7 @@ Within the CLDF dataset, multicodings have been seperate to single coded values.
 
 Additionally there is information on variable and coding descriptions within etc/ 
 
-| file              | description                                                                |
+| etc/              | description                                                                |
 |-------------------|----------------------------------------------------------------------------|
 | codes.csv         | Metadata on the codes used in cldf/data.csv.                               |
 | raw_codes.csv     | Metadata on the used in raw/data.csv.                                      |
