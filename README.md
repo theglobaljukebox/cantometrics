@@ -30,6 +30,14 @@ Within the CLDF dataset, multicodings have been seperate to single coded values.
 
 Additionally there is information on variable and coding descriptions within etc/ 
 
+| file              | description                                                                |
+|-------------------|----------------------------------------------------------------------------|
+| codes.csv         | Metadata on the codes used in cldf/data.csv.                               |
+| raw_codes.csv     | Metadata on the used in raw/data.csv.                                      |
+| variables.csv     | Metadata on the variables in cldf/data.csv and raw/data.csv                |
+| meta_variables.csv| Metadata on the variables held in cldf/societies.csv and raw/societies.csv.|
+
+
 ## How to cite the Global Jukebox
 
 Research that uses data from the Global Jukebox should cite both the original source(s) of the data and this paper (e.g., research using data from the Cantometrics dataset: “Lomax (1968); Wood et al. (2021)”). The reference list should include the date that data were accessed and URL for the Global Jukebox (http://theglobaljukebox.org), in addition to the full reference for Lomax (1968). Additionally, Cantometrics is versioned and stored on Zenodo. Users can cite the specific dataset and version used by visiting the [zenodo repository](https://zenodo.org/badge/latestdoi/337558145).
