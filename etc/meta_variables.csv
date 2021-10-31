@@ -83,7 +83,7 @@ line_25,"Volume measures the relative degree of loudness in a performance. As wi
 line_26,A judgment about how strictly tempo is maintained during a vocal performance.,data,public,TRUE,Ordinal,,,,"Required and public,"
 line_27,"A judgment about how strictly tempo is maintained during a performance, applied to the orchestra or accompanying instruments.",data,public,TRUE,Ordinal,,,,"Required and public,"
 line_28,"Glissando is the effect created when the voice slides smoothly from one tone to another, passing through all the intermediate pitch levels.",data,public,TRUE,Ordinal,,,,"Required and public,"
-line_29,"The same syllable of text sung to two or more notes of melody—or, conversely, the passage of several notes over one syllable.",data,public,TRUE,Ordinal,,,,"Required and public,"
+line_29,"The same syllable of text sung to two or more notes of melody - or, conversely, the passage of several notes over one syllable.",data,public,TRUE,Ordinal,,,,"Required and public,"
 line_30,"Glottal articulation is the product of noticeably forceful activity in the pharyngeal, or glottal, area in the back of the throat. Some singers actually manipulate their laryngeal prominence (Adam’s apple) with their fingers to produce this effect.",data,public,TRUE,Ordinal,,,,"Required and public,"
 line_31,"Tremolo is a quavering or shaking in the voice, heard as an undulation between two closely adjacent pitches or tone colors. It is usually discernible only on notes held for an appreciable length of time.",data,public,TRUE,Ordinal,,,,"Required and public,"
 line_32,"Vocal pitch refers to the tonal height, or frequency, of the voice. It is commonly used to describe the key most natural for the voice of the singer.",data,public,TRUE,Ordinal,,,,"Required and public,"
