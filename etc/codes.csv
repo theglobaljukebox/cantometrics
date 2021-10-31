@@ -50,7 +50,7 @@ line_6,10,Unified rhythmic coordination. Attacks and releases are generally coor
 line_6,13,Maximal rhythmic coordination. Precise coordination at every rhythmic level.,MaximalCoordination
 line_7,1,Non-occurrence. No instruments or Two or more instruments perceived to be totally asynchronous.,NonOccurence
 line_7,4,"Monophony. One instrument playing one note at a time, or in octaves.",Monophony
-line_7,7,"Unison. A group of instruments playing the same melody in unison or in octaves, an instrumental solo with simple percussion accompaniment—drum, rattle, sticks, clapping, etc., or any untuned percussion ensemble unless playing in polyrhythm, in which case, code 13 (Polyrhythm) (see Point 5).",
+line_7,7,"Unison. A group of instruments playing the same melody in unison or in octaves, an instrumental solo with simple percussion accompaniment—drum, rattle, sticks, clapping, etc., or any untuned percussion ensemble unless playing in polyrhythm, in which case, code 13 (Polyrhythm) (see Point 5).",Unison
 line_7,10,"Heterophony. Each instrument plays the same melody in a slightly different manner. The variation is usually rhythmic, with some instruments trailing behind, others pushing forward; or with some instruments more rhythmically active than others.",Heterophony
 line_7,13,"Polyphony or polyrhythm. The use of simultaneously produced intervals other than unison or the octave. Two-part intervals of this kind are considered polyphony, as well as harmonies of greater complexity. ",PolyphonyPolyrhythm
 line_8,1,"Non-occurrence. No group. Only one instrument in the ensemble, or no instruments at all.",NonOccurence
