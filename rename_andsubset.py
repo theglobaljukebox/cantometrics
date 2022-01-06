@@ -21,7 +21,7 @@ for column in strip_songcolumns:
 
 strip_societycolumns = ["Society_summary",  "Language", "Koppen_climate_terrain", "Region", "Division", 
                         "Subregion", "Area", "society", "alternative_names", "People", "People2", "People3",
-                        "Arensberglomax_taxon", "Language_nearsubfamily", "Language_largersubfamily", "Language_family", "Country"]
+                        "Country"]
 for column in strip_societycolumns:
     societies[column] = [ str(y).replace("\n", " ").replace(",", " ").replace("\r", " ") for y in societies[column]] 
 

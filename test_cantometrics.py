@@ -38,7 +38,7 @@ def test_rawcodings(df_raw):
 
 
 def test_cldfcodings(df_cldf):
-    assert all(df_cldf.codes < 14)
+    assert all(df_cldf.code < 14)
 
 
 def test_conversion():
