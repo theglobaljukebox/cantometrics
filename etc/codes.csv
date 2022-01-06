@@ -145,8 +145,8 @@ line_22,6,"Isolated chords. Chords occurring in a texture that is basically unis
 line_22,8,"Parallel chords. Two or more parts moving parallel to one another at pitch intervals other than the octave or unison. Parallel means that the parts move in the same direction. The distance between the parts does not have to be maintained at exactly the same interval throughout, as long as the general movement is parallel.",ParallelChords
 line_22,10,"Harmony. Contrary motion occurs. Some parts move downward while others move upward. This may also happen within the general context of parallel movement. As long as there is some significant amount of contrary motion, 10 can be coded.",Harmony
 line_22,13,"Counterpoint. Two or more parts that are rhythmically and melodically independent. In all other cases except drone polyphony, the parts move together rhythmically. In counterpoint, as distinct from the drone, the parts are active melodically. 13 is coded when at least two parts are rhythmically active and contrastive.",Counterpoint
-line_23,1,Extreme embellishment.,ExtremeEmbeillishment
-line_23,4,Much embellishment.,MuchEmbeillishment
+line_23,1,Extreme embellishment.,ExtremeEmbellishment
+line_23,4,Much embellishment.,MuchEmbellishment
 line_23,7,Medium or considerable embellishment.,MediumEmbellishment
 line_23,10,Slight embellishment.,SlightEmbellishment
 line_23,13,Little or no embellishment.,LittleOrNoEmbellishment
