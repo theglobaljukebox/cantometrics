@@ -1,57 +1,4 @@
 name,description,table,visibility,required,type,notes,Stella_Comments,Pat comments,Anna comments
-Society_latitude,Latitude for the location of a soceity,societies,public,TRUE,continuous,between -180 & + 180,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
-Society_longitude,Longitude for the location of a soceity,societies,public,TRUE,continuous,between -90 & + 90,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
-Area_latitude,Latitude for the macroarea affiliated with a society,societies,public,TRUE,continuous,between -180 & + 180,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
-Area_longitude,Longitude for the macroarea affiliated with a society,societies,public,TRUE,continuous,between -90 & + 90,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
-Region,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
-Division,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
-Subregion,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
-Area,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,,Required should be TRUE,"Not sure, but probably agree with Stella (unless there are legitimate reasons why we might have songs/societies without this data)",Require and public
-society,Prefered name of a culture,societies,public,TRUE,string,,,,Require and public
-alternative_names,Alternative name for a culture; Ethnonyms ,societies,public,TRUE,string,,,,Require and public
-People,"People:  Ethnographic Atlas, GlobalJB",societies,public,TRUE,string,,"Anna might want this to be public, check with her",Yes I think all Peoples columns were supposed to be public,Require and public
-People2,Larger cultural grouping encompassing People1. Not finalized or completed yet.,societies,public,TRUE,string,,,Yes I think all Peoples columns were supposed to be public,Require and public
-People3,,societies,public,TRUE,string,,,Yes I think all Peoples columns were supposed to be public,Require and public
-Arensberglomax_clusters,"Categories relating to a clustering analyses performed in Lomax, A. (1989). Cantometrics. In International encyclopedia of communications (1st ed., pp. 230‰ЫТ233). New York, NY: Oxford University Press.",societies,internal,FALSE,categorical,Is there a restriced set of values? ,"Check with Anna about restrictions, I think there should be a restricted set of values but I'm not sure, and not sure what they are.",,"Internal, I think"
-Focal_years,Year or decade to which song and culture data pertain. ,societies,public,TRUE,string,,,,Require
-cantometrics_samplesize,The number of data points in Cantometrics for a society,societies,public,TRUE,integer,,"Required should be FALSE. There are societies that are coded for other datasets and not canto. And a handful of societies are not coded for any dataset, they are leftover from old codes that were removed and other things, but we're keeping them (though maybe they should be internal?) Let me know if you want more detail on that. ","""I originally had been thinking that we would publish one public version now which ONLY includesКsocieties with Cantometric codings and keep a private version thatКincludes societies with only data from non-cantometrics. But as I think about this I think it would be overly confusing. So I think best to do as Stella suggests and just publish ONE version that includes ALL societies, even those without Cantometrics. So I agree with StellaХs comments here and in the rows below.""",Require-I agree
-minutage_samplesize,The number of data points in Minutage for a society,societies,public,TRUE,integer,,Should be public,I agree (See comment immediately above),Require and public
-parlametrics_samplesize,The number of data points in Parlametrics for a society,societies,public,TRUE,integer,,Should be public,I agree (See comment immediately above),Require and public
-phonotactics_samplesize,The number of data points in Phonotactics for a society,societies,public,TRUE,integer,,Should be public,I agree (See comment immediately above),Require and public
-Koppen_climate_terrain,Climate category based on Koppen-Geiger World Maps http://koeppen-geiger.vu-wien.ac.at/. Multiple categories are comma separated. ,societies,public,TRUE,categorical,,,,Why remove?  Require and public
-Koppen_code,Climate category code based on Koppen-Geiger World Maps http://koeppen-geiger.vu-wien.ac.at/. Multiple categories are comma separated. ,societies,public,FALSE,categorical,,,,Why is the repeated?
-Arensberglomax_taxon,"Taxon allocations from Lomax, A., & Arensberg, C. M. (1977). A Worldwide Evolutionary Classification of Cultures by Subsistence Systems. Current Anthropology, 18(4), 659‰ЫТ708.",societies,public,TRUE,identifier,,,,"Require, public, if the field is blank require something like NI, no information"
-Taxon_id,"Refined Arensberg-Lomax Culture ID, from Lomax & Arensberg (1977).",societies,internal,FALSE,identifier,structured as four letters followed by four numbers?,"Structured as ""scfal"" followed by an integer (from 1-1276 currently). I think this should be internal for now because we don't have the data ready, and these taxon ids are a new identifier that we created to go with digitized data once we prepare it.",,Internal now
-Language,Primary language spoken by a culture,societies,public,TRUE,string,,,,Require and public
-Language_nearsubfamily,Lower-level hierarchical language clade,societies,public,TRUE,string,,Required should be TRUE,,Require and public
-Language_largersubfamily,Higher-level hierarchical language clade,societies,public,TRUE,string,,Required should be TRUE,,Require and public
-Language_family,The language family linked to a culture,societies,public,TRUE,string,,Required should be TRUE,,Require and public
-Language_familytree,The hierarchy of language families linked to a culture,societies,internal,FALSE,string,,,,Internal for now
-ISO6393,ISO 639 is a standardized nomenclature used to classify languages,societies,public,TRUE,identifier,Can we remove the ISO 6393 prefix? Then this column can be constrained more appropriately.,Fine with me,Remove,I agree Remove
-Glottocode,Identification code based on Glottolog.org,societies,public,TRUE,identifier,[a-z]{4}[0-9]{4},,Required and public,Require and public
-Country,"Name of the country a culture resides in. If a culture persists across borders, countries are seperated by semi-colons. ",societies,public,TRUE,categorical,,,Required and public,Require and public
-Country_id,Numeric identifier for Country,societies,internal,FALSE,identifier,Mostly empty?,"Not sure what this column was supposed to be. Check with Anna, but I would say remove it or clarify what it is and keep internal.",Keep and internal,Internal
-society_id,Unique identifier for each culture,societies,public,TRUE,identifier; foreign key,Always 5 numbers?,"Looks like all of them except one are 5 digit numbers, but not sure if that is worth making a requirement. They come from the original Lomax documents and new ones are added sequentially.","Agree with Stella,  Required and public",Leave as is.
-C_cid,Unique identifier for each culture in Cantometrics,societies,internal,FALSE,identifier; foreign key,,,"internal, unless Stella says they are all the same.","internal, unless Stella says they are all the same."
-M_cid,Unique identifier for each culture in Minutage,societies,internal,FALSE,identifier; foreign key,,,"internal, unless Stella says they are all the same.","internal, unless Stella says they are all the same."
-Ch_cid,Unique identifier for each culture in Choreometrics,societies,internal,FALSE,identifier; foreign key,,,"internal, unless Stella says they are all the same.","internal, unless Stella says they are all the same."
-P_cid,Unique identifier for each culture in Parlametrics,societies,internal,FALSE,identifier; foreign key,,,"internal, unless Stella says they are all the same.","internal, unless Stella says they are all the same."
-Ph_cid,Unique identifier for each culture in Phonotactics,societies,internal,FALSE,identifier; foreign key,,,"internal, unless Stella says they are all the same.","internal, unless Stella says they are all the same."
-I+cid,Unique identifier for each culture in Instrument & Ensembles,societies,internal,FALSE,identifier; foreign key,,"I deleted this column, it was not accurate.",Deleted,Deleted
-Soc_cid,Unique identifier for each culture in XXXX,societies,internal,TRUE,identifier; foreign key,,"I deleted this column, it was not accurate.",Deleted ,Deleted
-dplace_id,Unique identifier for pairing data to D-PLACE (d-place.org),societies,public,TRUE,identifier,,,Required and public,Require and public
-EA_cu_name,,societies,internal,FALSE,string,,,Required and public—UPDATE,Internal
-EA_cu# UPDATE,,societies,public,TRUE,string,,,Required and public,Require and public
-Murdock_cu#,,societies,internal,FALSE,integer,,,Internal ,Internal
-EA_Prov_name,,societies,public,TRUE,string,,"I think Anna might want this to be public, check with her.",Required and public,Require and public
-EA_Prov_#,,societies,public,TRUE,integer,,"I think Anna might want this to be public, check with her.",Required and public,Require and public
-EA_Prov_notes,,societies,internal,FALSE,string,,Deleted this column.,Deleted,Deleted
-EA_#,,societies,public,TRUE,integer,,,"Required as above, EA new",Require and public
-Culture_Wiki,,societies,public,TRUE,string,,,Required and public,Require and public
-Society_summary,Notes about a society,societies,public,TRUE,string,,,Required and public,Require and public
-Notes_1,Notes about a society,societies,public,TRUE,string,,,,Require and public
-Notes_2,Notes about a society,societies,internal,FALSE,string,,,,Internal
-Culture Sources,,societies,public,TRUE,string,,I think this should be public? So that users can look up the source in our source database.,Required and public,Require and public
 song_id,Unique identifer for each song,data,public,TRUE,identifier; foreign key,,,,"We have those elsewhere—we have those.  Those are CODING IDS SAM PLEASE NOTE THIS.  Maybe there should be an identifier for each song, AND a coding Id.  "
 Preferred_name,Prefered name of a society,data,public,TRUE,identifier; foreign key,,"Why remove? I would call it ""society"" rather than ""preferred_name"" because it's the same as the society col on the culture metadata. But it seems useful to have. If keeping it, required should be TRUE.","Required and public, and remove “preferred”","Required and public, and remove “preferred” Society Name"
 society_id,Unique identifier for each society,data,public,TRUE,identifier; foreign key,,??,,"Required and public,"
@@ -131,3 +78,81 @@ Classification_notes,,songs,internal,FALSE,string,,,Internal and  required,"Requ
 Metadata_notes,,songs,internal,FALSE,string,,,Internal and  required,"Required, Internal"
 Sources,,songs,public,TRUE,string,,,Required and public,"Required and public,"
 Source_tag,,songs,public,TRUE,string,,"Again, maybe this should be public so users can look up the source in source database.",Required and public,"Required and public,"
+Society_latitude,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Society_longitude,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Homeland_latitude_of_diasporic_peoples,Latitude for societies homeland,societies,public,FALSE,continuous,between -180 & + 180,,,
+Homeland_longitude_of_diasporic_peoples,Longitude for a societies homeland,societies,public,FALSE,continuous,between -90 & + 90,,,
+Area_latitude,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Area_longitude,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Region,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,0,"Could we keep internal? It is very useful to have these for sorting the sheet for internal purposes, but I understand they they are redundant to display publicly.",Required and public,"Required and public,"
+Division,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,0,"Could we keep internal? It is very useful to have these for sorting the sheet for internal purposes, but I understand they they are redundant to display publicly.",Required and public,"Required and public,"
+Subregion,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,0,"Could we keep internal? It is very useful to have these for sorting the sheet for internal purposes, but I understand they they are redundant to display publicly.",Required and public,"Required and public,"
+Area,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,0,"Could we keep internal? It is very useful to have these for sorting the sheet for internal purposes, but I understand they they are redundant to display publicly.",Required and public,"Required and public,"
+society,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+alternative_names,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+People,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+People_alternative_names,"Alternative People:  Ethnographic Atlas, GlobalJB",societies,public,FALSE,,,,,
+People2,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+People3,Larger cultural grouping encompassing People2. Not finalized,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Preindustrial_Style_clusters,Preindustrial style clusters,societies,public,FALSE,,,,,
+Focal_years,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Koppen_climate_terrain,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Koppen_code,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Preindustrial_Subsistence_taxon,Preindustrial taxon,societies,public,FALSE,,,,,
+Taxon_id,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+cantometrics_samplesize,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+minutage_samplesize,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+parlametrics_samplesize,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+phonotactics_samplesize,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Language,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+ISO6393,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+GlottoID,Glottocode ID,societies,public,TRUE,,,,,
+LevelGlottoID,Higher level Glottolog ID,societies,public,TRUE,,,,,
+LangLevParent,Language level Parent of Glottolog ID,societies,public,TRUE,,,,,
+FamilyLevGlottocode,Language family level Glottocode,societies,public,TRUE,,,,,
+Country,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Country_id,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+society_id,Unique identifier for each society,societies,public,TRUE,identifier; foreign key,0,??,0,"Required and public,"
+C_cid,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+M_cid,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+P_cid,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Ph_cid,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Ch_cid,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+EA_Prov_name,For internal use only,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+EA_Prov_#,For internal use only,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Culture_Wiki,For internal use only,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Society_summary,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Notes_1,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Notes_2,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Culture Sources,Sources,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+"Priority_ranking_for_further_review (see worksheet ""Societies_ranked_for_review"")",For internal use only,societies,internal,FALSE,,,,,
+HOW WELL WAS THE SOCIETY CHECKED BY KK?,For internal use only,societies,internal,FALSE,,,,,
+KK_warning_or_question,For internal use only,societies,internal,FALSE,,,,,
+ADMIN_NOTES_on_how_language_and_D-PLACE_matches_were_assigned,For internal use only,societies,internal,FALSE,,,,,
+default_DPL_soc_id,For internal use only,societies,internal,FALSE,,,,,
+default_DPL_PrefName,For internal use only,societies,internal,FALSE,,,,,
+default_DPL_OrigName,For internal use only,societies,internal,FALSE,,,,,
+xd_id_1,For internal use only,societies,internal,FALSE,,,,,
+total_DPLACE_soc_w_xd_id,For internal use only,societies,internal,FALSE,,,,,
+eHRAF_soc_w_xd_id?,For internal use only,societies,internal,FALSE,,,,,
+eHRAF_OWC,For internal use only,societies,internal,FALSE,,,,,
+eHRAF_OWC_Name,For internal use only,societies,internal,FALSE,,,,,
+eHRAF_SubOWC_in_DPLACE,For internal use only,societies,internal,FALSE,,,,,
+eHRAF_SubOWC_Name_in_DPLACE,For internal use only,societies,internal,FALSE,,,,,
+eHRAF_subOWC_FINAL_STATUS_2021,For internal use only,societies,internal,FALSE,,,,,
+Does_GJB_id_match_multiple_xd_ids,For internal use only,societies,internal,FALSE,,,,,
+default_DPL_soc_id_2,For internal use only,societies,internal,FALSE,,,,,
+default_DPL_PrefName_2,For internal use only,societies,internal,FALSE,,,,,
+default_DPL_OrigName_2,For internal use only,societies,internal,FALSE,,,,,
+xd_id_2,For internal use only,societies,internal,FALSE,,,,,
+total_DPLACE_soc_w_xd_id_2,For internal use only,societies,internal,FALSE,,,,,
+eHRAF_soc_w_xd_id_2?,For internal use only,societies,internal,FALSE,,,,,
+eHRAF_OWC,For internal use only,societies,internal,FALSE,,,,,
+eHRAF_OWC_Name,For internal use only,societies,internal,FALSE,,,,,
+eHRAF_SubOWC_in_DPLACE,For internal use only,societies,internal,FALSE,,,,,
+eHRAF_SubOWC_Name_in_DPLACE,For internal use only,societies,internal,FALSE,,,,,
+eHRAF_subOWC_FINAL_STATUS_2021,For internal use only,societies,internal,FALSE,,,,,
+STATUS_JULY_31_2021,For internal use only,societies,internal,FALSE,,,,,
+language match checked by KK,For internal use only,societies,internal,FALSE,,,,,
+D-PLACE match checked by KK,For internal use only,societies,internal,FALSE,,,,,
+KK_ISSUE,For internal use only,societies,internal,FALSE,,,,,

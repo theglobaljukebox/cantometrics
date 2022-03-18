@@ -1,8 +1,5 @@
 import pandas as pd
 import numpy as np
-import itertools
-import sys
-import warnings
 from helper import conversion
 
 # single_1 = (conversion(2**1, [1,4,7,10,13])) == (1,)
@@ -34,7 +31,6 @@ def main():
 	line_lag = "line_0"
 	
 	for index, row in data.iterrows():
-	# for index, row in data.head(5).iterrows():
 		split_df = pd.DataFrame(columns=["song_id", "society_id", "var_id", "code", "ID"])
 		line = row['var_id']
 	
@@ -48,10 +44,7 @@ def main():
 			print("Recoding "+ line + "...")
 			line_lag = line
 			value_set = coding_conversions.loc[coding_conversions["var_id"] == line, "code"].to_numpy()
-			# print(value_set)
 		
-
-		# print(line, row["song_id"], row["society_id"])
 		value = row['code']
 		new_codes = conversion(value, value_set)
 
