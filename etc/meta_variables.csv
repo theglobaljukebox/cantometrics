@@ -78,81 +78,81 @@ Classification_notes,,songs,internal,FALSE,string,,,Internal and  required,"Requ
 Metadata_notes,,songs,internal,FALSE,string,,,Internal and  required,"Required, Internal"
 Sources,,songs,public,TRUE,string,,,Required and public,"Required and public,"
 Source_tag,,songs,public,TRUE,string,,"Again, maybe this should be public so users can look up the source in source database.",Required and public,"Required and public,"
-Society_latitude,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Society_longitude,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Homeland_latitude_of_diasporic_peoples,Latitude for societies homeland,societies,public,FALSE,continuous,between -180 & + 180,,,
-Homeland_longitude_of_diasporic_peoples,Longitude for a societies homeland,societies,public,FALSE,continuous,between -90 & + 90,,,
-Area_latitude,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Area_longitude,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Society_latitude,Latitude for a soceity,societies,public,TRUE,decimal,#N/A,#N/A,#N/A,#N/A
+Society_longitude,Longitude for a society,societies,public,TRUE,decimal,#N/A,#N/A,#N/A,#N/A
+Homeland_latitude_of_diasporic_peoples,Latitude for societies homeland,societies,public,TRUE,continuous,between -180 & + 180,,,
+Homeland_longitude_of_diasporic_peoples,Longitude for a societies homeland,societies,public,TRUE,continuous,between -90 & + 90,,,
+Area_latitude,Latitude for a societies wider area,societies,public,TRUE,decimal,#N/A,#N/A,#N/A,#N/A
+Area_longitude,Longitude for a societies wider area,societies,public,TRUE,decimal,#N/A,#N/A,#N/A,#N/A
 Region,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,0,"Could we keep internal? It is very useful to have these for sorting the sheet for internal purposes, but I understand they they are redundant to display publicly.",Required and public,"Required and public,"
 Division,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,0,"Could we keep internal? It is very useful to have these for sorting the sheet for internal purposes, but I understand they they are redundant to display publicly.",Required and public,"Required and public,"
 Subregion,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,0,"Could we keep internal? It is very useful to have these for sorting the sheet for internal purposes, but I understand they they are redundant to display publicly.",Required and public,"Required and public,"
 Area,"Geographic-cultural classification, created in the following hierarchy: Region/Division/Subregion/Area. Area could also be interpreted as Kingdom",societies,public,TRUE,string,0,"Could we keep internal? It is very useful to have these for sorting the sheet for internal purposes, but I understand they they are redundant to display publicly.",Required and public,"Required and public,"
-society,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-alternative_names,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-People,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-People_alternative_names,"Alternative People:  Ethnographic Atlas, GlobalJB",societies,public,FALSE,,,,,
-People2,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-People3,Larger cultural grouping encompassing People2. Not finalized,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Preindustrial_Style_clusters,Preindustrial style clusters,societies,public,FALSE,,,,,
-Focal_years,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Koppen_climate_terrain,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Koppen_code,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Preindustrial_Subsistence_taxon,Preindustrial taxon,societies,public,FALSE,,,,,
-Taxon_id,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-cantometrics_samplesize,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-minutage_samplesize,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-parlametrics_samplesize,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-phonotactics_samplesize,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Language,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-ISO6393,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-GlottoID,Glottocode ID,societies,public,TRUE,,,,,
-LevelGlottoID,Higher level Glottolog ID,societies,public,TRUE,,,,,
-LangLevParent,Language level Parent of Glottolog ID,societies,public,TRUE,,,,,
-FamilyLevGlottocode,Language family level Glottocode,societies,public,TRUE,,,,,
-Country,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Country_id,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+society,Name of the Society,societies,public,TRUE,string,#N/A,#N/A,#N/A,#N/A
+alternative_names,Alternative names for a society,societies,public,TRUE,string,#N/A,#N/A,#N/A,#N/A
+People,,societies,public,TRUE,string,#N/A,#N/A,#N/A,#N/A
+People_alternative_names,"Alternative People:  Ethnographic Atlas, GlobalJB",societies,public,TRUE,string,,,,
+People2,#N/A,societies,public,TRUE,string,#N/A,#N/A,#N/A,#N/A
+People3,Larger cultural grouping encompassing People2. Not finalized,societies,public,TRUE,string,#N/A,#N/A,#N/A,#N/A
+Preindustrial_Style_clusters,Preindustrial style clusters,societies,public,TRUE,string,,,,
+Focal_years,Focal year of recordings for a society,societies,public,TRUE,string,#N/A,#N/A,#N/A,#N/A
+Koppen_climate_terrain,,societies,public,TRUE,string,#N/A,#N/A,#N/A,#N/A
+Koppen_code,,societies,public,TRUE,string,#N/A,#N/A,#N/A,#N/A
+Preindustrial_Subsistence_taxon,Preindustrial taxon,societies,public,TRUE,string,,,,
+Taxon_id,,societies,public,TRUE,string,#N/A,#N/A,#N/A,#N/A
+cantometrics_samplesize,,societies,public,TRUE,integer,#N/A,#N/A,#N/A,#N/A
+minutage_samplesize,,societies,public,TRUE,integer,#N/A,#N/A,#N/A,#N/A
+parlametrics_samplesize,,societies,public,TRUE,integer,#N/A,#N/A,#N/A,#N/A
+phonotactics_samplesize,,societies,public,TRUE,integer,#N/A,#N/A,#N/A,#N/A
+Language,Associated Language,societies,public,TRUE,string,#N/A,#N/A,#N/A,#N/A
+ISO6393,ISO code,societies,public,TRUE,string,#N/A,#N/A,#N/A,#N/A
+GlottoID,Glottocode ID,societies,public,TRUE,string,,,,
+LevelGlottoID,Higher level Glottolog ID,societies,public,TRUE,string,,,,
+LangLevParent,Language level Parent of Glottolog ID,societies,public,FALSE,string,,,,
+FamilyLevGlottocode,Language family level Glottocode,societies,public,FALSE,string,,,,
+Country,Country of society,societies,public,FALSE,string,#N/A,#N/A,#N/A,#N/A
+Country_id,ID for country,societies,public,FALSE,string,#N/A,#N/A,#N/A,#N/A
 society_id,Unique identifier for each society,societies,public,TRUE,identifier; foreign key,0,??,0,"Required and public,"
-C_cid,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-M_cid,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-P_cid,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Ph_cid,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Ch_cid,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-EA_Prov_name,For internal use only,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-EA_Prov_#,For internal use only,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Culture_Wiki,For internal use only,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Society_summary,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Notes_1,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Notes_2,#N/A,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-Culture Sources,Sources,societies,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
-"Priority_ranking_for_further_review (see worksheet ""Societies_ranked_for_review"")",For internal use only,societies,internal,FALSE,,,,,
-HOW WELL WAS THE SOCIETY CHECKED BY KK?,For internal use only,societies,internal,FALSE,,,,,
-KK_warning_or_question,For internal use only,societies,internal,FALSE,,,,,
-ADMIN_NOTES_on_how_language_and_D-PLACE_matches_were_assigned,For internal use only,societies,internal,FALSE,,,,,
-default_DPL_soc_id,For internal use only,societies,internal,FALSE,,,,,
-default_DPL_PrefName,For internal use only,societies,internal,FALSE,,,,,
-default_DPL_OrigName,For internal use only,societies,internal,FALSE,,,,,
-xd_id_1,For internal use only,societies,internal,FALSE,,,,,
-total_DPLACE_soc_w_xd_id,For internal use only,societies,internal,FALSE,,,,,
-eHRAF_soc_w_xd_id?,For internal use only,societies,internal,FALSE,,,,,
-eHRAF_OWC,For internal use only,societies,internal,FALSE,,,,,
-eHRAF_OWC_Name,For internal use only,societies,internal,FALSE,,,,,
-eHRAF_SubOWC_in_DPLACE,For internal use only,societies,internal,FALSE,,,,,
-eHRAF_SubOWC_Name_in_DPLACE,For internal use only,societies,internal,FALSE,,,,,
-eHRAF_subOWC_FINAL_STATUS_2021,For internal use only,societies,internal,FALSE,,,,,
-Does_GJB_id_match_multiple_xd_ids,For internal use only,societies,internal,FALSE,,,,,
-default_DPL_soc_id_2,For internal use only,societies,internal,FALSE,,,,,
-default_DPL_PrefName_2,For internal use only,societies,internal,FALSE,,,,,
-default_DPL_OrigName_2,For internal use only,societies,internal,FALSE,,,,,
-xd_id_2,For internal use only,societies,internal,FALSE,,,,,
-total_DPLACE_soc_w_xd_id_2,For internal use only,societies,internal,FALSE,,,,,
-eHRAF_soc_w_xd_id_2?,For internal use only,societies,internal,FALSE,,,,,
-eHRAF_OWC,For internal use only,societies,internal,FALSE,,,,,
-eHRAF_OWC_Name,For internal use only,societies,internal,FALSE,,,,,
-eHRAF_SubOWC_in_DPLACE,For internal use only,societies,internal,FALSE,,,,,
-eHRAF_SubOWC_Name_in_DPLACE,For internal use only,societies,internal,FALSE,,,,,
-eHRAF_subOWC_FINAL_STATUS_2021,For internal use only,societies,internal,FALSE,,,,,
-STATUS_JULY_31_2021,For internal use only,societies,internal,FALSE,,,,,
-language match checked by KK,For internal use only,societies,internal,FALSE,,,,,
-D-PLACE match checked by KK,For internal use only,societies,internal,FALSE,,,,,
-KK_ISSUE,For internal use only,societies,internal,FALSE,,,,,
+C_cid,Cantometrics ID,societies,internal,FALSE,string,#N/A,#N/A,#N/A,#N/A
+M_cid,Minutage ID,societies,internal,FALSE,string,#N/A,#N/A,#N/A,#N/A
+P_cid,Parlametrics ID,societies,internal,FALSE,string,#N/A,#N/A,#N/A,#N/A
+Ph_cid,Phonotactics ID,societies,internal,FALSE,string,#N/A,#N/A,#N/A,#N/A
+Ch_cid,Choreometrics ID,societies,internal,FALSE,string,#N/A,#N/A,#N/A,#N/A
+EA_Prov_name,For internal use only,societies,internal,FALSE,string,#N/A,#N/A,#N/A,#N/A
+EA_Prov_#,For internal use only,societies,internal,FALSE,string,#N/A,#N/A,#N/A,#N/A
+Culture_Wiki,For internal use only,societies,internal,FALSE,string,#N/A,#N/A,#N/A,#N/A
+Society_summary,,societies,public,FALSE,string,#N/A,#N/A,#N/A,#N/A
+Notes_1,,societies,public,FALSE,string,#N/A,#N/A,#N/A,#N/A
+Notes_2,,societies,public,FALSE,string,#N/A,#N/A,#N/A,#N/A
+Culture Sources,Sources,societies,public,FALSE,string,#N/A,#N/A,#N/A,#N/A
+"Priority_ranking_for_further_review (see worksheet ""Societies_ranked_for_review"")",For internal use only,societies,internal,FALSE,string,,,,
+HOW WELL WAS THE SOCIETY CHECKED BY KK?,For internal use only,societies,internal,FALSE,string,,,,
+KK_warning_or_question,For internal use only,societies,internal,FALSE,string,,,,
+ADMIN_NOTES_on_how_language_and_D-PLACE_matches_were_assigned,For internal use only,societies,internal,FALSE,string,,,,
+default_DPL_soc_id,For internal use only,societies,internal,FALSE,string,,,,
+default_DPL_PrefName,For internal use only,societies,internal,FALSE,string,,,,
+default_DPL_OrigName,For internal use only,societies,internal,FALSE,string,,,,
+xd_id_1,For internal use only,societies,internal,FALSE,string,,,,
+total_DPLACE_soc_w_xd_id,For internal use only,societies,internal,FALSE,string,,,,
+eHRAF_soc_w_xd_id?,For internal use only,societies,internal,FALSE,string,,,,
+eHRAF_OWC,For internal use only,societies,internal,FALSE,string,,,,
+eHRAF_OWC_Name,For internal use only,societies,internal,FALSE,string,,,,
+eHRAF_SubOWC_in_DPLACE,For internal use only,societies,internal,FALSE,string,,,,
+eHRAF_SubOWC_Name_in_DPLACE,For internal use only,societies,internal,FALSE,string,,,,
+eHRAF_subOWC_FINAL_STATUS_2021,For internal use only,societies,internal,FALSE,string,,,,
+Does_GJB_id_match_multiple_xd_ids,For internal use only,societies,internal,FALSE,string,,,,
+default_DPL_soc_id_2,For internal use only,societies,internal,FALSE,string,,,,
+default_DPL_PrefName_2,For internal use only,societies,internal,FALSE,string,,,,
+default_DPL_OrigName_2,For internal use only,societies,internal,FALSE,string,,,,
+xd_id_2,For internal use only,societies,internal,FALSE,string,,,,
+total_DPLACE_soc_w_xd_id_2,For internal use only,societies,internal,FALSE,string,,,,
+eHRAF_soc_w_xd_id_2?,For internal use only,societies,internal,FALSE,string,,,,
+eHRAF_OWC,For internal use only,societies,internal,FALSE,string,,,,
+eHRAF_OWC_Name,For internal use only,societies,internal,FALSE,string,,,,
+eHRAF_SubOWC_in_DPLACE,For internal use only,societies,internal,FALSE,string,,,,
+eHRAF_SubOWC_Name_in_DPLACE,For internal use only,societies,internal,FALSE,string,,,,
+eHRAF_subOWC_FINAL_STATUS_2021,For internal use only,societies,internal,FALSE,string,,,,
+STATUS_JULY_31_2021,For internal use only,societies,internal,FALSE,string,,,,
+language match checked by KK,For internal use only,societies,internal,FALSE,string,,,,
+D-PLACE match checked by KK,For internal use only,societies,internal,FALSE,string,,,,
+KK_ISSUE,For internal use only,societies,internal,FALSE,string,,,,

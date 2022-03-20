@@ -18,15 +18,6 @@ strip_songcolumns = ["Lyrics", "Song_notes", "Living_metadata", "Performers", "M
 for column in strip_songcolumns:
     songs[column] = [ str(y).replace("\n", " ").replace(",", " ").replace("\r", " ") for y in songs[column]] 
 
-
-# strip_societycolumns = ["Society_summary",  "Language", "Koppen_climate_terrain", "Region", "Division", 
-#                         "Subregion", "Area", "society", "alternative_names", "People", "People2", "People3",
-#                         "Country"]
-# for column in strip_societycolumns:
-#     societies[column] = [ str(y).replace("\n", " ").replace(",", " ").replace("\r", " ") for y in societies[column]] 
-
-# societies["Culture Sources"] = [str(y).strip() for y in societies["Culture Sources"]]
-
 # Only need metadata on cultures that exist in Cantometrics data
 ## While I wait to have some values fixed in the cultures metadata, I need this workaround
 societies["society_id"]     = societies["society_id"].astype(str)
@@ -34,7 +25,6 @@ songs["society_id"]         = songs["society_id"].astype(str)
 data["society_id"]          = data["society_id"].astype(str)
 keep_societies              = data["society_id"].unique()
 societies                   = societies[societies.society_id.isin(keep_societies)]
-# songs = songs[songs.society_id.isin(keep_societies)]
 
 # Manually remove these songs because AW wants to keep the metadata in googlesheets
 remove_songs = open("removed_songs.txt").read().splitlines()
