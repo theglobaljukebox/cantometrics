@@ -132,7 +132,7 @@ ADMIN_NOTES_on_how_language_and_D-PLACE_matches_were_assigned,For internal use o
 default_DPL_soc_id,For internal use only,societies,internal,FALSE,string,,,,
 default_DPL_PrefName,For internal use only,societies,internal,FALSE,string,,,,
 default_DPL_OrigName,For internal use only,societies,internal,FALSE,string,,,,
-xd_id_1,For internal use only,societies,internal,FALSE,string,,,,
+xd_id_1,For DPLACE,societies,public,FALSE,string,,,,
 total_DPLACE_soc_w_xd_id,For internal use only,societies,internal,FALSE,string,,,,
 eHRAF_soc_w_xd_id?,For internal use only,societies,internal,FALSE,string,,,,
 eHRAF_OWC,For internal use only,societies,internal,FALSE,string,,,,
