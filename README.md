@@ -1,4 +1,4 @@
-.# Cantometrics Data
+# Cantometrics Data
 
 [![DOI](https://zenodo.org/badge/337558145.svg)](https://zenodo.org/badge/latestdoi/337558145)
 
